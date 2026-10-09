@@ -4,7 +4,10 @@
    1. Emails the requester a link to the catalog PDF
    2. Emails the lead details to TYA
    3. Saves the lead to leads/catalog-requests.csv
-   Requires PHP with mail() enabled (standard on cPanel / most hosts).
+   Sends through SMTP with PHPMailer (public_html/nails/PHPMailer-7.1.1).
+   SMTP login is read from includes/smtp-config.php (kept out of GitHub,
+   see includes/smtp-config.sample.php). Falls back to PHP mail() if
+   PHPMailer or the config file is missing.
    ------------------------------------------------------------------ */
 
 // ===== SETTINGS: check these before going live =====
@@ -24,7 +27,58 @@ $LEADS_TO    = 'contact@tyallc.com';                 // who receives new catalog
 $FROM_EMAIL  = 'catalog@tyallc.com';                 // must be an address on your own domain
 $FROM_NAME   = 'Thank You America LLC';
 $PHONE       = '+1-281-949-6123';
+$PHPMAILER   = __DIR__ . '/../nails/PHPMailer-7.1.1';  // PHPMailer folder on the server
 // ====================================================
+
+$SMTP = is_file(__DIR__ . '/includes/smtp-config.php') ? require __DIR__ . '/includes/smtp-config.php' : null;
+if (is_array($SMTP) && !empty($SMTP['from'])) $FROM_EMAIL = $SMTP['from'];
+
+// Load PHPMailer (works whether the classes sit in src/ or in the folder itself)
+$pmDir = is_file("$PHPMAILER/src/PHPMailer.php") ? "$PHPMAILER/src" : $PHPMAILER;
+$hasPHPMailer = is_file("$pmDir/PHPMailer.php");
+if ($hasPHPMailer) {
+    require_once "$pmDir/Exception.php";
+    require_once "$pmDir/PHPMailer.php";
+    require_once "$pmDir/SMTP.php";
+}
+
+/* Send one email. $html may be null for plain text only. Returns true on success. */
+function send_mail($to, $subject, $text, $html, $replyTo) {
+    global $SMTP, $hasPHPMailer, $FROM_EMAIL, $FROM_NAME;
+    if ($hasPHPMailer && is_array($SMTP)) {
+        $m = new PHPMailer\PHPMailer\PHPMailer(true);
+        try {
+            $m->isSMTP();
+            $m->Host       = $SMTP['host'];
+            $m->Port       = (int)$SMTP['port'];
+            $m->SMTPAuth   = true;
+            $m->Username   = $SMTP['user'];
+            $m->Password   = $SMTP['pass'];
+            $m->SMTPSecure = (int)$SMTP['port'] === 465 ? 'ssl' : 'tls';
+            $m->CharSet    = 'UTF-8';
+            $m->setFrom($FROM_EMAIL, $FROM_NAME);
+            $m->addAddress($to);
+            $m->addReplyTo($replyTo);
+            $m->Subject = $subject;
+            if ($html !== null) { $m->isHTML(true); $m->Body = $html; $m->AltBody = $text; }
+            else { $m->Body = $text; }
+            return $m->send();
+        } catch (Throwable $ex) {
+            error_log('send-catalog SMTP error: ' . $m->ErrorInfo . ' ' . $ex->getMessage());
+            return false;
+        }
+    }
+    // Fallback: PHP mail()
+    $fromHeader = '=?UTF-8?B?' . base64_encode($FROM_NAME) . "?= <$FROM_EMAIL>";
+    if ($html === null) {
+        $headers = "From: $fromHeader\r\nReply-To: $replyTo\r\nContent-Type: text/plain; charset=UTF-8";
+        return @mail($to, $subject, $text, $headers, "-f$FROM_EMAIL");
+    }
+    $b = 'b' . md5(uniqid('', true));
+    $body = "--$b\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\n$text\r\n--$b\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n$html\r\n--$b--";
+    $headers = "From: $fromHeader\r\nReply-To: $replyTo\r\nMIME-Version: 1.0\r\nContent-Type: multipart/alternative; boundary=\"$b\"";
+    return @mail($to, $subject, $body, $headers, "-f$FROM_EMAIL");
+}
 
 header('Content-Type: application/json; charset=utf-8');
 
@@ -60,10 +114,8 @@ $hits[] = time(); @file_put_contents($rateFile, implode(',', $hits));
 
 $link = $SITE_URL . $CATALOG;
 $e = fn($s) => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
-$fromHeader = '=?UTF-8?B?' . base64_encode($FROM_NAME) . "?= <$FROM_EMAIL>";
 
 // ---- 1. Email to the requester ----
-$boundary = 'b' . md5(uniqid('', true));
 $text = "Hello $name,\n\nThank you for your interest in Thank You America $catName.\n\nDownload the catalog here:\n$link\n\n"
       . "It includes part numbers, dimensions, materials and ratings.\n\n"
       . "Need help choosing? Reply to this email with your fluid, pressure, temperature and connection details and we'll recommend a valve and quote.\n\n"
@@ -75,15 +127,12 @@ $html = '<div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-
       . '<p>It includes part numbers, dimensions, materials and ratings.</p>'
       . '<p>Need help choosing? Reply to this email with your fluid, pressure, temperature and connection details and we\'ll recommend a valve and quote.</p>'
       . '<p style="color:#5A6476;font-size:13px">Thank You America LLC<br>4606 FM 1960 W #440-1050, Houston, TX 77070<br>' . $e($PHONE) . ' | <a href="mailto:' . $e($LEADS_TO) . '">' . $e($LEADS_TO) . '</a><br><a href="' . $e($SITE_URL) . '">' . $e($SITE_URL) . '</a></p></div>';
-$body = "--$boundary\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\n$text\r\n--$boundary\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n$html\r\n--$boundary--";
-$headers = "From: $fromHeader\r\nReply-To: $LEADS_TO\r\nMIME-Version: 1.0\r\nContent-Type: multipart/alternative; boundary=\"$boundary\"";
-$sentUser = mail($email, 'Your Thank You America catalog: ' . $catName, $body, $headers, "-f$FROM_EMAIL");
+$sentUser = send_mail($email, 'Your Thank You America catalog: ' . $catName, $text, $html, $LEADS_TO);
 
 // ---- 2. Lead notification to TYA ----
 $lead = "New catalog request from the website\n\nName: $name\nCompany: $company\nEmail: $email\nCountry: $country\nCatalog: $catName\nNotes: $interest\nPhone: $phone\n"
       . "Time (server): " . date('Y-m-d H:i:s T') . "\nIP: $ip\n\nCatalog email sent to requester: " . ($sentUser ? 'yes' : 'NO, please send manually') . "\n";
-$leadHeaders = "From: $fromHeader\r\nReply-To: $email\r\nContent-Type: text/plain; charset=UTF-8";
-@mail($LEADS_TO, "Catalog request: $company ($country)", $lead, $leadHeaders, "-f$FROM_EMAIL");
+send_mail($LEADS_TO, "Catalog request: $company ($country)", $lead, null, $email);
 
 // ---- 3. Save to CSV ----
 $dir = __DIR__ . '/leads';
