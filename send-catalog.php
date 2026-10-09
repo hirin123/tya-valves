@@ -1,7 +1,7 @@
 <?php
 /* ------------------------------------------------------------------
    Thank You America – catalog request handler
-   1. Emails the requester a link to the catalog PDF
+   1. Emails the requester the catalog PDF as an attachment (link if the file is missing)
    2. Emails the lead details to TYA
    3. Saves the lead to leads/catalog-requests.csv
    Sends through SMTP with PHPMailer (public_html/nails/PHPMailer-7.1.1).
@@ -50,7 +50,7 @@ function mail_log($msg) {
 }
 
 /* Send one email. $html may be null for plain text only. Returns true on success. */
-function send_mail($to, $subject, $text, $html, $replyTo) {
+function send_mail($to, $subject, $text, $html, $replyTo, $attach = null) {
     global $SMTP, $hasPHPMailer, $FROM_EMAIL, $FROM_NAME;
     if ($hasPHPMailer && is_array($SMTP)) {
         $m = new PHPMailer\PHPMailer\PHPMailer(true);
@@ -67,6 +67,7 @@ function send_mail($to, $subject, $text, $html, $replyTo) {
             $m->addAddress($to);
             $m->addReplyTo($replyTo);
             $m->Subject = $subject;
+            if ($attach) $m->addAttachment($attach, basename($attach), 'base64', 'application/pdf');
             if ($html !== null) { $m->isHTML(true); $m->Body = $html; $m->AltBody = $text; }
             else { $m->Body = $text; }
             return $m->send();
@@ -129,19 +130,28 @@ $hits[] = time(); @file_put_contents($rateFile, implode(',', $hits));
 $link = $SITE_URL . $CATALOG;
 $e = fn($s) => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
 
+// Attach the PDF when it is on the server and under Gmail's 25 MB limit (with room for encoding)
+$pdf = __DIR__ . $CATALOG;
+$attach = (is_file($pdf) && filesize($pdf) < 18 * 1024 * 1024 && $hasPHPMailer && is_array($SMTP)) ? $pdf : null;
+if (!$attach) mail_log("Catalog not attached (missing, too large or no SMTP): $pdf");
+$catText = $attach ? "Please find the $catName catalog attached to this email (PDF)." : "Download the catalog here:\n$link";
+$catHtml = $attach
+    ? '<p><strong>Your ' . $e($catName) . ' catalog is attached to this email (PDF).</strong></p>'
+    : '<p><a href="' . $e($link) . '" style="display:inline-block;background:#AE2230;color:#fff;text-decoration:none;font-weight:bold;padding:12px 22px;border-radius:4px">Download the ' . $e($catName) . ' catalog (PDF)</a></p>';
+
 // ---- 1. Email to the requester ----
-$text = "Hello $name,\n\nThank you for your interest in Thank You America $catName.\n\nDownload the catalog here:\n$link\n\n"
+$text = "Hello $name,\n\nThank you for your interest in Thank You America $catName.\n\n$catText\n\n"
       . "It includes part numbers, dimensions, materials and ratings.\n\n"
       . "Need help choosing? Reply to this email with your fluid, pressure, temperature and connection details and we'll recommend a valve and quote.\n\n"
       . "Thank You America LLC\n4606 FM 1960 W #440-1050, Houston, TX 77070\n$PHONE | $LEADS_TO\n$SITE_URL\n";
 $html = '<div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1D2433;max-width:560px">'
       . '<p>Hello ' . $e($name) . ',</p>'
       . '<p>Thank you for your interest in Thank You America ' . $e($catName) . '.</p>'
-      . '<p><a href="' . $e($link) . '" style="display:inline-block;background:#AE2230;color:#fff;text-decoration:none;font-weight:bold;padding:12px 22px;border-radius:4px">Download the ' . $e($catName) . ' catalog (PDF)</a></p>'
+      . $catHtml
       . '<p>It includes part numbers, dimensions, materials and ratings.</p>'
       . '<p>Need help choosing? Reply to this email with your fluid, pressure, temperature and connection details and we\'ll recommend a valve and quote.</p>'
       . '<p style="color:#5A6476;font-size:13px">Thank You America LLC<br>4606 FM 1960 W #440-1050, Houston, TX 77070<br>' . $e($PHONE) . ' | <a href="mailto:' . $e($LEADS_TO) . '">' . $e($LEADS_TO) . '</a><br><a href="' . $e($SITE_URL) . '">' . $e($SITE_URL) . '</a></p></div>';
-$sentUser = send_mail($email, 'Your Thank You America catalog: ' . $catName, $text, $html, $LEADS_TO);
+$sentUser = send_mail($email, 'Your Thank You America catalog: ' . $catName, $text, $html, $LEADS_TO, $attach);
 
 // ---- 2. Lead notification to TYA ----
 $lead = "New catalog request from the website\n\nName: $name\nCompany: $company\nEmail: $email\nCountry: $country\nCatalog: $catName\nNotes: $interest\nPhone: $phone\n"
