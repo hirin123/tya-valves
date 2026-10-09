@@ -25,3 +25,10 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+)$ $1.php [L]
 
+
+# Sitemap: always send as XML so Google Search Console can read it
+<Files "sitemap.xml">
+  ForceType application/xml
+  Header set Content-Type "application/xml; charset=UTF-8"
+  Header set X-Robots-Tag "noindex"
+</Files>
