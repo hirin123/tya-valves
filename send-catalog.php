@@ -31,7 +31,7 @@ $PHPMAILER   = __DIR__ . '/../nails/PHPMailer-7.1.1';  // PHPMailer folder on th
 // ====================================================
 
 $SMTP = is_file(__DIR__ . '/includes/smtp-config.php') ? require __DIR__ . '/includes/smtp-config.php' : null;
-if (is_array($SMTP) && !empty($SMTP['from'])) $FROM_EMAIL = $SMTP['from'];
+if (is_array($SMTP)) $FROM_EMAIL = $SMTP['from'] ?? $SMTP['user'];   // Gmail only sends as the logged-in address
 
 // Load PHPMailer (works whether the classes sit in src/ or in the folder itself)
 $pmDir = is_file("$PHPMAILER/src/PHPMailer.php") ? "$PHPMAILER/src" : $PHPMAILER;
@@ -56,12 +56,12 @@ function send_mail($to, $subject, $text, $html, $replyTo) {
         $m = new PHPMailer\PHPMailer\PHPMailer(true);
         try {
             $m->isSMTP();
-            $m->Host       = $SMTP['host'];
-            $m->Port       = (int)$SMTP['port'];
+            $m->Host       = $SMTP['host'] ?? 'smtp.gmail.com';
+            $m->Port       = (int)($SMTP['port'] ?? 587);
             $m->SMTPAuth   = true;
             $m->Username   = $SMTP['user'];
             $m->Password   = $SMTP['pass'];
-            $m->SMTPSecure = (int)$SMTP['port'] === 465 ? 'ssl' : 'tls';
+            $m->SMTPSecure = $m->Port === 465 ? 'ssl' : 'tls';   // 587 = STARTTLS (Gmail)
             $m->CharSet    = 'UTF-8';
             $m->setFrom($FROM_EMAIL, $FROM_NAME);
             $m->addAddress($to);
