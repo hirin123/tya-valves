@@ -1,2 +1,3 @@
-valves/includes/smtp-config.php
-valves/leads/
+includes/smtp-config.php
+leads/*
+!leads/.htaccess
