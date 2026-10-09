@@ -42,6 +42,13 @@ if ($hasPHPMailer) {
     require_once "$pmDir/SMTP.php";
 }
 
+/* Write a line to leads/mail-errors.log (folder is closed to the web) so failures can be diagnosed. */
+function mail_log($msg) {
+    $dir = __DIR__ . '/leads';
+    if (!is_dir($dir)) @mkdir($dir, 0750);
+    @file_put_contents("$dir/mail-errors.log", date('Y-m-d H:i:s') . "  $msg\n", FILE_APPEND);
+}
+
 /* Send one email. $html may be null for plain text only. Returns true on success. */
 function send_mail($to, $subject, $text, $html, $replyTo) {
     global $SMTP, $hasPHPMailer, $FROM_EMAIL, $FROM_NAME;
@@ -64,20 +71,27 @@ function send_mail($to, $subject, $text, $html, $replyTo) {
             else { $m->Body = $text; }
             return $m->send();
         } catch (Throwable $ex) {
-            error_log('send-catalog SMTP error: ' . $m->ErrorInfo . ' ' . $ex->getMessage());
+            mail_log("SMTP failed to $to: " . $m->ErrorInfo . ' | ' . $ex->getMessage());
             return false;
         }
     }
     // Fallback: PHP mail()
+    global $PHPMAILER;
+    if (!$hasPHPMailer) mail_log("PHPMailer not found at $PHPMAILER (looked for PHPMailer.php there and in src/). Using mail().");
+    elseif (!is_array($SMTP)) mail_log('includes/smtp-config.php missing or does not return an array. Using mail().');
     $fromHeader = '=?UTF-8?B?' . base64_encode($FROM_NAME) . "?= <$FROM_EMAIL>";
     if ($html === null) {
         $headers = "From: $fromHeader\r\nReply-To: $replyTo\r\nContent-Type: text/plain; charset=UTF-8";
-        return @mail($to, $subject, $text, $headers, "-f$FROM_EMAIL");
+        if (@mail($to, $subject, $text, $headers, "-f$FROM_EMAIL")) return true;
+        mail_log("mail() failed to $to");
+        return false;
     }
     $b = 'b' . md5(uniqid('', true));
     $body = "--$b\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\n$text\r\n--$b\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n$html\r\n--$b--";
     $headers = "From: $fromHeader\r\nReply-To: $replyTo\r\nMIME-Version: 1.0\r\nContent-Type: multipart/alternative; boundary=\"$b\"";
-    return @mail($to, $subject, $body, $headers, "-f$FROM_EMAIL");
+    if (@mail($to, $subject, $body, $headers, "-f$FROM_EMAIL")) return true;
+    mail_log("mail() failed to $to");
+    return false;
 }
 
 header('Content-Type: application/json; charset=utf-8');
