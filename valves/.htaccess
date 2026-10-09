@@ -1,0 +1,27 @@
+# Thank You America - valves section (/valves/)
+# Clean URLs: /valves/about-us is served by about-us.php
+Options -MultiViews -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+RewriteBase /valves/
+
+# Old .html addresses -> new clean addresses (301, keeps any Google ranking)
+RewriteRule ^index\.html$ /valves/ [R=301,L]
+RewriteRule ^ball-valves\.html$ /valves/ball-valves/ [R=301,L]
+RewriteRule ^series-\d+-(.+)\.html$ /valves/ball-valves/$1 [R=301,L]
+RewriteRule ^(.+)\.html$ /valves/$1 [R=301,L]
+
+# Someone typing the .php address -> clean address (the form handler is left alone)
+RewriteCond %{THE_REQUEST} \s[^?\s]*\.php[\s?]
+RewriteCond %{REQUEST_URI} !send-catalog\.php$
+RewriteRule ^(.*?)(?:index)?\.php$ /valves/$1 [R=301,L]
+
+# Trailing slash on a page -> without (except real folders like ball-valves/)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /valves/$1 [R=301,L]
+
+# Serve clean URLs from the .php files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+

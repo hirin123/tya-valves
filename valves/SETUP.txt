@@ -1,0 +1,44 @@
+THANK YOU AMERICA - VALVES SECTION (PHP)
+
+UPLOAD
+  Upload the contents of this folder into  public_html/valves/  on tyallc.com
+  (the hidden .htaccess file must be uploaded too - turn on "show hidden files").
+  Hosting needs PHP 7.4+ and Apache with mod_rewrite (standard on cPanel).
+
+ADDRESSES
+  https://tyallc.com/valves/                                   home
+  https://tyallc.com/valves/ball-valves/                       all ball valves + finder
+  https://tyallc.com/valves/ball-valves/one-piece-body-ball-valve   (and the other 8 series)
+  https://tyallc.com/valves/products                           full product range
+  /needle-valves/  /manifold-valves/  /dbb-monoflange-valves/  /industrial-valves/
+  /gauge-root-valves  /check-valves  /pressure-relief-valves  /bleed-purge-valves  /high-pressure-valves
+  /fittings/ (tube, pipe, hydraulic, high pressure)   /accessories/ (condensate pots, sampling
+  cylinders, air headers, thermowells, syphons, orifice plates, tube clamps)
+  https://tyallc.com/valves/about-us, /contact-us, /industries, /request-quote ...
+  Old .html addresses redirect automatically to the new ones.
+
+EDITING
+  includes/header.php   logo, contact line, menu        (shared by every page)
+  includes/footer.php   footer, catalog request form    (shared by every page)
+  includes/config.php   site address - change only if the section moves
+  includes/why-buy.php  the "Why buy from Thank You America" section (headings, text, icons)
+                        shown on every product page - edit it once, it changes everywhere
+  Each page file (e.g. about-us.php) holds only its own title, description and body.
+
+SEO
+  Submit https://tyallc.com/valves/sitemap.xml in Google Search Console.
+  robots.txt must sit at the domain root (public_html/robots.txt); add this line to it:
+    Sitemap: https://tyallc.com/valves/sitemap.xml
+
+CATALOG PDFs
+  Put these files in  valves/assets/catalogs/  (exact names):
+    TYA-Needle-Valve-Catalog.pdf        TYA-Manifold-Valve-Catalog.pdf
+    TYA-Check-Valve-Catalog.pdf         TYA-Bleed-Purge-Valve-Catalog.pdf
+    TYA-Monoflange-Valve-Catalog.pdf    TYA-Industrial-Valve-Catalog.pdf
+    TYA-High-Pressure-Valves-Catalog.pdf TYA-Condensate-Pots-Catalog.pdf
+  The ball valve catalog stays at valves/assets/TYA-Ball-Valve-Catalog.pdf.
+  To add or rename a catalog, edit $CATALOGS in send-catalog.php and the catalog list in includes/footer.php.
+
+CATALOG FORM
+  Visitors choose which catalog they want. Edit the SETTINGS block at the top of send-catalog.php (FROM_EMAIL must be on tyallc.com).
+  Leads are emailed to you and saved in leads/catalog-requests.csv (blocked from public view).
