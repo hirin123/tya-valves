@@ -462,3 +462,5 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .quote-row{display:flex;align-items:flex-start;justify-content:space-between;gap:16px 24px;flex-wrap:wrap;margin-top:4px}
 .quote-row .caption{margin:0;flex:1 1 320px}
 .quote-row .add{margin-left:auto;font-size:14px;padding:12px 22px;text-transform:uppercase;letter-spacing:.08em}
+.ov-media{margin:-20px -10px 24px;display:grid;place-items:center}
+.ov-media img{max-height:240px;width:auto;object-fit:contain}
