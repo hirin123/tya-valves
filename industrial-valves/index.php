@@ -5,9 +5,22 @@ $path    = 'industrial-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';
 ?>
-<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / Industrial valves</div><section class="hero"><div class="wrap">
- <h1>Forged steel industrial valves</h1><div class="rule" aria-hidden="true"></div>
- <p class="lede">Forged steel gate, globe and check valves built to API 602 / ISO 15761 and tested to API 598 — flanged ends in class 150# to 600#, socket weld, screwed and butt-weld ends in class 800# to 2500#.</p><div class="hero-actions"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Industrial-Valve-Catalog.pdf" data-catalog="industrial">Download the industrial gate, globe &amp; check valves catalog (PDF)</a></div>
+<section class="p-head banner world-bg"><div class="wrap">
+ <div class="crumbs"><a href="<?= BASE ?>">Home</a> / Industrial valves</div>
+ <h1>Forged Steel Industrial Valves</h1>
+ <ul class="specline"><li class="hot">API 602 / ISO 15761</li><li>Class 150# to 2500#</li><li>Gate · globe · check</li></ul>
+</div></section><section class="section overview"><div class="wrap ov-grid">
+ <div>
+  <h2>Overview</h2>
+  <p class="lede">Forged steel gate, globe and check valves built to API 602 / ISO 15761 and tested to API 598 — flanged ends in class 150# to 600#, socket weld, screwed and butt-weld ends in class 800# to 2500#.</p>
+ </div>
+ <aside class="ov-panel">
+  <p class="ov-label">Best for</p>
+  <p class="ov-best">Process, refinery and utility lines needing forged gate, globe and check valves.</p>
+  <p class="ov-label">Catalog</p>
+  <p>Industrial gate, globe and check valve part numbers, dimensions and ratings in one PDF.</p>
+  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Industrial-Valve-Catalog.pdf" data-catalog="industrial">Download catalog (PDF)</a></div>
+ </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">Gate, globe and check valves</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-gate-valves">
  <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged Steel Gate Valves" loading="lazy"></div>
  <div class="body"><span class="num">API 602</span><h3>Forged Steel Gate Valves</h3>

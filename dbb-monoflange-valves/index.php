@@ -5,9 +5,22 @@ $path    = 'dbb-monoflange-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';
 ?>
-<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / DBB and monoflange valves</div><section class="hero"><div class="wrap">
- <h1>Double block &amp; bleed and monoflange valves</h1><div class="rule" aria-hidden="true"></div>
- <p class="lede">A one-piece integral forging that replaces a conventional flange, primary isolating valve and instrument valve — with fewer leak paths, lower installed cost and less weight. Ball valve block and bleed assemblies and needle or OS&amp;Y monoflanges, in single block, block and bleed and double block and bleed configurations.</p><div class="hero-actions"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Monoflange-Valve-Catalog.pdf" data-catalog="mono">Download the dbb &amp; monoflange valves catalog (PDF)</a></div>
+<section class="p-head banner world-bg"><div class="wrap">
+ <div class="crumbs"><a href="<?= BASE ?>">Home</a> / DBB and monoflange valves</div>
+ <h1>Double Block &amp; Bleed and Monoflange Valves</h1>
+ <ul class="specline"><li class="hot">Single block · B&amp;B · DBB</li><li>Ball, needle or OS&amp;Y</li><li>One-piece forging</li></ul>
+</div></section><section class="section overview"><div class="wrap ov-grid">
+ <div>
+  <h2>Overview</h2>
+  <p class="lede">A one-piece integral forging that replaces a conventional flange, primary isolating valve and instrument valve — with fewer leak paths, lower installed cost and less weight. Ball valve block and bleed assemblies and needle or OS&amp;Y monoflanges, in single block, block and bleed and double block and bleed configurations.</p>
+ </div>
+ <aside class="ov-panel">
+  <p class="ov-label">Best for</p>
+  <p class="ov-best">Process-to-instrument isolation where weight, space and leak paths matter.</p>
+  <p class="ov-label">Catalog</p>
+  <p>DBB and monoflange part numbers, dimensions and ratings in one PDF.</p>
+  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Monoflange-Valve-Catalog.pdf" data-catalog="mono">Download catalog (PDF)</a></div>
+ </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">Valve models</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/block-and-bleed-ball-valves">
  <div class="pic"><img src="<?= BASE ?>assets/img/p/mono-ball-bb.jpg" alt="Block &amp; Bleed Ball Valve Assemblies" loading="lazy"></div>
  <div class="body"><span class="num">Ball model</span><h3>Block &amp; Bleed Ball Valve Assemblies</h3>

@@ -5,11 +5,13 @@ $path    = 'selection-guide';
 $section = 'instr';
 include __DIR__ . '/includes/header.php';
 ?>
-<section class="hero"><div class="wrap">
- <h1>How to choose the right ball valve</h1><div class="rule" aria-hidden="true"></div>
- <p class="lede">Four questions narrow our range down to one series. Answer them in order, or <a href="<?= BASE ?>ball-valves/">use the valve finder</a>.</p>
+<section class="p-head banner world-bg"><div class="wrap">
+ <div class="crumbs"><a href="<?= BASE ?>">Home</a> / Ball valve selection guide</div>
+ <h1>How to Choose the Right Ball Valve</h1>
+ <ul class="specline"><li class="hot">4 questions</li><li>9 series</li><li>Materials &amp; ratings</li></ul>
 </div></section>
 <section class="section"><div class="wrap">
+ <p class="lede intro-lede" style="margin-bottom:32px">Four questions narrow our range down to one series. Answer them in order, or <a href="<?= BASE ?>ball-valves/">use the valve finder</a>.</p>
  <ol class="steps">
   <li><div><h3>How much pressure will the valve see?</h3><p>Pick a rating above your highest system pressure, including surges. 3,000 psi round-body valves suit gauges and general utility lines; the 6,000 psi series cover most instrumentation; the 10,000 psi series are built for hydraulics and high-pressure oil and gas. Remember the seat can limit the rating.</p></div></li>
   <li><div><h3>What should the flow do?</h3><p>Two-way valves simply open and close a line. An angle valve does the same while turning the line 90°, saving you an elbow fitting. A 3-way valve diverts or switches flow between two lines with 180° of handle travel. 5-way switching versions are available on request.</p></div></li>

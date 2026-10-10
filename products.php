@@ -5,9 +5,20 @@ $path    = 'products';
 $section = 'products';
 include __DIR__ . '/includes/header.php';
 ?>
-<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / All products</div><section class="hero"><div class="wrap">
- <h1>Our product range</h1><div class="rule" aria-hidden="true"></div>
- <p class="lede">Instrumentation valves, process interface valves, forged industrial valves, high pressure valves, fittings and accessories — specified, quoted and supplied by Thank You America LLC, Houston, Texas.</p><div class="hero-actions"><a class="btn" href="#valves">Valves</a><a class="btn ghost" href="#fittings">Fittings</a><a class="btn ghost" href="#accessories">Accessories</a></div>
+<section class="p-head banner world-bg"><div class="wrap">
+ <div class="crumbs"><a href="<?= BASE ?>">Home</a> / All products</div>
+ <h1>Our Product Range</h1>
+ <ul class="specline"><li class="hot">Valves · fittings · accessories</li><li>Instrumentation</li><li>Process &amp; industrial</li></ul>
+</div></section><section class="section overview"><div class="wrap ov-grid">
+ <div>
+  <h2>Overview</h2>
+  <p class="lede">Instrumentation valves, process interface valves, forged industrial valves, high pressure valves, fittings and accessories — specified, quoted and supplied by Thank You America LLC, Houston, Texas.</p>
+ </div>
+ <aside class="ov-panel">
+  <p class="ov-label">Browse</p>
+  <p>Jump to a product group, or see the catalogs at the bottom of this page.</p>
+  <div class="ov-cta"><a class="btn" href="#valves">Valves</a><a class="btn ghost" href="#fittings">Fittings</a><a class="btn ghost" href="#accessories">Accessories</a></div>
+ </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="valves">Valves</h2><div class="series-grid cat-grid"><a class="s-card" href="<?= BASE ?>needle-valves/">
  <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-hex-ff.jpg" alt="Needle valves" loading="lazy"></div>
  <div class="body"><span class="num">Instrumentation</span><h3>Needle valves</h3>
