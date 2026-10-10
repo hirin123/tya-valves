@@ -20,7 +20,7 @@ function cur($key) { global $section; return ($section ?? '') === $key ? ' aria-
 <link rel="icon" href="<?= BASE ?>assets/img/tya-logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="<?= BASE ?>assets/style.css?v=4">
+<link rel="stylesheet" href="<?= BASE ?>assets/style.css?v=<?= filemtime(__DIR__ . "/../assets/style.css") ?>">
 <?= $extra ?? '' ?>
 </head>
 <body>

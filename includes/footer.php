@@ -64,6 +64,6 @@
 </div>
 
 <script>window.TYA_BASE = "<?= BASE ?>"; window.TYA_CATS = {"ball": "TYA-Ball-Valve-Catalog.pdf", "needle": "catalogs/TYA-Needle-Valve-Catalog.pdf", "manifold": "catalogs/TYA-Manifold-Valve-Catalog.pdf", "check": "catalogs/TYA-Check-Valve-Catalog.pdf", "bleed": "catalogs/TYA-Bleed-Purge-Valve-Catalog.pdf", "mono": "catalogs/TYA-Monoflange-Valve-Catalog.pdf", "industrial": "catalogs/TYA-Industrial-Valve-Catalog.pdf", "hp": "catalogs/TYA-High-Pressure-Valves-Catalog.pdf", "cdp": "catalogs/TYA-Condensate-Pots-Catalog.pdf"};</script>
-<script src="<?= BASE ?>assets/site.js"></script>
+<script src="<?= BASE ?>assets/site.js?v=<?= filemtime(__DIR__ . "/../assets/site.js") ?>"></script>
 </body>
 </html>
