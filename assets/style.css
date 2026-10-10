@@ -469,3 +469,8 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .ind-head h2{margin-bottom:18px}
 .ind-img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:8px solid #fff;box-shadow:0 5px 30px rgba(0,0,0,.18)}
 @media (max-width:900px){.ind-img{max-width:420px}}
+
+/* Industries banner: hexagon pattern background */
+.p-head.hex-bg{background:#fff url("img/industries-hexagon-banner-background.webp") no-repeat center/cover;border-bottom:0}
+.p-head.banner .jump{margin:0}
+.jump a{color:#1A191D;border-color:#1A191D;background:#fff}
