@@ -1,12 +1,12 @@
 <?php
-$title   = 'Medium and High Pressure Fittings to 65,000 psi | Thank You America';
-$desc    = 'High pressure adapters, couplings, hose and NPT fittings in 316 SS, 1/4", 3/8" and 9/16", rated 15,200 to 65,000 psi.';
+$title   = 'High Pressure Fittings to 65,000 psi | TYA';
+$desc    = 'Medium and high pressure fittings, adapters, couplings and tubing to 65,000 psi, coned-and-threaded connections, 316 stainless. Part numbers and quotes.';
 $path    = 'fittings/high-pressure-fittings';
 $section = 'fittings';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>fittings/">Fittings</a> / High pressure fittings</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="High pressure adapters"></div>
+ <div class="p-media"><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="Medium and high pressure adapters and couplings"></div>
  <div>
   <p class="p-num">Fittings</p>
   <h1>Medium and High Pressure Fittings</h1>

@@ -1,6 +1,6 @@
 <?php
-$title   = 'How to Choose a Ball Valve: Pressure, Flow, Ends, Material | Thank You America';
-$desc    = 'A four-step guide to choosing an instrumentation ball valve: pressure rating, flow path, end connection and material, plus part number decoding and installation tips.';
+$title   = 'Instrument Ball Valve Selection Guide | TYA';
+$desc    = 'Choose an instrument ball valve by pressure, flow pattern, end connection and material. Compare 9 series from 3,000 to 10,000 psi and read part numbers.';
 $path    = 'selection-guide';
 $section = 'instr';
 include __DIR__ . '/includes/header.php';

@@ -1,6 +1,6 @@
 <?php
-$title   = 'Thermowells Made to Specification | Thank You America';
-$desc    = 'Threaded, socket weld and flanged bar-stock thermowells made to your drawing or datasheet.';
+$title   = 'Thermowells Made to Specification | TYA';
+$desc    = 'Threaded, socket weld and flanged thermowells made to your drawing, straight, tapered or stepped stems, stainless and alloy, with material test reports.';
 $path    = 'accessories/thermowells';
 $section = 'acc';
 include __DIR__ . '/../includes/header.php';

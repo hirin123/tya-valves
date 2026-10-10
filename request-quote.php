@@ -1,6 +1,6 @@
 <?php
-$title   = 'Request a Quote for Valves and Fittings | Thank You America, Houston TX';
-$desc    = 'Request a quote for instrumentation valves, fittings and accessories. Send part numbers or describe your application and we&#x27;ll recommend and price the right valve.';
+$title   = 'Request a Quote: Instrumentation Valves & Fittings | TYA';
+$desc    = 'Send part numbers, sizes and materials for a fast quote on instrument valves, manifolds, tube fittings and accessories. Distributor and OEM quotes welcome.';
 $path    = 'request-quote';
 $section = 'contact';
 include __DIR__ . '/includes/header.php';

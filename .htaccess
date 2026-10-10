@@ -5,6 +5,23 @@ DirectoryIndex index.php
 RewriteEngine On
 RewriteBase /valves/
 
+# ---- Security ----
+# Always use HTTPS
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+# Only normal browser requests
+RewriteCond %{REQUEST_METHOD} !^(GET|HEAD|POST)$
+RewriteRule ^ - [F]
+# Hidden files and folders (.git, .env, .htaccess ...)
+RewriteRule (^|/)\. - [F]
+# Setup notes, logs, lead data, backups and the SMTP sample are never public
+<FilesMatch "(?i)\.(md|txt|log|csv|ini|sh|sql|bak|old|orig|swp|dist|lock|sample\.php)$">
+  Require all denied
+</FilesMatch>
+# Include files are only loaded by the pages, never opened directly
+RewriteRule ^(includes|leads)/ - [F]
+
 # Old .html addresses -> new clean addresses (301, keeps any Google ranking)
 RewriteRule ^index\.html$ /valves/ [R=301,L]
 RewriteRule ^ball-valves\.html$ /valves/ball-valves/ [R=301,L]
@@ -34,3 +51,29 @@ RewriteRule ^(.+)$ $1.php [L]
     Header set X-Robots-Tag "noindex"
   </IfModule>
 </Files>
+
+# ---- Security headers on every file (pages also send their own from includes/security.php) ----
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always unset X-Powered-By
+  Header unset X-Powered-By
+</IfModule>
+
+# ---- Speed (helps Google page experience) ----
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json image/svg+xml application/xml text/xml
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType application/pdf "access plus 1 week"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>

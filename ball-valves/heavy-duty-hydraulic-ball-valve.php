@@ -1,6 +1,6 @@
 <?php
-$title   = 'Heavy-Duty 10,000 psi Hydraulic Ball Valve | 10,000 psi, 1/8&quot; to 1&quot; | Thank You America';
-$desc    = 'Heavy-Duty 10,000 psi Hydraulic Ball Valve rated 10,000 psi, 1/8&quot; to 1&quot;, npt or sae ports. Part numbers, dimensions, materials and quotes from Thank You America, Houston TX.';
+$title   = '10,000 psi Heavy-Duty Hydraulic Ball Valve | TYA';
+$desc    = 'Heavy-duty hydraulic ball valve rated 10,000 psi, 1/8" to 1", NPT or SAE O-ring ports, fully repairable. Part numbers, dimensions and distributor quotes.';
 $path    = 'ball-valves/heavy-duty-hydraulic-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Heavy-Duty 10,000 psi Hydraulic Ball Valve", "sku": "TYA-Series-09", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "A simple, heavy-duty way to control hydraulic flow: a ported ball held between seals in a solid square housing. It needs no lubrication or routine maintenance, and every valve can be fully repaired.", "image": "https://tyallc.com/valves/assets/img/s09-photo.jpg", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

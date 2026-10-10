@@ -1,6 +1,6 @@
 <?php
-$title   = 'Block & Bleed Ball Valve Assemblies, Class 150# to 2500# | Thank You America';
-$desc    = 'Block & Bleed Ball Valve Assemblies: 10,000 psig (690 bar), 1/2" to 2" RF or RTJ flanges, ASME class 150# to 2500#, single block, block & bleed and double block & bleed.';
+$title   = 'Block & Bleed Ball Valve Assemblies | TYA';
+$desc    = 'Single block, block and bleed and double block and bleed ball valve assemblies, class 150# to 2500#, NACE MR0175 materials. Part numbers and quotes.';
 $path    = 'dbb-monoflange-valves/block-and-bleed-ball-valves';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Block & Bleed Ball Valve Assemblies", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "A one-piece integral forging incorporating up to three ball valves, or a mix of ball and needle valves, replacing the conventional flange, primary isolating valve and instrument valve stack.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/mono-ball-bb.jpg"}</script>';

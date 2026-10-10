@@ -1,6 +1,6 @@
 <?php
-$title   = 'Instrumentation Accessories | Thank You America';
-$desc    = 'Condensate pots, sampling cylinders, air headers, thermowells, syphons, orifice plates, tube clamps and manifold mounting kits.';
+$title   = 'Instrumentation Accessories | TYA';
+$desc    = 'Condensate pots, sampling cylinders, air headers, thermowells, syphons, orifice plates, tube clamps and manifold mounting kits for instrument installations.';
 $path    = 'accessories/';
 $section = 'acc';
 include __DIR__ . '/../includes/header.php';
@@ -9,7 +9,7 @@ include __DIR__ . '/../includes/header.php';
  <h1>Instrumentation accessories</h1><div class="rule" aria-hidden="true"></div>
  <p class="lede">Condensate pots, sampling cylinders, air headers, thermowells, syphons, orifice plate assemblies, tube clamps and manifold mounting kits — the hardware that completes an instrument installation.</p>
 </div></section><section class="section"><div class="wrap"><div class="series-grid"><a class="s-card" href="<?= BASE ?>accessories/condensate-pots">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/condensate-pot.jpg" alt="Condensate pots" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/condensate-pot.jpg" alt="Stainless steel condensate pots for DP flow measurement" loading="lazy"></div>
  <div class="body"><span class="num">Accessories</span><h3>Condensate pots</h3>
  <span class="rating">6,000 psig</span>
  <p class="spec">Seal pots 2&quot; to 6&quot;, Sch. 40 / 80 / 160</p>
@@ -41,7 +41,7 @@ include __DIR__ . '/../includes/header.php';
  <span class="rating">DIN 3015</span>
  <p class="spec">Ribbed, vibration-damping clamps</p>
  <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/manifold-mounting-accessories">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-bracket-assembly.jpg" alt="Manifold mounting kits" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-bracket-assembly.jpg" alt="Instrument manifold mounting brackets and kits" loading="lazy"></div>
  <div class="body"><span class="num">Accessories</span><h3>Manifold mounting kits</h3>
  <p class="spec">Brackets, flange bolts and seals</p>
  <span class="more">View details</span></div></a></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>

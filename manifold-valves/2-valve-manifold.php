@@ -1,6 +1,6 @@
 <?php
-$title   = '2-Valve Manifolds, 6,000 / 10,000 psi | Thank You America';
-$desc    = '2-Valve Manifolds for pressure and DP instruments: 8 models, remote and direct mounting, pipe or flange connections, 316 SS. Quotes from Houston, TX.';
+$title   = '2-Valve Manifold, 6,000 / 10,000 psi | TYA';
+$desc    = '2-valve instrument manifolds for pressure gauges, switches and static pressure transmitters, 6,000 or 10,000 psi, 8 models. Part numbers and quotes.';
 $path    = 'manifold-valves/2-valve-manifold';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';

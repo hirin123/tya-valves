@@ -1,6 +1,6 @@
 <?php
-$title   = 'Forged Steel Gate, Globe and Check Valves (API 602) | Thank You America';
-$desc    = 'Forged steel gate, globe and check valves to API 602 / ISO 15761: 1/2" to 2", class 150# to 2500#, flanged, socket weld, screwed and butt weld ends.';
+$title   = 'Forged Steel Gate, Globe & Check Valves API 602 | TYA';
+$desc    = 'Forged steel gate, globe and check valves to API 602 / ISO 15761, tested to API 598, class 150# to 2500#, flanged, socket weld and screwed ends.';
 $path    = 'industrial-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';
@@ -22,17 +22,17 @@ include __DIR__ . '/../includes/header.php';
   <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Industrial-Valve-Catalog.pdf" data-catalog="industrial">Download catalog (PDF)</a></div>
  </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">Gate, globe and check valves</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-gate-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged Steel Gate Valves" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged steel gate valve to API 602" loading="lazy"></div>
  <div class="body"><span class="num">API 602</span><h3>Forged Steel Gate Valves</h3>
  <span class="rating">Class 150# to 2500#</span>
  <p class="spec">1/2&quot; to 2&quot; · flanged, socket weld, screwed and butt weld</p>
  <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-globe-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-globe.jpg" alt="Forged Steel Globe Valves" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-globe.jpg" alt="Forged steel globe valve to API 602" loading="lazy"></div>
  <div class="body"><span class="num">API 602</span><h3>Forged Steel Globe Valves</h3>
  <span class="rating">Class 150# to 2500#</span>
  <p class="spec">1/2&quot; to 2&quot; · flanged, socket weld, screwed and butt weld</p>
  <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-check-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-swing-check.jpg" alt="Forged Steel Check Valves" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-swing-check.jpg" alt="Forged steel check valve to API 602" loading="lazy"></div>
  <div class="body"><span class="num">API 602</span><h3>Forged Steel Check Valves</h3>
  <span class="rating">Class 150# to 2500#</span>
  <p class="spec">1/2&quot; to 2&quot; · flanged, socket weld, screwed and butt weld</p>

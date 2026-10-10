@@ -1,6 +1,6 @@
 <?php
-$title   = 'Instrument Manifold Valves: 2, 3 and 5-Valve | Thank You America';
-$desc    = '2, 3 and 5-valve instrument manifolds for pressure and DP transmitters, gauges and switches: remote and direct mount, 6,000 / 10,000 psi, 316 SS.';
+$title   = '2, 3 & 5-Valve Instrument Manifolds | TYA';
+$desc    = 'Instrument manifold valves for pressure gauges, static and DP transmitters: 2, 3 and 5-valve, 6,000 / 10,000 psi. Supplier to distributors in North America.';
 $path    = 'manifold-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';
@@ -28,17 +28,17 @@ include __DIR__ . '/../includes/header.php';
   <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Manifold-Valve-Catalog.pdf" data-catalog="manifold">Download catalog (PDF)</a></div>
  </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">2, 3 and 5-valve manifolds</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>manifold-valves/2-valve-manifold">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-2vmr.jpg" alt="2-Valve Manifolds" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-2vmr.jpg" alt="2-valve manifold for pressure gauges and static pressure transmitters" loading="lazy"></div>
  <div class="body"><span class="num">8 models</span><h3>2-Valve Manifolds</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">Isolation plus calibration / vent for gauges, pressure switches and static pressure transmitters.</p>
  <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/3-valve-manifold">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-3vmr-pp.jpg" alt="3-Valve Manifolds" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-3vmr-pp.jpg" alt="3-valve manifold for differential pressure transmitters" loading="lazy"></div>
  <div class="body"><span class="num">6 models</span><h3>3-Valve Manifolds</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">Two process isolation valves and an equalizing valve — the most common manifold for differential pressure instruments.</p>
  <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/5-valve-manifold">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-5vmr.jpg" alt="5-Valve Manifolds" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-5vmr.jpg" alt="5-valve manifold for differential pressure transmitters" loading="lazy"></div>
  <div class="body"><span class="num">7 models</span><h3>5-Valve Manifolds</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">Isolation, equalizing and two drain / vent valves for DP instruments that need venting, calibration and system flushing.</p>
@@ -47,7 +47,7 @@ include __DIR__ . '/../includes/header.php';
  <div class="body"><span class="num">Accessories</span><h3>Mounting kits, bolts and seals</h3>
  <p class="spec">Brackets for 2&quot; pipe stands, 7/16-20 flange bolts, PTFE / Grafoil / FKM seals</p>
  <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>gauge-root-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/gauge-root-long.jpg" alt="Gauge root valves" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/gauge-root-long.jpg" alt="Stainless steel gauge root valves for pressure gauge isolation" loading="lazy"></div>
  <div class="body"><span class="num">Gauge root</span><h3>Gauge root valves</h3>
  <span class="rating">6,000 psig</span>
  <p class="spec">Lagging extension and short multiport gauge valves, 1/2&quot; NPT</p>

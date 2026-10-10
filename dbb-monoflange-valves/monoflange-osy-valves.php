@@ -1,6 +1,6 @@
 <?php
-$title   = 'Monoflange Valves — OS&Y Type, Class 150# to 2500# | Thank You America';
-$desc    = 'Monoflange Valves — OS&Y Type: 6,000 psig (413 bar), 1/2" to 2" RF or RTJ flanges, ASME class 150# to 2500#, single block, block & bleed and double block & bleed.';
+$title   = 'Monoflange OS&amp;Y Valves, Class 150#-2500# | TYA';
+$desc    = 'OS&amp;Y type monoflange valves for process-to-instrument isolation, class 150# to 2500#, single, block and bleed and DBB configurations. Part numbers.';
 $path    = 'dbb-monoflange-valves/monoflange-osy-valves';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Monoflange Valves \\u2014 OS&Y Type", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Monoflange with an outside screw and yoke needle valve: externally adjustable gland, bolted bonnet and investment-cast yoke for strength.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/mono-range.jpg"}</script>';

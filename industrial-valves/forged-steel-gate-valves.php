@@ -1,13 +1,13 @@
 <?php
-$title   = 'Forged Steel Gate Valves, API 602, Class 150# to 2500# | Thank You America';
-$desc    = 'Forged Steel Gate Valves to API 602 / ISO 15761: 1/2" to 2", flanged class 150# to 600#, socket weld / screwed / butt weld class 800# to 2500#, A105 and F316.';
+$title   = 'Forged Steel Gate Valves, API 602 | TYA';
+$desc    = 'Forged steel gate valves to API 602, class 150# to 2500#, flanged, socket weld, screwed and butt-weld ends, A105 and F316. Sizes, dimensions and quotes.';
 $path    = 'industrial-valves/forged-steel-gate-valves';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Forged Steel Gate Valves", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Bolted bonnet, outside screw and yoke. Flanged ends in class 150# to 600#; socket weld, screwed and butt-weld ends in class 800# to 2500#.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/ind-gate.jpg"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>industrial-valves/">Industrial valves</a> / Forged Steel Gate Valves</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged Steel Gate Valves"></div>
+ <div class="p-media"><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged steel gate valve to API 602"></div>
  <div>
   <p class="p-num">Gate valves</p>
   <h1>Forged Steel Gate Valves</h1>

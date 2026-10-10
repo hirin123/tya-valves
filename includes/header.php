@@ -2,32 +2,52 @@
 /* Shared header for every page.
    Each page sets $title, $desc, $path and $section (and optionally $extra) and then includes this file. */
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/security.php';
 function cur($key) { global $section; return ($section ?? '') === $key ? ' aria-current="page"' : ''; }
+$hTitle = htmlspecialchars($title, ENT_QUOTES, 'UTF-8', false);
+$hDesc  = htmlspecialchars($desc, ENT_QUOTES, 'UTF-8', false);
+$hUrl   = htmlspecialchars(SITE . $path, ENT_QUOTES, 'UTF-8');
+ob_start();   // footer.php adds breadcrumb structured data from the page's breadcrumb trail
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?= $title ?></title>
-<meta name="description" content="<?= $desc ?>">
-<link rel="canonical" href="<?= SITE . $path ?>">
-<meta property="og:title" content="<?= $title ?>">
-<meta property="og:description" content="<?= $desc ?>">
+<title><?= $hTitle ?></title>
+<meta name="description" content="<?= $hDesc ?>">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="<?= $hUrl ?>">
+<meta property="og:site_name" content="Thank You America LLC">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
+<meta property="og:title" content="<?= $hTitle ?>">
+<meta property="og:description" content="<?= $hDesc ?>">
+<meta property="og:url" content="<?= $hUrl ?>">
 <meta property="og:image" content="<?= SITE ?>assets/img/range.jpg">
-<meta property="og:url" content="<?= SITE . $path ?>">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1A191D">
 <link rel="icon" href="<?= BASE ?>assets/img/tya-logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="<?= BASE ?>assets/style.css?v=<?= filemtime(__DIR__ . "/../assets/style.css") ?>">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://tyallc.com/#org","name":"Thank You America LLC","alternateName":"TYA","url":"https://tyallc.com/","logo":"<?= SITE ?>assets/img/tya-logo.png","image":"<?= SITE ?>assets/img/range.jpg",
+ "description":"Houston, Texas supplier of instrumentation valves, manifolds, tube and pipe fittings, high pressure valves and instrument accessories to distributors, OEMs and end users in the USA, Canada and Mexico.",
+ "telephone":"+1-281-949-6123","email":"contact@tyallc.com",
+ "address":{"@type":"PostalAddress","streetAddress":"4606 FM 1960 W #440-1050","addressLocality":"Houston","addressRegion":"TX","postalCode":"77070","addressCountry":"US"},
+ "areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Canada"},{"@type":"Country","name":"Mexico"}],
+ "contactPoint":[{"@type":"ContactPoint","contactType":"sales","telephone":"+1-281-949-6123","email":"contact@tyallc.com","areaServed":["US","CA","MX"],"availableLanguage":["English","Spanish"]}],
+ "knowsAbout":["Instrumentation valves","Needle valves","Instrument ball valves","Valve manifolds","Double block and bleed valves","Monoflange valves","Twin-ferrule tube fittings","High pressure valves","Condensate pots","NACE MR0175"]},
+{"@type":"WebSite","@id":"<?= SITE ?>#site","url":"<?= SITE ?>","name":"Thank You America Valves","publisher":{"@id":"https://tyallc.com/#org"},"inLanguage":"en-US"}
+]}</script>
 <?= $extra ?? '' ?>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
  <div class="wrap head-row">
-  <a class="brand" href="<?= BASE ?>" aria-label="Thank You America home"><img src="<?= BASE ?>assets/img/tya-logo.png" alt="Thank You America" width="170" height="46"></a>
+  <a class="brand" href="<?= BASE ?>" aria-label="Thank You America home"><img src="<?= BASE ?>assets/img/tya-logo.png" alt="Thank You America LLC" width="170" height="46"></a>
   <div class="head-contact">
    <a href="tel:+12819496123">+1-281-949-6123</a>
    <a href="mailto:contact@tyallc.com">contact@tyallc.com</a>
@@ -50,6 +70,7 @@ function cur($key) { global $section; return ($section ?? '') === $key ? ' aria-
    <li class="has-drop"><a href="<?= BASE ?>accessories/"<?= cur('acc') ?> aria-haspopup="true">Accessories</a>
     <div class="drop" style="min-width:300px;grid-template-columns:auto"><div><a class="drop-head" href="<?= BASE ?>accessories/">Accessories</a><ul><li><a href="<?= BASE ?>accessories/condensate-pots">Condensate pots</a></li><li><a href="<?= BASE ?>accessories/sampling-cylinders">Sampling cylinders</a></li><li><a href="<?= BASE ?>accessories/air-headers">Air headers</a></li><li><a href="<?= BASE ?>accessories/thermowells">Thermowells</a></li><li><a href="<?= BASE ?>accessories/syphons">Syphons</a></li><li><a href="<?= BASE ?>accessories/orifice-plate-assemblies">Orifice plate assemblies</a></li><li><a href="<?= BASE ?>accessories/tube-clamps">Tube clamps</a></li><li><a href="<?= BASE ?>manifold-valves/manifold-mounting-accessories">Manifold mounting kits</a></li></ul></div></div></li>
    <li><a href="<?= BASE ?>industries"<?= cur('ind') ?>>Industries</a></li>
+   <li><a href="<?= BASE ?>distributors"<?= cur('distributors') ?>>Distributors</a></li>
    <li><a href="<?= BASE ?>about-us"<?= cur('about') ?>>About us</a></li>
    <li><a href="<?= BASE ?>contact-us"<?= cur('contact') ?>>Contact us</a></li>
   </ul>

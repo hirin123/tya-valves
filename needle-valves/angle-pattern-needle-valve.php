@@ -1,13 +1,13 @@
 <?php
-$title   = 'Angle Pattern Needle Valve | 6,000 / 10,000 psi, 1/4" to 1/2" | Thank You America';
-$desc    = 'Angle Pattern Needle Valve: 6,000 / 10,000 psi, 1/4" to 1/2". Controls flow and turns the line through 90° in one component. Using an angle valve instead of a straight valv Part numbers, dimensions and quotes from Houston, TX.';
+$title   = 'Angle Pattern Needle Valve, 6,000 / 10,000 psi | TYA';
+$desc    = 'Angle pattern stainless steel needle valve that turns the line 90°, 1/4" to 1/2", 6,000 or 10,000 psi. Part numbers, dimensions and distributor quotes.';
 $path    = 'needle-valves/angle-pattern-needle-valve';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Angle Pattern Needle Valve", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Controls flow and turns the line through 90\\u00b0 in one component. Using an angle valve instead of a straight valve plus an elbow saves a joint, a potential leak path and panel space.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/nv-an-ff.jpg", "sku": "TYA-NV-Series03"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>needle-valves/">Needle valves</a> / Series 03</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/nv-an-ff.jpg" alt="Angle Pattern Needle Valve"></div>
+ <div class="p-media"><img src="<?= BASE ?>assets/img/p/nv-an-ff.jpg" alt="Angle pattern stainless steel needle valve, 6,000 / 10,000 psi"></div>
  <div>
   <p class="p-num">Series 03</p>
   <h1>Angle Pattern Needle Valve</h1>

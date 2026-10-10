@@ -1,6 +1,6 @@
 <?php
-$title   = 'Gauge Syphons: Pigtail and U-Type | Thank You America';
-$desc    = 'Pressure gauge syphons, U type and pigtail coil, 1/4" and 1/2", carbon steel and stainless, socket weld, NPT and BSP ends.';
+$title   = 'Gauge Syphons: Pigtail & U-Type | TYA';
+$desc    = 'Pigtail and U-type gauge syphons in carbon steel, SS 304 and SS 316 to 260 kg/cm² that protect pressure gauges from steam and hot vapour.';
 $path    = 'accessories/syphons';
 $section = 'acc';
 include __DIR__ . '/../includes/header.php';

@@ -1,6 +1,6 @@
 <?php
-$title   = '10,000 psi Hex Body High-Pressure Ball Valve | 10,000 psi, 1/4&quot; to 1/2&quot;, 6 to 12 mm | Thank You America';
-$desc    = '10,000 psi Hex Body High-Pressure Ball Valve rated 10,000 psi, 1/4&quot; to 1/2&quot;, 6 to 12 mm, female npt, male npt or tube ends. Part numbers, dimensions, materials and quotes from Thank You America, Houston TX.';
+$title   = '10,000 psi Hex Body High Pressure Ball Valve | TYA';
+$desc    = '10,000 psi hex body high pressure ball valve, 1/4" to 1/2" and 6 to 12 mm, female NPT, male NPT or tube ends. Part numbers, dimensions and quotes.';
 $path    = 'ball-valves/10000-psi-hex-body-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "10,000 psi Hex Body High-Pressure Ball Valve", "sku": "TYA-Series-08", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "A true two-piece, bi-directional design that keeps body leak paths to a minimum. Integral tube ends remove taper threads and sealant altogether, for less contamination and fewer leak paths.", "image": "https://tyallc.com/valves/assets/img/s08-photo.jpg", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

@@ -1,6 +1,6 @@
 <?php
-$title   = 'High Temperature Union-Bonnet Needle Valve | Up to 10,000 psi, −53 to 648 °C | Thank You America';
-$desc    = 'High Temperature Union-Bonnet Needle Valve: Up to 10,000 psi, −53 to 648 °C. A union bonnet with a metal-to-metal gland seal and Graphoil-ready packing takes this valve to 1200 °F. The bo Part numbers, dimensions and quotes from Houston, TX.';
+$title   = 'High Temperature Needle Valve to 648 °C | TYA';
+$desc    = 'Union-bonnet needle valve for -53 to 648 °C and up to 10,000 psi, graphite packing, stainless steel. Part numbers, dimensions and quotes.';
 $path    = 'needle-valves/high-temperature-needle-valve';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "High Temperature Union-Bonnet Needle Valve", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "A union bonnet with a metal-to-metal gland seal and Graphoil-ready packing takes this valve to 1200 \\u00b0F. The bonnet can be removed and refitted on site with full re-sealing, and the panel nut lets it mount through a panel 1.6 to 9.5 mm thick.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/nv-ht.jpg", "sku": "TYA-NV-Series06"}</script>';

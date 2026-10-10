@@ -1,6 +1,6 @@
 <?php
-$title   = 'Instrumentation Tube, Pipe, Hydraulic and High Pressure Fittings | Thank You America';
-$desc    = 'Twin-ferrule tube fittings, NPT pipe fittings, DIN 2353 and JIC hydraulic fittings and 65,000 psi high pressure fittings.';
+$title   = 'Instrumentation Tube, Pipe & Hydraulic Fittings | TYA';
+$desc    = 'Twin-ferrule tube fittings, NPT and BSP pipe fittings, DIN 2353 and JIC hydraulic fittings and high pressure fittings to 65,000 psi for distributors.';
 $path    = 'fittings/';
 $section = 'fittings';
 include __DIR__ . '/../includes/header.php';
@@ -9,7 +9,7 @@ include __DIR__ . '/../includes/header.php';
  <h1>Instrumentation fittings</h1><div class="rule" aria-hidden="true"></div>
  <p class="lede">Twin-ferrule tube fittings, threaded pipe fittings, hydraulic fittings and medium / high pressure fittings to complete your instrument and process lines.</p>
 </div></section><section class="section"><div class="wrap"><div class="series-grid"><a class="s-card" href="<?= BASE ?>fittings/tube-fittings">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/tube-fittings.jpg" alt="Tube fittings" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/tube-fittings.jpg" alt="Twin-ferrule stainless steel instrumentation tube fittings" loading="lazy"></div>
  <div class="body"><span class="num">Fittings</span><h3>Tube fittings</h3>
  <span class="rating">Twin ferrule</span>
  <p class="spec">Connectors, elbows, unions, tees, bulkheads · 171 part numbers</p>
@@ -24,7 +24,7 @@ include __DIR__ . '/../includes/header.php';
  <span class="rating">DIN 2353 · JIC</span>
  <p class="spec">Carbon steel, SS 304 and SS 316</p>
  <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>fittings/high-pressure-fittings">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="High pressure fittings" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="Stainless steel high pressure fittings and adapters to 65,000 psi" loading="lazy"></div>
  <div class="body"><span class="num">Fittings</span><h3>High pressure fittings</h3>
  <span class="rating">To 65,000 psi</span>
  <p class="spec">Adapters, couplings, hose and NPT fittings</p>

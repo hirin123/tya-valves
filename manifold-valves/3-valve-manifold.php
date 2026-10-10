@@ -1,6 +1,6 @@
 <?php
-$title   = '3-Valve Manifolds, 6,000 / 10,000 psi | Thank You America';
-$desc    = '3-Valve Manifolds for pressure and DP instruments: 6 models, remote and direct mounting, pipe or flange connections, 316 SS. Quotes from Houston, TX.';
+$title   = '3-Valve Manifold for DP Transmitters | TYA';
+$desc    = '3-valve manifolds for differential pressure transmitters, 6,000 or 10,000 psi, direct and remote mount, 6 models. Part numbers, dimensions and quotes.';
 $path    = 'manifold-valves/3-valve-manifold';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';

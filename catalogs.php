@@ -1,6 +1,6 @@
 <?php
-$title   = 'Product Catalogs (PDF) | Thank You America';
-$desc    = 'Download Thank You America catalogs for ball, needle, manifold, check, bleed and purge, monoflange, industrial and high pressure valves, fittings and condensate pots.';
+$title   = 'Instrumentation Valve Catalogs (PDF Download) | TYA';
+$desc    = 'Download PDF catalogs for ball, needle, manifold, check, bleed, monoflange, industrial and high pressure valves, fittings and condensate pots.';
 $path    = 'catalogs';
 $section = 'products';
 include __DIR__ . '/includes/header.php';

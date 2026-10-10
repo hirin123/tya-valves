@@ -1,6 +1,6 @@
 <?php
-$title   = 'Monoflange Valves — Needle Type, Class 150# to 2500# | Thank You America';
-$desc    = 'Monoflange Valves — Needle Type: 10,000 psig (690 bar), 1/2" to 2" RF or RTJ flanges, ASME class 150# to 2500#, single block, block & bleed and double block & bleed.';
+$title   = 'Monoflange Needle Valves, Class 150#-2500# | TYA';
+$desc    = 'Needle type monoflange valves replacing flange, block and instrument valve in one forging, class 150# to 2500#, single, B&amp;B and DBB. Part numbers.';
 $path    = 'dbb-monoflange-valves/monoflange-needle-valves';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Monoflange Valves \\u2014 Needle Type", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Slimline one-piece forged flange body with globe-style needle valves: single block, block and bleed, or double block and bleed.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/mono-flange.jpg"}</script>';

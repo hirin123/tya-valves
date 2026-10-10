@@ -1,6 +1,6 @@
 <?php
-$title   = 'High Pressure Valves and Fittings, 10,000 to 65,000 psi | Thank You America';
-$desc    = '65,000 psi needle valves, 15,000 psi needle valves, 10,000 psi ball valves and medium / high pressure fittings for hydraulics, gas and oil service.';
+$title   = 'High Pressure Valves to 65,000 psi | TYA';
+$desc    = 'High pressure valves and fittings rated 10,000 to 65,000 psi for hydraulics, gas, test equipment and oil and gas control. Medium and high pressure lines.';
 $path    = 'high-pressure-valves';
 $section = 'valves';
 include __DIR__ . '/includes/header.php';
@@ -28,13 +28,13 @@ include __DIR__ . '/includes/header.php';
  <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s09.jpg" alt="Heavy-duty hydraulic ball valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 09</span><h3>Heavy-duty hydraulic</h3><span class="rating">10,000 psi</span><p class="spec">1/8&quot; to 1&quot;. NPT or SAE ports.</p><span class="more">View details</span></div></a>
  <a class="s-card" href="<?= BASE ?>needle-valves/high-pressure-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-hp.jpg" alt="15,000 psi needle valve" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-hp.jpg" alt="15,000 psi high pressure stainless steel needle valve" loading="lazy"></div>
  <div class="body"><span class="num">Needle valve</span><h3>15,000 psi needle valve</h3>
  <span class="rating">15,000 psi</span>
  <p class="spec">1/4&quot; to 3/4&quot;, square body, hard seat</p>
  <span class="more">View details</span></div></a>
  <a class="s-card" href="<?= BASE ?>fittings/high-pressure-fittings">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="High pressure fittings" loading="lazy"></div>
+ <div class="pic"><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="Stainless steel high pressure fittings and adapters to 65,000 psi" loading="lazy"></div>
  <div class="body"><span class="num">Fittings</span><h3>High pressure fittings</h3>
  <span class="rating">To 65,000 psi</span>
  <p class="spec">Adapters, couplings, hose and NPT fittings</p>

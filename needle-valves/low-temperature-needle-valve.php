@@ -1,6 +1,6 @@
 <?php
-$title   = 'Low Temperature (Cryogenic) Needle Valve | 6,000 psig, −196 to 80 °C | Thank You America';
-$desc    = 'Low Temperature (Cryogenic) Needle Valve: 6,000 psig, −196 to 80 °C. An extended bonnet moves the stem packing well away from the cold fluid, so it stays flexible and sealing in c Part numbers, dimensions and quotes from Houston, TX.';
+$title   = 'Cryogenic Needle Valve, -196 °C, 6,000 psig | TYA';
+$desc    = 'Low temperature cryogenic needle valve for -196 to 80 °C service at 6,000 psig, extended bonnet, stainless steel. Part numbers, dimensions and quotes.';
 $path    = 'needle-valves/low-temperature-needle-valve';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Low Temperature (Cryogenic) Needle Valve", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "An extended bonnet moves the stem packing well away from the cold fluid, so it stays flexible and sealing in cryogenic service such as LNG, liquid nitrogen and industrial gas lines.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/nv-cryo.jpg", "sku": "TYA-NV-Series05"}</script>';

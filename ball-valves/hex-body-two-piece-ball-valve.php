@@ -1,6 +1,6 @@
 <?php
-$title   = 'Hex Body Two-Piece Ball Valve | 6,000 psi, 1/4&quot; to 1&quot; | Thank You America';
-$desc    = 'Hex Body Two-Piece Ball Valve rated 6,000 psi, 1/4&quot; to 1&quot;, female npt. Part numbers, dimensions, materials and quotes from Thank You America, Houston TX.';
+$title   = 'Hex Body Two-Piece Ball Valve, 6,000 psi | TYA';
+$desc    = 'Hex body two-piece stainless steel ball valve, 1/4" to 1", female NPT, male NPT or tube ends, 6,000 psi. Part numbers, dimensions and distributor quotes.';
 $path    = 'ball-valves/hex-body-two-piece-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Hex Body Two-Piece Ball Valve", "sku": "TYA-Series-06", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Twice the pressure class of the round body, in a hexagonal body you can hold securely with a wrench while making up threaded connections, so the torque goes into the joint, not the valve.", "image": "https://tyallc.com/valves/assets/img/s06-photo.jpg", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

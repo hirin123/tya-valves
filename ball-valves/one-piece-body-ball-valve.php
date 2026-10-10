@@ -1,6 +1,6 @@
 <?php
-$title   = 'One-Piece Body Instrument Ball Valve | 6,000 psi, 1/8&quot; to 1&quot; | Thank You America';
-$desc    = 'One-Piece Body Instrument Ball Valve rated 6,000 psi, 1/8&quot; to 1&quot;, female npt or tube ends. Part numbers, dimensions, materials and quotes from Thank You America, Houston TX.';
+$title   = 'One-Piece Instrument Ball Valve, 6,000 psi | TYA';
+$desc    = 'One-piece body stainless steel instrument ball valve, 1/8" to 1", female NPT or twin-ferrule tube ends, 6,000 psi, low dead volume. Part numbers and quotes.';
 $path    = 'ball-valves/one-piece-body-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "One-Piece Body Instrument Ball Valve", "sku": "TYA-Series-01", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "A compact valve with a single-piece body, so there are no body joints that could leak, and a very small internal volume, so little fluid is left trapped to contaminate the next sample. Panel mountable.", "image": "https://tyallc.com/valves/assets/img/s01-section.png", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

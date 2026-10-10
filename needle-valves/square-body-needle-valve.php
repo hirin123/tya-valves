@@ -1,13 +1,13 @@
 <?php
-$title   = 'Square Body Needle Valve | 6,000 / 10,000 psi, 1/4" to 1" | Thank You America';
-$desc    = 'Square Body Needle Valve: 6,000 / 10,000 psi, 1/4" to 1". The same proven internals in a square body with flat sides — easy to clamp, bracket and wrench, and neat on a  Part numbers, dimensions and quotes from Houston, TX.';
+$title   = 'Square Body Needle Valve, 6,000 / 10,000 psi | TYA';
+$desc    = 'Square body stainless steel needle valve, 1/4" to 1", panel mountable, female, male, tube and vented ends, 6,000 or 10,000 psi. Part numbers and quotes.';
 $path    = 'needle-valves/square-body-needle-valve';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Square Body Needle Valve", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "The same proven internals in a square body with flat sides \\u2014 easy to clamp, bracket and wrench, and neat on a panel. Hard or soft seat for isolation or throttling on high-pressure instrument lines, gas service and many liquids.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/nv-sq-ff.jpg", "sku": "TYA-NV-Series02"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>needle-valves/">Needle valves</a> / Series 02</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/nv-sq-ff.jpg" alt="Square Body Needle Valve"></div>
+ <div class="p-media"><img src="<?= BASE ?>assets/img/p/nv-sq-ff.jpg" alt="Square body stainless steel needle valve, 6,000 / 10,000 psi"></div>
  <div>
   <p class="p-num">Series 02</p>
   <h1>Square Body Needle Valve</h1>

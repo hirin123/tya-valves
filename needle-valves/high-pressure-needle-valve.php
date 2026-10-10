@@ -1,6 +1,6 @@
 <?php
-$title   = 'High Pressure Needle Valve, 15,000 psi | Up to 15,000 psi, 1/4" to 3/4" | Thank You America';
-$desc    = 'High Pressure Needle Valve, 15,000 psi: Up to 15,000 psi, 1/4" to 3/4". Built for leak-free shut-off and regulation where pressures run to 15,000 psi (1,034 bar). A heavier bonnet, a Part numbers, dimensions and quotes from Houston, TX.';
+$title   = '15,000 psi High Pressure Needle Valve | TYA';
+$desc    = 'High pressure stainless steel needle valve rated to 15,000 psi, 1/4" to 3/4", hard seat, square body. Part numbers, dimensions and quotes from Houston, TX.';
 $path    = 'needle-valves/high-pressure-needle-valve';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "High Pressure Needle Valve, 15,000 psi", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Built for leak-free shut-off and regulation where pressures run to 15,000 psi (1,034 bar). A heavier bonnet, a floating conical tip and a low-torque T-bar handle keep it easy to operate even at full pressure.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/nv-hp.jpg", "sku": "TYA-NV-Series04"}</script>';

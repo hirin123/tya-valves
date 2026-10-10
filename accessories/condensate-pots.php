@@ -1,6 +1,6 @@
 <?php
-$title   = 'Condensate Pots and Seal Pots, 6,000 psig | Thank You America';
-$desc    = 'Condensate and seal pots, 2" to 6" seamless pipe, Sch. 40/80/160, 316/304/321 SS and carbon steel, NPT/BSP/socket weld, 6,000 psig.';
+$title   = 'Condensate Pots & Seal Pots, 6,000 psig | TYA';
+$desc    = 'Stainless and carbon steel condensate pots and seal pots to 6,000 psig for DP flow measurement on steam and liquid service. Sizes and quotes.';
 $path    = 'accessories/condensate-pots';
 $section = 'acc';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Condensate pot", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Condensate and seal pots 2\\" to 6\\", 6,000 psig.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}, "image": "https://tyallc.com/valves/assets/img/p/condensate-pot.jpg"}</script>';

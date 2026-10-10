@@ -1,6 +1,6 @@
 <?php
-$title   = 'Square Body Ball Valve | 6,000 psi, 1/4&quot; to 1&quot; | Thank You America';
-$desc    = 'Square Body Ball Valve rated 6,000 psi, 1/4&quot; to 1&quot;, female npt (tube, socket weld on request). Part numbers, dimensions, materials and quotes from Thank You America, Houston TX.';
+$title   = 'Square Body Ball Valve, 6,000 psi | TYA';
+$desc    = 'Square body stainless steel ball valve, 1/4" to 1", blow-out-proof stem, NPT or tube ends, 6,000 psi. Part numbers, dimensions and distributor quotes.';
 $path    = 'ball-valves/square-body-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Square Body Ball Valve", "sku": "TYA-Series-07", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "An internally loaded, blow-out-proof stem and a floating ball give positive shut-off in a compact square body. The hard-chromed ball reduces friction, so the valve stays easy to turn throughout its life. Photo shows optional tube ends.", "image": "https://tyallc.com/valves/assets/img/s07-photo.jpg", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

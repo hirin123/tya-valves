@@ -1,6 +1,6 @@
 <?php
-$title   = 'Hydraulic Fittings: DIN 2353 and JIC 37° | Thank You America';
-$desc    = 'DIN 2353 24° cone and JIC 37° flare hydraulic fittings in carbon steel, SS 304 and SS 316.';
+$title   = 'Hydraulic Fittings: DIN 2353 & JIC 37° | TYA';
+$desc    = 'DIN 2353 24° cone and JIC 37° flare hydraulic fittings in carbon steel, SS 304 and SS 316 for power units, mobile hydraulics and test benches.';
 $path    = 'fittings/hydraulic-fittings';
 $section = 'fittings';
 include __DIR__ . '/../includes/header.php';

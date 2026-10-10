@@ -1,6 +1,6 @@
 <?php
-$title   = 'Double-Ended Sampling Cylinders, 5,000 psig | Thank You America';
-$desc    = 'DOT double-ended sample cylinders, 40 to 3,785 cm³, 5,000 psig, 304L / 316L / Alloy 400, female NPT ends.';
+$title   = 'Double-Ended Sampling Cylinders, 5,000 psig | TYA';
+$desc    = 'Double-ended stainless steel sampling cylinders to 5,000 psig for gas and liquid samples, with valves and fittings. Sizes, ratings and quotes.';
 $path    = 'accessories/sampling-cylinders';
 $section = 'acc';
 include __DIR__ . '/../includes/header.php';

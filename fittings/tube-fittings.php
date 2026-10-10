@@ -1,6 +1,6 @@
 <?php
-$title   = 'Twin-Ferrule Instrumentation Tube Fittings, SS 316 | Thank You America';
-$desc    = 'Twin-ferrule stainless tube fittings: connectors, elbows, unions, tees, crosses, bulkheads, caps and plugs, 1/8" to 1" tube OD — 171 stocked part numbers.';
+$title   = 'Twin-Ferrule Tube Fittings, SS 316 | TYA';
+$desc    = 'Twin-ferrule compression tube fittings in 316 stainless: connectors, elbows, unions, tees and bulkheads, fractional and metric. 171 part numbers.';
 $path    = 'fittings/tube-fittings';
 $section = 'fittings';
 include __DIR__ . '/../includes/header.php';

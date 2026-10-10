@@ -1,6 +1,6 @@
 <?php
-$title   = 'Instrument Air Headers, Made to Order | Thank You America';
-$desc    = 'Instrument air headers with needle or ball valve branches, 4 to 12 ways, in SS 304/316/316Ti, carbon or alloy steel, built and tested to your specification.';
+$title   = 'Instrument Air Headers, Made to Order | TYA';
+$desc    = 'Instrument air headers built to your specification: 4 to 12 ways with needle or ball valves, SS 304, 316, 316Ti, carbon and alloy steel, tested.';
 $path    = 'accessories/air-headers';
 $section = 'acc';
 include __DIR__ . '/../includes/header.php';

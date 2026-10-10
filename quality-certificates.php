@@ -1,6 +1,6 @@
 <?php
-$title   = 'Quality, Testing and Certificates | Thank You America';
-$desc    = 'Material test reports, heat code traceability, NACE MR0175 materials and factory pressure testing for instrumentation ball valves from Thank You America.';
+$title   = 'Quality, Testing & Material Certificates | TYA Valves';
+$desc    = 'Material test reports to EN 10204 3.1, NACE MR0175 materials, hydrostatic and gas testing and certified drawings for instrumentation valves and fittings.';
 $path    = 'quality-certificates';
 $section = 'cert';
 include __DIR__ . '/includes/header.php';

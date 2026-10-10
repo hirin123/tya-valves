@@ -1,6 +1,6 @@
 <?php
-$title   = 'Tube and Pipe Clamps to DIN 3015 | Thank You America';
-$desc    = 'DIN 3015 tube and pipe clamps with ribbed, vibration-damping bodies for instrument and hydraulic lines.';
+$title   = 'Tube & Pipe Clamps to DIN 3015 | TYA';
+$desc    = 'DIN 3015 tube and pipe clamps with ribbed, vibration-damping bodies for instrument and hydraulic tubing, single and multiple line. Request a quote.';
 $path    = 'accessories/tube-clamps';
 $section = 'acc';
 include __DIR__ . '/../includes/header.php';

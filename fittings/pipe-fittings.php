@@ -1,6 +1,6 @@
 <?php
-$title   = 'Instrumentation Pipe Fittings, NPT / BSP, to 10,000 psi | Thank You America';
-$desc    = 'Threaded instrumentation pipe fittings: hex nipples, reducing nipples and bushes, elbows, tees, unions and plugs in SS 316 — 46 stocked part numbers.';
+$title   = 'Instrumentation Pipe Fittings, NPT / BSP | TYA';
+$desc    = 'Threaded instrumentation pipe fittings to 10,000 psi: hex nipples, bushes, elbows, tees, unions and plugs in 316 SS, NPT, BSP and BSPT. 46 part numbers.';
 $path    = 'fittings/pipe-fittings';
 $section = 'fittings';
 include __DIR__ . '/../includes/header.php';

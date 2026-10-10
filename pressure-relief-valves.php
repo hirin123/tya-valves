@@ -1,6 +1,6 @@
 <?php
-$title   = 'Proportional Pressure Relief Valves, 10 to 6,000 psig | Thank You America';
-$desc    = 'RV, RL and RM proportional relief valves: set pressures 10 to 6,000 psig, colour-coded springs, balanced stem, liquid or gas service.';
+$title   = 'Proportional Pressure Relief Valves | TYA';
+$desc    = 'Proportional relief valves with set pressures from 10 to 6,000 psig, RV, RL and RM series, liquid or gas service, lock-wired cap. Part numbers and quotes.';
 $path    = 'pressure-relief-valves';
 $section = 'valves';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Proportional relief valve", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "RV, RL and RM proportional relief valves, set 10 to 6,000 psig.", "category": "Industrial valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

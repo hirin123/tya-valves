@@ -101,6 +101,12 @@ function fail($msg, $code = 400) { http_response_code($code); echo json_encode([
 function clean($v, $max = 200) { $v = trim((string)$v); $v = str_replace(["\r", "\n"], ' ', $v); return mb_substr($v, 0, $max); }
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') fail('Method not allowed', 405);
+header('X-Content-Type-Options: nosniff');
+// Only accept the form from this website, and only small requests
+$origin = $_SERVER['HTTP_ORIGIN'] ?? $_SERVER['HTTP_REFERER'] ?? '';
+$host   = strtolower($_SERVER['HTTP_HOST'] ?? '');
+if ($origin !== '' && strtolower((string)parse_url($origin, PHP_URL_HOST)) !== preg_replace('/:\d+$/', '', $host)) fail('Request not allowed', 403);
+if ((int)($_SERVER['CONTENT_LENGTH'] ?? 0) > 20000) fail('Request too large', 413);
 
 // Spam traps: hidden field must stay empty, and the form must not be submitted instantly
 if (!empty($_POST['website'])) fail('Spam check failed');
@@ -166,8 +172,10 @@ $dir = __DIR__ . '/leads';
 if (!is_dir($dir)) { @mkdir($dir, 0750); @file_put_contents("$dir/.htaccess", "Require all denied\nDeny from all\n"); }
 $fh = @fopen("$dir/catalog-requests.csv", 'a');
 if ($fh) {
+    // Neutralise spreadsheet formulas (=, +, -, @) so the CSV is safe to open in Excel
+    $safe = fn($v) => preg_match('/^[=+\-@\t\r]/', (string)$v) ? "'" . $v : $v;
     if (filesize("$dir/catalog-requests.csv") === 0) fputcsv($fh, ['date', 'name', 'company', 'email', 'country', 'catalog', 'notes', 'phone', 'email_sent']);
-    fputcsv($fh, [date('Y-m-d H:i:s'), $name, $company, $email, $country, $catName, $interest, $phone, $sentUser ? 'yes' : 'no']);
+    fputcsv($fh, array_map($safe, [date('Y-m-d H:i:s'), $name, $company, $email, $country, $catName, $interest, $phone, $sentUser ? 'yes' : 'no']));
     fclose($fh);
 }
 

@@ -1,6 +1,6 @@
 <?php
-$title   = '5-Valve Manifolds, 6,000 / 10,000 psi | Thank You America';
-$desc    = '5-Valve Manifolds for pressure and DP instruments: 7 models, remote and direct mounting, pipe or flange connections, 316 SS. Quotes from Houston, TX.';
+$title   = '5-Valve Manifold for Gas Metering | TYA';
+$desc    = '5-valve manifolds for differential pressure transmitters and natural gas metering, 6,000 or 10,000 psi. Part numbers, dimensions and distributor quotes.';
 $path    = 'manifold-valves/5-valve-manifold';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';

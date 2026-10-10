@@ -1,6 +1,6 @@
 <?php
-$title   = 'Round Body Two-Piece Ball Valve | 3,000 psi, 1/4&quot; to 2&quot; | Thank You America';
-$desc    = 'Round Body Two-Piece Ball Valve rated 3,000 psi, 1/4&quot; to 2&quot;, female npt (bsp, bspt, iso, socket weld, tube end on request). Part numbers, dimensions, materials and quotes from Thank You America, Houston TX.';
+$title   = 'Round Body Two-Piece Ball Valve, 3,000 psi | TYA';
+$desc    = 'Round body two-piece ball valve, 1/4" to 2", 3,000 psi, lever handle, for gauge isolation and utility lines. 316 SS, duplex and more. Part numbers and quotes.';
 $path    = 'ball-valves/round-body-two-piece-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Round Body Two-Piece Ball Valve", "sku": "TYA-Series-05", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "A two-piece, bi-directional valve with a lever handle for quick quarter-turn operation. It is the practical choice for gauge isolation and general utility service, and the only series in our range that goes up to 2\\".", "image": "https://tyallc.com/valves/assets/img/s05-photo.jpg", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

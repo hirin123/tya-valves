@@ -1,6 +1,6 @@
 <?php
-$title   = 'Contact Thank You America LLC | Houston, TX';
-$desc    = 'Contact Thank You America LLC, 4606 FM 1960 W #440-1050, Houston, TX 77070. Phone +1-281-949-6123, email contact@tyallc.com.';
+$title   = 'Contact Thank You America | Houston, TX Valve Supplier';
+$desc    = 'Call +1-281-949-6123 or email contact@tyallc.com for instrumentation valve quotes, distributor pricing and technical help. USA, Canada and Mexico.';
 $path    = 'contact-us';
 $section = 'contact';
 include __DIR__ . '/includes/header.php';

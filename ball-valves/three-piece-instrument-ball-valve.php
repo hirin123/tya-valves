@@ -1,6 +1,6 @@
 <?php
-$title   = 'Three-Piece Instrument Ball Valve | 6,000 psi, 1/8&quot; to 1&quot;, 4 to 25 mm | Thank You America';
-$desc    = 'Three-Piece Instrument Ball Valve rated 6,000 psi, 1/8&quot; to 1&quot;, 4 to 25 mm, female npt or twin-ferrule tube ends. Part numbers, dimensions, materials and quotes from Thank You America, Houston TX.';
+$title   = 'Three-Piece Instrument Ball Valve, 6,000 psi | TYA';
+$desc    = 'Three-piece instrument ball valve, 1/8" to 1" and 4 to 25 mm, NPT or twin-ferrule ends, 6,000 psi, in-line repairable. 316 SS, Monel, Hastelloy, brass.';
 $path    = 'ball-valves/three-piece-instrument-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Three-Piece Instrument Ball Valve", "sku": "TYA-Series-02", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "A square body with two O-ring-sealed end adaptors and a free-floating ball. The straight-through bore keeps pressure drop low, and a 90\\u00b0 turn takes it from fully open to fully closed. Available with female NPT ports or with twin-ferrule tube ends that connect straight to your tubing, with no taper threads and no thread sealant.", "image": "https://tyallc.com/valves/assets/img/s02-photo.jpg", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

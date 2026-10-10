@@ -1,6 +1,6 @@
 <?php
-$title   = 'Instrumentation Ball Valves, 3,000 to 10,000 psi | Thank You America';
-$desc    = 'Nine series of stainless steel ball valves from 1/8&quot; tube to 2&quot; pipe: instrument, angle, 3-way, round, hex, square and 10,000 psi hydraulic. Part numbers and dimensions.';
+$title   = 'Instrumentation Ball Valves, 3,000 to 10,000 psi | TYA';
+$desc    = 'Stainless steel instrument ball valves 1/8" to 2": 2-way, 3-way and angle, NPT, BSP and tube ends, to 10,000 psi. Valve finder, part numbers and quotes.';
 $path    = 'ball-valves/';
 $section = 'instr';
 include __DIR__ . '/../includes/header.php';

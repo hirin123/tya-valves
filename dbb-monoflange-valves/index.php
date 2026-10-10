@@ -1,6 +1,6 @@
 <?php
-$title   = 'Double Block & Bleed and Monoflange Valves | Thank You America';
-$desc    = 'Integral double block and bleed ball valve assemblies and needle / OS&Y monoflanges, 1/2" to 2", ASME class 150# to 2500#, RF or RTJ.';
+$title   = 'Double Block & Bleed and Monoflange Valves | TYA';
+$desc    = 'DBB, block and bleed and monoflange valves in one-piece forgings, needle, ball or OS&amp;Y, class 150# to 2500#. Supplier to distributors in North America.';
 $path    = 'dbb-monoflange-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';
