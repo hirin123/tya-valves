@@ -362,3 +362,19 @@ div.s-card{cursor:default}
 .why-title{display:flex;align-items:center;gap:16px}
 .why-badge{flex:none;display:grid;place-items:center;width:62px;height:74px;background:#CD0001;color:#fff}
 @media (max-width:620px){.why-badge{width:48px;height:58px}.why-badge svg{width:26px;height:26px}}
+
+/* Charcoal #1A191D for every title and every hover that used to turn blue */
+h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-grid b,.ov-panel .ov-best,.ind-sub,.note b,.bestfor b{color:#1A191D}
+.btn.ghost:hover,.jump a:hover,.ind-links a:hover{background:#1A191D;border-color:#1A191D;color:#fff}
+.band .btn.ghost:hover{background:#fff;color:#1A191D}
+.s-card:hover{border-color:#1A191D}
+/* Highlighted spec tag: charcoal instead of navy */
+.specline li{color:#1A191D}
+.specline li.hot{background:#1A191D;color:#fff}
+
+/* Raised "Best for" panel */
+.ov-panel{background-color:#FFFFFF;border-top:0;border-radius:0;margin:0 10px;padding:50px 40px 43px 40px;box-shadow:0px 5px 30px 0px rgba(0,0,0,.15)}
+@media (max-width:560px){.ov-panel{margin:0;padding:32px 24px 28px}}
+
+/* Banner with world-map overlay */
+.p-head.world-bg{background:#F3F3F3 url(https://tyallc.com/wp-content/uploads/2021/04/world_contact.png) no-repeat right center/contain;border-bottom:0}
