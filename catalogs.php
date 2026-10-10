@@ -5,9 +5,7 @@ $path    = 'catalogs';
 $section = 'products';
 include __DIR__ . '/includes/header.php';
 
-/* Catalogs shown on this page. Only the ones whose PDF is on the server are listed.
-   Cover image: assets/catalogs/covers/<key>.jpg if present, otherwise the first page
-   of the PDF is drawn in the browser with PDF.js. Keys match send-catalog.php. */
+/* Catalogs shown on this page (only those whose PDF is on the server). Keys match send-catalog.php. */
 $catalogs = [
     'ball'       => ['assets/TYA-Ball-Valve-Catalog.pdf',                   'Ball valves'],
     'needle'     => ['assets/catalogs/TYA-Needle-Valve-Catalog.pdf',        'Needle valves'],
@@ -19,7 +17,6 @@ $catalogs = [
     'hp'         => ['assets/catalogs/TYA-High-Pressure-Valves-Catalog.pdf','High pressure valves & fittings'],
     'cdp'        => ['assets/catalogs/TYA-Condensate-Pots-Catalog.pdf',     'Condensate pots'],
 ];
-$needPdfJs = false;
 ?>
 <section class="p-head banner world-bg"><div class="wrap">
  <div class="crumbs"><a href="<?= BASE ?>">Home</a> / Catalogs</div>
@@ -31,48 +28,21 @@ $needPdfJs = false;
  <div class="cat-list">
 <?php foreach ($catalogs as $key => [$file, $name]):
     if (!is_file(__DIR__ . '/' . $file)) continue;
-    $cover = 'assets/catalogs/covers/' . $key . '.jpg';
-    $hasCover = is_file(__DIR__ . '/' . $cover);
-    if (!$hasCover) $needPdfJs = true;
     $label = htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?>
-  <a class="cat-card" href="#" data-catalog="<?= $key ?>">
-   <span class="cat-cover"<?= $hasCover ? '' : ' data-pdf="' . BASE . $file . '"' ?>>
-    <?php if ($hasCover): ?><img src="<?= BASE . $cover ?>" alt="" loading="lazy"><?php else: ?><span class="cat-ph"><?= $label ?></span><?php endif; ?>
-    <span class="cat-badge">PDF</span>
-   </span>
+  <a class="cat-card" href="#" data-catalog="<?= $key ?>" aria-label="Get the <?= $label ?> catalog (PDF)">
+   <svg class="cat-doc" viewBox="0 0 100 130" aria-hidden="true" focusable="false">
+    <path d="M4 0h66l30 30v96a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z" fill="#fff" stroke="#D5DBE5" stroke-width="2"/>
+    <path d="M70 0v26a4 4 0 0 0 4 4h26z" fill="#E6E9EF"/>
+    <rect x="14" y="44" width="56" height="5" fill="#E6E9EF"/><rect x="14" y="56" width="72" height="5" fill="#E6E9EF"/><rect x="14" y="68" width="64" height="5" fill="#E6E9EF"/>
+    <rect class="cat-doc-band" x="0" y="88" width="78" height="28" fill="#cd0001"/>
+    <text x="39" y="108" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="1.5">PDF</text>
+   </svg>
    <span class="cat-name"><?= $label ?></span>
    <span class="cat-get">Get the catalog</span>
   </a>
 <?php endforeach; ?>
  </div>
 </div></section>
-<?php if ($needPdfJs): ?>
-<script src="<?= BASE ?>assets/vendor/pdfjs/pdf.min.js"></script>
-<script>
-/* Draw page 1 of each PDF that has no cover image, only when its card scrolls into view. */
-(function () {
-  if (!window.pdfjsLib) return;
-  pdfjsLib.GlobalWorkerOptions.workerSrc = "<?= BASE ?>assets/vendor/pdfjs/pdf.worker.min.js";
-  function draw(box) {
-    pdfjsLib.getDocument({ url: box.getAttribute("data-pdf"), disableAutoFetch: true, disableStream: true }).promise
-      .then(function (pdf) { return pdf.getPage(1); })
-      .then(function (page) {
-        var v = page.getViewport({ scale: 1 }), scale = 600 / v.width, vp = page.getViewport({ scale: scale });
-        var c = document.createElement("canvas"); c.width = vp.width; c.height = vp.height;
-        return page.render({ canvasContext: c.getContext("2d"), viewport: vp }).promise.then(function () {
-          var ph = box.querySelector(".cat-ph"); if (ph) ph.replaceWith(c); else box.prepend(c);
-        });
-      })
-      .catch(function () { /* keep the text placeholder */ });
-  }
-  var boxes = document.querySelectorAll(".cat-cover[data-pdf]");
-  if (!("IntersectionObserver" in window)) { boxes.forEach(draw); return; }
-  var io = new IntersectionObserver(function (entries) {
-    entries.forEach(function (en) { if (en.isIntersecting) { io.unobserve(en.target); draw(en.target); } });
-  }, { rootMargin: "200px" });
-  boxes.forEach(function (b) { io.observe(b); });
-})();
-</script>
-<?php endif; ?>
+
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
