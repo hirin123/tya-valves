@@ -447,3 +447,6 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .btn.ghost{padding:13px 33px;line-height:1.25}
 .btn.ghost:not(.band .btn){line-height:1.25;padding:15px 35px}
 .intro-lede{max-width:70ch;margin:0}
+/* Link pills (catalog list, industries): charcoal text, charcoal fill on hover, also on grey sections */
+.ind-links a{color:#1A191D}
+.ind-links a:hover,.ind-links a:focus-visible,.section.alt .ind-links a:hover,.section.alt .ind-links a:focus-visible{background:#1A191D;border-color:#1A191D;color:#fff}
