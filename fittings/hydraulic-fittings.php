@@ -5,7 +5,7 @@ $path    = 'fittings/hydraulic-fittings';
 $section = 'fittings';
 include __DIR__ . '/../includes/header.php';
 ?>
-<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>fittings/">Fittings</a> / Hydraulic fittings</div><section class="p-head lines-bg banner"><div class="wrap">
+<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>fittings/">Fittings</a> / Hydraulic fittings</div><section class="p-head banner"><div class="wrap">
  <h1>Hydraulic Fittings</h1>
  <ul class="specline"><li class="hot">CS · SS 304 · SS 316</li><li>DIN 2353 24° cone</li><li>JIC 37° flare</li></ul>
 </div></section><section class="section fit-sec"><div class="wrap">
