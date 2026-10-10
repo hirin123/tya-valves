@@ -207,7 +207,6 @@ form input:focus,form select:focus,form textarea:focus{border-color:var(--navy);
 .band h2{color:#fff;margin:0 0 6px}
 .band p{color:#D4DBEA;margin:0}
 .band .btn.ghost{color:#fff;border-color:#fff}
-.band .btn.ghost:hover{background:#fff;color:var(--navy)}
 
 /* Footer */
 .site-foot{background:var(--navy-deep);color:#C5CDE0;padding:48px 0 28px;font-size:.95rem}
@@ -222,7 +221,6 @@ form input:focus,form select:focus,form textarea:focus{border-color:var(--navy);
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);opacity:0;background:var(--navy);color:#fff;padding:12px 18px;border-radius:6px;font-weight:600;z-index:80;transition:opacity .2s,transform .2s;pointer-events:none}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .nav a.btn,.nav a.btn:hover{color:#fff}
-.nav a.btn:hover{background:var(--red-dark)}
 
 /* v2 additions */
 .p-grid.single{grid-template-columns:1fr;max-width:820px}
@@ -247,11 +245,8 @@ form input:focus,form select:focus,form textarea:focus{border-color:var(--navy);
 /* Buttons */
 .btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--body);font-weight:700;font-size:1rem;
   padding:12px 20px;border-radius:4px;border:2px solid var(--red);background:var(--red);color:#fff;text-decoration:none;cursor:pointer;line-height:1.2}
-.btn:hover{background:var(--red-dark);border-color:var(--red-dark);color:#fff}
 .btn.ghost{background:transparent;color:var(--navy);border-color:var(--navy)}
-.btn.ghost:hover{background:var(--navy);color:#fff}
 .band .btn.ghost{color:#fff;border-color:#fff}
-.band .btn.ghost:hover{background:#fff;color:var(--navy)}
 .cat-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
 .cat-grid .s-card .pic{aspect-ratio:5/4}
 .foot-grid{grid-template-columns:1.4fr 1fr 1fr 1fr}
@@ -365,8 +360,7 @@ div.s-card{cursor:default}
 
 /* Charcoal #1A191D for every title and every hover that used to turn blue */
 h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-grid b,.ov-panel .ov-best,.ind-sub,.note b,.bestfor b{color:#1A191D}
-.btn.ghost:hover,.jump a:hover,.ind-links a:hover{background:#1A191D;border-color:#1A191D;color:#fff}
-.band .btn.ghost:hover{background:#fff;color:#1A191D}
+.jump a:hover,.ind-links a:hover{background:#1A191D;border-color:#1A191D;color:#fff}
 .s-card:hover{border-color:#1A191D}
 /* Highlighted spec tag: charcoal instead of navy */
 .specline li{color:#1A191D}
@@ -378,3 +372,18 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 
 /* Banner with world-map overlay */
 .p-head.world-bg{background:#F3F3F3 url(https://tyallc.com/wp-content/uploads/2021/04/world_contact.png) no-repeat right center/contain;border-bottom:0}
+
+/* Buttons: red, uppercase, rounded; hover fills with charcoal from left to right */
+.btn{background-color:#cd0001;background-image:linear-gradient(to right,#1A191D 50%,transparent 50%);background-size:201% 100%;background-position:100% 0;background-repeat:no-repeat;
+  font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:#fff;padding:0 35px;line-height:49px;border:none;border-radius:6px;position:relative;justify-content:center;
+  transition:all 240ms linear 0ms}
+.btn:hover,.btn:focus-visible{background-position:0 0;color:#fff;box-shadow:none;outline:medium none}
+.btn:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+/* Outline buttons keep their border; same sweep, transparent to charcoal */
+.btn.ghost{background-color:transparent;border:2px solid var(--navy);line-height:45px}
+.btn.ghost:hover,.btn.ghost:focus-visible{border-color:#1A191D;color:#fff}
+.band .btn.ghost{background-image:linear-gradient(to right,#fff 50%,transparent 50%)}
+.band .btn.ghost:hover,.band .btn.ghost:focus-visible{border-color:#fff;color:#1A191D}
+/* Header buttons stay compact */
+.btn.head-rfq,.btn.head-main{line-height:1.2;padding:12px 18px;font-size:13px}
+@media (max-width:900px){.btn.head-rfq{padding:9px 12px;font-size:12px}}
