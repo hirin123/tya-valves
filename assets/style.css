@@ -380,10 +380,22 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .btn:hover,.btn:focus-visible{background-position:0 0;color:#fff;box-shadow:none;outline:medium none}
 .btn:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 /* Outline buttons keep their border; same sweep, transparent to charcoal */
-.btn.ghost{background-color:transparent;border:2px solid var(--navy);line-height:45px}
+.btn.ghost{background-color:transparent;background-image:linear-gradient(to right,#1A191D 50%,transparent 50%);background-size:201% 100%;background-position:100% 0;background-repeat:no-repeat;border:2px solid var(--navy);line-height:45px}
+.btn.ghost:hover,.btn.ghost:focus-visible{background-position:0 0}
 .btn.ghost:hover,.btn.ghost:focus-visible{border-color:#1A191D;color:#fff}
 .band .btn.ghost{background-image:linear-gradient(to right,#fff 50%,transparent 50%)}
 .band .btn.ghost:hover,.band .btn.ghost:focus-visible{border-color:#fff;color:#1A191D}
 /* Header buttons stay compact */
 .btn.head-rfq,.btn.head-main{line-height:1.2;padding:12px 18px;font-size:13px}
 @media (max-width:900px){.btn.head-rfq{padding:9px 12px;font-size:12px}}
+
+/* "Tell us the application" band: red with the locations overlay stretched full width */
+.band{background:#CD0001 url(https://tyallc.com/wp-content/uploads/2020/12/locations_overlay.png) no-repeat center/100% 100%}
+.band p{color:#fff}
+/* Red button would disappear on the red band: make it charcoal, sweeping to white */
+.band .btn:not(.ghost){background-color:#1A191D;background-image:linear-gradient(to right,#fff 50%,transparent 50%)}
+.band .btn:not(.ghost):hover,.band .btn:not(.ghost):focus-visible{color:#1A191D}
+.band .btn:focus-visible{outline-color:#fff}
+
+/* World map banner stretched like a cover image */
+.p-head.world-bg{background-size:cover;background-position:center}
