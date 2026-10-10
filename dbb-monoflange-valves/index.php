@@ -1,6 +1,6 @@
 <?php
 $title   = 'Double Block & Bleed and Monoflange Valves | TYA';
-$desc    = 'DBB, block and bleed and monoflange valves in one-piece forgings, needle, ball or OS&amp;Y, class 150# to 2500#. Supplier to distributors in North America.';
+$desc    = 'DBB, block and bleed and monoflange valves in one-piece forgings, needle, ball or OS&amp;Y, class 150# to 2500#. Supplier to distributors and OEMs.';
 $path    = 'dbb-monoflange-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';

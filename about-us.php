@@ -1,6 +1,6 @@
 <?php
 $title   = 'About Thank You America | Valve Supplier, Houston TX';
-$desc    = 'Thank You America LLC supplies instrumentation valves, fittings and accessories from Houston, Texas to distributors, OEMs and end users across North America.';
+$desc    = 'Thank You America LLC supplies instrumentation valves, fittings and accessories from Houston, Texas to distributors, OEMs and end users.';
 $path    = 'about-us';
 $section = 'about';
 include __DIR__ . '/includes/header.php';

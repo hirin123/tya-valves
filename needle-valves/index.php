@@ -1,6 +1,6 @@
 <?php
 $title   = 'Instrumentation Needle Valves to 15,000 psi | TYA';
-$desc    = 'Stainless steel needle valves 1/8" to 1": hex, square, angle, high pressure, cryogenic, high temperature and mini series. Supplier to distributors in North America.';
+$desc    = 'Stainless steel needle valves 1/8" to 1": hex, square, angle, high pressure, cryogenic, high temperature and mini series. Supplier to distributors and OEMs.';
 $path    = 'needle-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';

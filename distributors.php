@@ -1,19 +1,19 @@
 <?php
 $title   = 'Instrumentation Valve Supplier for Distributors | TYA';
-$desc    = 'Wholesale instrumentation valves, manifolds and tube fittings for distributors, OEMs and panel builders in the USA, Canada and Mexico. Houston, Texas supplier.';
+$desc    = 'Wholesale instrumentation valves, manifolds and tube fittings for distributors, OEMs and panel builders from a Houston, Texas supplier.';
 $path    = 'distributors';
 $section = 'distributors';
 include __DIR__ . '/includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">
  <div class="crumbs"><a href="<?= BASE ?>">Home</a> / Distributors</div>
- <h1>Supplier to Distributors in the USA, Canada and Mexico</h1>
- <ul class="specline"><li class="hot">Wholesale &amp; OEM supply</li><li>Houston, Texas</li><li>USA · Canada · Mexico</li></ul>
+ <h1>Instrumentation Valve Supplier to Distributors</h1>
+ <ul class="specline"><li class="hot">Wholesale &amp; OEM supply</li><li>Houston, Texas</li><li>Catalogs &amp; part numbers</li></ul>
 </div></section>
 <section class="section overview"><div class="wrap ov-grid">
  <div>
   <h2>Instrumentation valves and fittings for resale</h2>
-  <p class="lede">Thank You America LLC supplies instrumentation valves, manifolds, tube and pipe fittings, high pressure valves and instrument accessories to industrial distributors, valve and fitting stockists, OEMs, skid fabricators and instrument panel builders across North America.</p>
+  <p class="lede">Thank You America LLC supplies instrumentation valves, manifolds, tube and pipe fittings, high pressure valves and instrument accessories to industrial distributors, valve and fitting stockists, OEMs, skid fabricators and instrument panel builders.</p>
   <ul class="feat-grid">
    <li><b>One product line</b>Needle, ball, manifold, gauge root, check, relief, bleed, DBB and monoflange valves, fittings and accessories</li>
    <li><b>Documentation</b>Material test reports, NACE MR0175 materials and certified drawings on request</li>
@@ -42,12 +42,12 @@ include __DIR__ . '/includes/header.php';
 </div></section>
 <section class="section"><div class="wrap two">
  <div lang="es">
-  <h2>Distribuidores en México</h2>
-  <p>Thank You America LLC, con sede en Houston, Texas, suministra válvulas de instrumentación, válvulas de aguja, válvulas de bola, manifolds de 2, 3 y 5 válvulas, válvulas de doble bloqueo y purga, conexiones de doble férula y accesorios a distribuidores y fabricantes en todo México. Escríbanos a <a href="mailto:contact@tyallc.com">contact@tyallc.com</a> para catálogos y cotizaciones.</p>
+  <h2>Distribuidores</h2>
+  <p>Thank You America LLC, con sede en Houston, Texas, suministra válvulas de instrumentación, válvulas de aguja, válvulas de bola, manifolds de 2, 3 y 5 válvulas, válvulas de doble bloqueo y purga, conexiones de doble férula y accesorios a distribuidores y fabricantes. Escríbanos a <a href="mailto:contact@tyallc.com">contact@tyallc.com</a> para catálogos y cotizaciones.</p>
  </div>
  <div lang="fr">
-  <h2>Distributeurs au Canada</h2>
-  <p>Thank You America LLC, basée à Houston au Texas, fournit des vannes d'instrumentation, vannes à pointeau, vannes à bille, manifolds 2, 3 et 5 voies, vannes à double isolement et purge, raccords à double bague et accessoires aux distributeurs et fabricants partout au Canada. Écrivez à <a href="mailto:contact@tyallc.com">contact@tyallc.com</a> pour catalogues et prix.</p>
+  <h2>Distributeurs</h2>
+  <p>Thank You America LLC, basée à Houston au Texas, fournit des vannes d'instrumentation, vannes à pointeau, vannes à bille, manifolds 2, 3 et 5 voies, vannes à double isolement et purge, raccords à double bague et accessoires aux distributeurs et fabricants. Écrivez à <a href="mailto:contact@tyallc.com">contact@tyallc.com</a> pour catalogues et prix.</p>
  </div>
 </div></section>
 <?php $whyAlt = false; include INC . 'why-buy.php'; ?>

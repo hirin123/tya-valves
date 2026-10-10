@@ -11,7 +11,7 @@
  <div class="wrap">
   <div class="foot-grid">
    <div><h3>Thank You America LLC</h3>
-    <p>Instrumentation valves, fittings and accessories from Houston, Texas, supplying distributors, OEMs and end users across the USA, Canada and Mexico.</p>
+    <p>Instrumentation valves, fittings and accessories from Houston, Texas, supplying distributors, OEMs and end users.</p>
     <p>4606 FM 1960 W #440-1050<br>Houston, TX 77070</p>
     <p><a href="tel:+12819496123">+1-281-949-6123</a><br><a href="mailto:contact@tyallc.com">contact@tyallc.com</a></p></div>
    <div><h3>Valves</h3><ul><li><a href="<?= BASE ?>needle-valves/">Needle valves</a></li><li><a href="<?= BASE ?>ball-valves/">Ball valves</a></li><li><a href="<?= BASE ?>manifold-valves/">Manifold valves</a></li><li><a href="<?= BASE ?>gauge-root-valves">Gauge root valves</a></li><li><a href="<?= BASE ?>check-valves">Check valves</a></li><li><a href="<?= BASE ?>pressure-relief-valves">Pressure relief valves</a></li><li><a href="<?= BASE ?>bleed-purge-valves">Bleed and purge valves</a></li><li><a href="<?= BASE ?>dbb-monoflange-valves/">DBB and monoflange valves</a></li><li><a href="<?= BASE ?>selection-guide">Ball valve selection guide</a></li><li><a href="<?= BASE ?>products#catalogs" data-catalog>Catalogs (PDF)</a></li><li><a href="<?= BASE ?>industrial-valves/">Gate, globe and check (API 602)</a></li></ul></div>

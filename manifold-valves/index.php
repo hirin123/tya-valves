@@ -1,6 +1,6 @@
 <?php
 $title   = '2, 3 & 5-Valve Instrument Manifolds | TYA';
-$desc    = 'Instrument manifold valves for pressure gauges, static and DP transmitters: 2, 3 and 5-valve, 6,000 / 10,000 psi. Supplier to distributors in North America.';
+$desc    = 'Instrument manifold valves for pressure gauges, static and DP transmitters: 2, 3 and 5-valve, 6,000 / 10,000 psi. Supplier to distributors and OEMs.';
 $path    = 'manifold-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';

@@ -1,6 +1,6 @@
 <?php
 $title   = 'Instrumentation Valves & Fittings Supplier | TYA Houston';
-$desc    = 'Needle, ball, manifold, DBB, check and high pressure valves, tube fittings and accessories. Supplier to distributors in the USA, Canada and Mexico.';
+$desc    = 'Needle, ball, manifold, DBB, check and high pressure valves, tube fittings and accessories. Supplier to distributors, OEMs and end users.';
 $path    = '';
 $section = 'home';
 include __DIR__ . '/includes/header.php';
@@ -9,7 +9,7 @@ include __DIR__ . '/includes/header.php';
  <div>
   <h1>Instrumentation valves, fittings and accessories</h1>
   <div class="rule" aria-hidden="true"></div>
-  <p class="lede">Needle, ball, manifold, check, relief, bleed and double block and bleed valves; forged gate, globe and check valves; high pressure valves to 65,000 psi; tube, pipe and hydraulic fittings; and the accessories that complete an instrument installation. Pick a product, add part numbers to your quote, and our Houston team will confirm materials and pricing. We supply <a href="<?= BASE ?>distributors">distributors</a>, OEMs and end users across the USA, Canada and Mexico.</p>
+  <p class="lede">Needle, ball, manifold, check, relief, bleed and double block and bleed valves; forged gate, globe and check valves; high pressure valves to 65,000 psi; tube, pipe and hydraulic fittings; and the accessories that complete an instrument installation. Pick a product, add part numbers to your quote, and our Houston team will confirm materials and pricing. We supply <a href="<?= BASE ?>distributors">distributors</a>, OEMs and end users.</p>
   <div class="hero-actions"><a class="btn" href="#range">Browse the range</a><a class="btn ghost" href="<?= BASE ?>request-quote">Request a quote</a></div>
   <ul class="hero-facts">
    <li><b>To 65,000 psi</b>Instrument classes 3,000 / 6,000 / 10,000 / 15,000 psi</li>

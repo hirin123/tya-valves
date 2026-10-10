@@ -33,11 +33,10 @@ ob_start();   // footer.php adds breadcrumb structured data from the page's brea
 <link rel="stylesheet" href="<?= BASE ?>assets/style.css?v=<?= filemtime(__DIR__ . "/../assets/style.css") ?>">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[
 {"@type":"Organization","@id":"https://tyallc.com/#org","name":"Thank You America LLC","alternateName":"TYA","url":"https://tyallc.com/","logo":"<?= SITE ?>assets/img/tya-logo.png","image":"<?= SITE ?>assets/img/range.jpg",
- "description":"Houston, Texas supplier of instrumentation valves, manifolds, tube and pipe fittings, high pressure valves and instrument accessories to distributors, OEMs and end users in the USA, Canada and Mexico.",
+ "description":"Houston, Texas supplier of instrumentation valves, manifolds, tube and pipe fittings, high pressure valves and instrument accessories to distributors, OEMs and end users.",
  "telephone":"+1-281-949-6123","email":"contact@tyallc.com",
  "address":{"@type":"PostalAddress","streetAddress":"4606 FM 1960 W #440-1050","addressLocality":"Houston","addressRegion":"TX","postalCode":"77070","addressCountry":"US"},
- "areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Canada"},{"@type":"Country","name":"Mexico"}],
- "contactPoint":[{"@type":"ContactPoint","contactType":"sales","telephone":"+1-281-949-6123","email":"contact@tyallc.com","areaServed":["US","CA","MX"],"availableLanguage":["English","Spanish"]}],
+ "contactPoint":[{"@type":"ContactPoint","contactType":"sales","telephone":"+1-281-949-6123","email":"contact@tyallc.com","availableLanguage":["English","Spanish"]}],
  "knowsAbout":["Instrumentation valves","Needle valves","Instrument ball valves","Valve manifolds","Double block and bleed valves","Monoflange valves","Twin-ferrule tube fittings","High pressure valves","Condensate pots","NACE MR0175"]},
 {"@type":"WebSite","@id":"<?= SITE ?>#site","url":"<?= SITE ?>","name":"Thank You America Valves","publisher":{"@id":"https://tyallc.com/#org"},"inLanguage":"en-US"}
 ]}</script>

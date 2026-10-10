@@ -1,6 +1,6 @@
 <?php
 $title   = 'Industries Served: Oil & Gas, Refining, Chemical | TYA';
-$desc    = 'Instrumentation valves and fittings for oil and gas, midstream, refining, chemical, power, offshore, hydraulics, analyzers and utilities across North America.';
+$desc    = 'Instrumentation valves and fittings for oil and gas, midstream, refining, chemical, power, offshore, hydraulics, analyzers and utilities.';
 $path    = 'industries';
 $section = 'ind';
 include __DIR__ . '/includes/header.php';

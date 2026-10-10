@@ -1,6 +1,6 @@
 <?php
 $title   = 'Instrumentation Valves, Fittings & Accessories | TYA';
-$desc    = 'Full range of instrumentation valves, tube and pipe fittings, high pressure valves and accessories from Houston, TX, for distributors and OEMs across North America.';
+$desc    = 'Full range of instrumentation valves, tube and pipe fittings, high pressure valves and accessories from Houston, TX, for distributors and OEMs.';
 $path    = 'products';
 $section = 'products';
 include __DIR__ . '/includes/header.php';
