@@ -375,7 +375,7 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 
 /* Buttons: red, uppercase, rounded; hover fills with charcoal from left to right */
 .btn{background-color:#cd0001;background-image:linear-gradient(to right,#1A191D 50%,transparent 50%);background-size:201% 100%;background-position:100% 0;background-repeat:no-repeat;
-  font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:#fff;padding:0 35px;line-height:49px;border:none;border-radius:6px;position:relative;justify-content:center;
+  font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:#fff;padding:0 35px;line-height:49px;border:none;border-radius:0;position:relative;justify-content:center;
   transition:all 240ms linear 0ms}
 .btn:hover,.btn:focus-visible{background-position:0 0;color:#fff;box-shadow:none;outline:medium none}
 .btn:focus-visible{outline:3px solid var(--red);outline-offset:2px}
@@ -399,3 +399,10 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 
 /* World map banner stretched like a cover image */
 .p-head.world-bg{background-size:cover;background-position:center}
+
+/* Breadcrumb inside the banner */
+.p-head.banner .crumbs{padding:0;margin:0 0 28px}
+.p-head.banner{padding-top:24px}
+
+/* Square corners on every button and button-like control */
+.btn,button,input[type="submit"],.menu-btn,.chip,.add,.tab,.jump a,.ind-links a,.drop-cat{border-radius:0}
