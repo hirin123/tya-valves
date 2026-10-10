@@ -160,20 +160,29 @@
   updateCount(); markAdded();
 })();
 
-/* Hide the header's top row while scrolling down, show it again when scrolling up (desktop). */
+/* Desktop: the header's top row shows only at the very top of the page; anywhere else only the menu bar stays. */
 (function () {
   var head = document.querySelector(".site-head"), row = head && head.querySelector(".head-row");
   if (!head || !row) return;
-  var lastY = window.scrollY, ticking = false, desktop = window.matchMedia("(min-width: 901px)");
+  var ticking = false, desktop = window.matchMedia("(min-width: 901px)");
   function setH() { head.style.setProperty("--head-row-h", row.offsetHeight + "px"); }
   function update() {
-    var y = window.scrollY;
-    if (!desktop.matches || y < row.offsetHeight || head.matches(":focus-within")) head.classList.remove("head-hidden");
-    else if (y > lastY + 4) head.classList.add("head-hidden");
-    else if (y < lastY - 4) head.classList.remove("head-hidden");
-    lastY = y; ticking = false;
+    var hide = desktop.matches && window.scrollY > 10 && !row.matches(":focus-within");
+    head.classList.toggle("head-hidden", hide);
+    ticking = false;
   }
-  setH();
+  setH(); update();
   window.addEventListener("resize", function () { setH(); update(); });
   window.addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  row.addEventListener("focusin", update); row.addEventListener("focusout", function () { setTimeout(update, 0); });
+})();
+
+/* Mark the current page in the dropdown menus (main items are marked by the server). */
+(function () {
+  function norm(p) { return p.replace(/\/index(\.php)?$/, "/").replace(/\.php$/, "").replace(/\/+$/, "") || "/"; }
+  var here = norm(location.pathname);
+  document.querySelectorAll(".drop a[href]").forEach(function (a) {
+    var u = new URL(a.getAttribute("href"), location.href);
+    if (!u.hash && norm(u.pathname) === here) a.setAttribute("aria-current", "page");
+  });
 })();

@@ -474,3 +474,17 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .p-head.hex-bg{background:#fff url("img/industries-hexagon-banner-background.webp") no-repeat center/cover;border-bottom:0}
 .p-head.banner .jump{margin:0}
 .jump a{color:#1A191D;border-color:#1A191D;background:#fff}
+
+/* Menu: current page = red with white text; hover = lighter charcoal (main bar) or charcoal (dropdowns) */
+.navlist > li > a[aria-current="page"]{background:#cd0001;color:#fff;box-shadow:none}
+.navlist > li > a:hover,.navlist > li:focus-within > a{background:#2C2B30;color:#fff}
+.navlist > li > a[aria-current="page"]:hover{background:#b00001}
+.drop li a{padding:7px 12px;margin:0 -12px;transition:background-color 160ms linear,color 160ms linear}
+.drop li a:hover,.drop li a:focus-visible{background:#1A191D;color:#fff}
+.drop li a[aria-current="page"]{background:#cd0001;color:#fff}
+.drop-head{padding:4px 12px;margin:0 -12px}
+.drop-head:hover{background:#F3F3F3;color:#1A191D}
+@media (max-width:900px){
+  .drop li a{margin:0;padding:8px 12px}
+  .drop li a:hover{background:#2C2B30}
+}
