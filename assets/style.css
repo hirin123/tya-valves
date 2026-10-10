@@ -406,3 +406,12 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 
 /* Square corners on every button and button-like control */
 .btn,button,input[type="submit"],.menu-btn,.chip,.add,.tab,.jump a,.ind-links a,.drop-cat{border-radius:0}
+
+/* Screen-reader-only text: stays hidden even inside positioned elements */
+.skip:not(:focus){position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* Secondary buttons ("Ask about sizes", "All reasons to choose TYA", "Visit tyallc.com"):
+   solid charcoal, no border, red sweep on hover. The white outline button on the red band keeps its own style. */
+.btn.ghost:not(.band .btn){background-color:#1A191D;background-image:linear-gradient(to right,#cd0001 50%,transparent 50%);border:none;color:#fff;line-height:49px}
+.btn.ghost:not(.band .btn):hover,.btn.ghost:not(.band .btn):focus-visible{color:#fff}
+.btn.head-main{line-height:1.2}
