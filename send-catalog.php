@@ -132,6 +132,9 @@ $e = fn($s) => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
 
 // Attach the PDF when it is on the server and under Gmail's 25 MB limit (with room for encoding)
 $pdf = __DIR__ . $CATALOG;
+if (!is_file($pdf)) {   // also accept the PDF directly in assets/ or assets/catalogs/
+    foreach (['/assets/catalogs/', '/assets/'] as $d) { if (is_file(__DIR__ . $d . basename($CATALOG))) { $pdf = __DIR__ . $d . basename($CATALOG); break; } }
+}
 $attach = (is_file($pdf) && filesize($pdf) < 18 * 1024 * 1024 && $hasPHPMailer && is_array($SMTP)) ? $pdf : null;
 if (!$attach) mail_log("Catalog not attached (missing, too large or no SMTP): $pdf");
 $catText = $attach ? "Please find the $catName catalog attached to this email (PDF)." : "Download the catalog here:\n$link";

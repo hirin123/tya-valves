@@ -5,7 +5,7 @@ $path    = 'catalogs';
 $section = 'products';
 include __DIR__ . '/includes/header.php';
 
-/* Catalogs shown on this page (only those whose PDF is on the server). Keys match send-catalog.php. */
+/* Catalogs shown on this page. Keys match send-catalog.php, which attaches the PDF. */
 $catalogs = [
     'ball'       => ['assets/TYA-Ball-Valve-Catalog.pdf',                   'Ball valves'],
     'needle'     => ['assets/catalogs/TYA-Needle-Valve-Catalog.pdf',        'Needle valves'],
@@ -27,7 +27,6 @@ $catalogs = [
  <div class="section-head"><h2>Choose a catalog</h2><p class="muted">Click a catalog, tell us where to send it, and we'll email you the PDF.</p></div>
  <div class="cat-list">
 <?php foreach ($catalogs as $key => [$file, $name]):
-    if (!is_file(__DIR__ . '/' . $file)) continue;
     $label = htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?>
   <a class="cat-card" href="#" data-catalog="<?= $key ?>" aria-label="Get the <?= $label ?> catalog (PDF)">
    <svg class="cat-doc" viewBox="0 0 100 130" aria-hidden="true" focusable="false">
