@@ -450,3 +450,10 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 /* Link pills (catalog list, industries): charcoal text, charcoal fill on hover, also on grey sections */
 .ind-links a{color:#1A191D}
 .ind-links a:hover,.ind-links a:focus-visible,.section.alt .ind-links a:hover,.section.alt .ind-links a:focus-visible{background:#1A191D;border-color:#1A191D;color:#fff}
+
+/* Scroll down: top row slides away and only the menu bar stays. Scroll up: it comes back. (Desktop only.) */
+@media (min-width:901px){
+  .site-head{transition:transform 240ms linear}
+  .site-head.head-hidden{transform:translateY(calc(-1 * var(--head-row-h, 74px)))}
+}
+.ov-panel{top:80px}

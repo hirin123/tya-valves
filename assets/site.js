@@ -159,3 +159,21 @@
 
   updateCount(); markAdded();
 })();
+
+/* Hide the header's top row while scrolling down, show it again when scrolling up (desktop). */
+(function () {
+  var head = document.querySelector(".site-head"), row = head && head.querySelector(".head-row");
+  if (!head || !row) return;
+  var lastY = window.scrollY, ticking = false, desktop = window.matchMedia("(min-width: 901px)");
+  function setH() { head.style.setProperty("--head-row-h", row.offsetHeight + "px"); }
+  function update() {
+    var y = window.scrollY;
+    if (!desktop.matches || y < row.offsetHeight || head.matches(":focus-within")) head.classList.remove("head-hidden");
+    else if (y > lastY + 4) head.classList.add("head-hidden");
+    else if (y < lastY - 4) head.classList.remove("head-hidden");
+    lastY = y; ticking = false;
+  }
+  setH();
+  window.addEventListener("resize", function () { setH(); update(); });
+  window.addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+})();
