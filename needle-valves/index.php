@@ -5,9 +5,28 @@ $path    = 'needle-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';
 ?>
-<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / Needle valves</div><section class="hero"><div class="wrap">
- <h1>Instrumentation needle valves</h1><div class="rule" aria-hidden="true"></div>
- <p class="lede">Precise flow control and positive shut-off for instrument, sampling, hydraulic and process lines, from 1/8&quot; to 1&quot;, rated up to 15,000 psi. Seven series: hex, square and angle bodies, 15,000 psi high pressure, cryogenic, high temperature and mini.</p><div class="hero-actions"><a class="btn" href="#series">See all series</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Needle-Valve-Catalog.pdf" data-catalog="needle">Download the needle valves catalog (PDF)</a></div>
+<section class="p-head banner world-bg"><div class="wrap">
+ <div class="crumbs"><a href="<?= BASE ?>">Home</a> / Needle valves</div>
+ <h1>Instrumentation Needle Valves</h1>
+ <ul class="specline"><li class="hot">To 15,000 psi</li><li>1/8&quot; to 1&quot;</li><li>7 series</li></ul>
+</div></section><section class="section overview"><div class="wrap ov-grid">
+ <div>
+  <h2>Overview</h2>
+  <p class="lede">Precise flow control and positive shut-off for instrument, sampling, hydraulic and process lines, from 1/8&quot; to 1&quot;, rated up to 15,000 psi. Seven series: hex, square and angle bodies, 15,000 psi high pressure, cryogenic, high temperature and mini.</p>
+  <ul class="feat-grid">
+   <li><b>Body styles</b>Hex, square and angle pattern</li>
+   <li><b>High pressure</b>15,000 psi series</li>
+   <li><b>Temperature</b>Cryogenic and high temperature series</li>
+   <li><b>Compact</b>Mini needle valve for tight panels</li>
+  </ul>
+ </div>
+ <aside class="ov-panel">
+  <p class="ov-label">Best for</p>
+  <p class="ov-best">Instrument, sampling, hydraulic and process lines.</p>
+  <p class="ov-label">Catalog</p>
+  <p>Part numbers, dimensions, materials and ratings for all seven series in one PDF.</p>
+  <div class="ov-cta"><a class="btn" href="#series">See all series</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Needle-Valve-Catalog.pdf" data-catalog="needle">Download catalog (PDF)</a></div>
+ </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="series">Needle valve series</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>needle-valves/hex-body-needle-valve">
  <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-hex-ff.jpg" alt="Hex Body" loading="lazy"></div>
  <div class="body"><span class="num">Series 01</span><h3>Hex Body</h3>

@@ -5,10 +5,13 @@ $path    = 'ball-valves/';
 $section = 'instr';
 include __DIR__ . '/../includes/header.php';
 ?>
-<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / Instrumentation ball valves</div>
-<section class="section" style="padding-top:24px" id="valves"><div class="wrap">
- <h1>Instrumentation ball valves</h1>
- <p class="lede">Quarter-turn shut-off and switching valves for instrument, sampling, hydraulic and process lines, from 1/8" tube to 2" pipe, rated up to 10,000 psi.</p>
+<section class="p-head banner world-bg"><div class="wrap">
+ <div class="crumbs"><a href="<?= BASE ?>">Home</a> / Instrumentation ball valves</div>
+ <h1>Instrumentation Ball Valves</h1>
+ <ul class="specline"><li class="hot">To 10,000 psi</li><li>1/8&quot; tube to 2&quot; pipe</li><li>2-way · 3-way · angle</li></ul>
+</div></section>
+<section class="section" id="valves"><div class="wrap">
+ <p class="lede intro-lede">Quarter-turn shut-off and switching valves for instrument, sampling, hydraulic and process lines, from 1/8" tube to 2" pipe, rated up to 10,000 psi.</p>
  <div style="margin-top:28px"><div class="finder" data-finder>
   <h2>Find the right ball valve</h2>
   <p style="color:#D4DBEA">Answer three questions and the list below narrows to the series that fit.</p>

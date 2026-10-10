@@ -442,3 +442,8 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .cat-card:hover .cat-get{color:#1A191D}
 .cat-card:hover,.cat-card:focus-visible{color:#1A191D}
 @media (max-width:620px){.cat-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.cat-card{padding:18px 8px 16px}.cat-doc{width:80px;height:104px}.cat-name{font-size:1.05rem}}
+/* Same 49px button height, but labels that wrap to two lines stay compact */
+.btn{line-height:1.25;padding:15px 35px;min-height:49px;text-align:center}
+.btn.ghost{padding:13px 33px;line-height:1.25}
+.btn.ghost:not(.band .btn){line-height:1.25;padding:15px 35px}
+.intro-lede{max-width:70ch;margin:0}

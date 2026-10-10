@@ -5,9 +5,28 @@ $path    = 'manifold-valves/';
 $section = 'valves';
 include __DIR__ . '/../includes/header.php';
 ?>
-<div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / Manifold valves</div><section class="hero"><div class="wrap">
- <h1>Instrument manifold valves</h1><div class="rule" aria-hidden="true"></div>
- <p class="lede">TYA valve manifolds control, measure, isolate, equalize, calibrate, drain, vent or differentiate the pressure of liquids and gases. Precision machined, they combine instrument isolation with bleed / vent and test facilities in one unit — cutting installation cost and improving safety.</p><div class="hero-actions"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Manifold-Valve-Catalog.pdf" data-catalog="manifold">Download the manifold &amp; gauge root valves catalog (PDF)</a></div>
+<section class="p-head banner world-bg"><div class="wrap">
+ <div class="crumbs"><a href="<?= BASE ?>">Home</a> / Manifold valves</div>
+ <h1>Instrument Manifold Valves</h1>
+ <ul class="specline"><li class="hot">6,000 / 10,000 psi</li><li>2, 3 and 5-valve</li><li>Isolate · equalize · vent</li></ul>
+</div></section><section class="section overview"><div class="wrap ov-grid">
+ <div>
+  <h2>Overview</h2>
+  <p class="lede">TYA valve manifolds control, measure, isolate, equalize, calibrate, drain, vent or differentiate the pressure of liquids and gases. Precision machined, they combine instrument isolation with bleed / vent and test facilities in one unit — cutting installation cost and improving safety.</p>
+  <ul class="feat-grid">
+   <li><b>Isolate and equalize</b>Instrument isolation and equalizing in one block</li>
+   <li><b>Bleed, vent and test</b>Drain, vent and calibration facilities built in</li>
+   <li><b>2, 3 and 5-valve</b>For gauges, static and DP transmitters</li>
+   <li><b>Lower installed cost</b>Fewer joints, less tubing, safer hook-ups</li>
+  </ul>
+ </div>
+ <aside class="ov-panel">
+  <p class="ov-label">Best for</p>
+  <p class="ov-best">Pressure gauges, pressure switches, static and differential pressure transmitters.</p>
+  <p class="ov-label">Catalog</p>
+  <p>Manifold and gauge root valve part numbers, dimensions and ratings in one PDF.</p>
+  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Manifold-Valve-Catalog.pdf" data-catalog="manifold">Download catalog (PDF)</a></div>
+ </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">2, 3 and 5-valve manifolds</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>manifold-valves/2-valve-manifold">
  <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-2vmr.jpg" alt="2-Valve Manifolds" loading="lazy"></div>
  <div class="body"><span class="num">8 models</span><h3>2-Valve Manifolds</h3>
