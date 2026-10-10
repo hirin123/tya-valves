@@ -328,3 +328,9 @@ div.s-card{cursor:default}
 .fit-types .pic{aspect-ratio:auto;height:280px;overflow:hidden}
 .fit-types .pic img{height:100%;width:auto;max-width:100%;object-fit:contain}
 @media (max-width:620px){.fit-types{grid-template-columns:1fr}}
+
+/* Charcoal menu bar and footer (matches tyallc.com) */
+.mainnav{background-color:#1A191D}
+.navlist > li > a:hover,.navlist > li:focus-within > a,.navlist > li > a[aria-current="page"]{background:#2C2B30}
+@media (max-width:900px){.drop,.has-drop:hover .drop,.has-drop:focus-within .drop{background:#232227}}
+.site-foot{background-color:#1A191D;background-image:url(https://tyallc.com/wp-content/uploads/2020/04/footer_overlay.png);background-position:center right;background-repeat:no-repeat}
