@@ -21,18 +21,18 @@ include __DIR__ . '/../includes/header.php';
   <p>DBB and monoflange part numbers, dimensions and ratings in one PDF.</p>
   <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Monoflange-Valve-Catalog.pdf" data-catalog="mono">Download catalog (PDF)</a></div>
  </aside>
-</div></section><section class="section"><div class="wrap"><h2 id="range">Valve models</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/block-and-bleed-ball-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mono-ball-bb.jpg" alt="Block &amp; Bleed Ball Valve Assemblies" loading="lazy"></div>
+</div></section><section class="section"><div class="wrap"><h2 id="range">Valve models</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/block-and-bleed-ball-valves" alt="Block &amp; bleed ball valve assembly services in Mexico" title="Block &amp; bleed ball valve assembly services in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Block &amp; bleed ball valve assembly manufacturers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/mono-ball-bb.jpg" alt="Block &amp; Bleed Ball Valve Assemblies" loading="lazy"></div>
  <div class="body"><span class="num">Ball model</span><h3>Block &amp; Bleed Ball Valve Assemblies</h3>
  <span class="rating">10,000 psig (690 bar)</span>
  <p class="spec">5 configurations · 1/2&quot; to 2&quot; · 150# to 2500# · RF / RTJ</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/monoflange-needle-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mono-flange.jpg" alt="Monoflange Valves — Needle Type" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/monoflange-needle-valves" aria-label="Monoflange valve manufacturers in the USA" data-seo-loc>
+ <div class="pic" alt="Monoflange valve manufacturers in Canada" title="Monoflange valve manufacturers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/mono-flange.jpg" alt="Monoflange Valves — Needle Type" loading="lazy"></div>
  <div class="body"><span class="num">Needle model</span><h3>Monoflange Valves — Needle Type</h3>
  <span class="rating">10,000 psig (690 bar)</span>
  <p class="spec">3 configurations · 1/2&quot; to 2&quot; · 150# to 2500# · RF / RTJ</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/monoflange-osy-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mono-range.jpg" alt="Monoflange Valves — OS&amp;Y Type" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/monoflange-osy-valves" aria-label="Monoflange valve manufacturers in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Monoflange valve suppliers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/mono-range.jpg" alt="Monoflange Valves — OS&amp;Y Type" loading="lazy"></div>
  <div class="body"><span class="num">OS&amp;Y model</span><h3>Monoflange Valves — OS&amp;Y Type</h3>
  <span class="rating">6,000 psig (413 bar)</span>
  <p class="spec">3 configurations · 1/2&quot; to 2&quot; · 150# to 2500# · RF / RTJ</p>

@@ -7,7 +7,7 @@ $extra   = '<script type="application/ld+json">{"@context": "https://schema.org"
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>needle-valves/">Needle valves</a> / Series 05</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/nv-cryo.jpg" alt="Low Temperature (Cryogenic) Needle Valve"></div>
+ <div class="p-media" alt="Low temperature needle valve suppliers in the USA" title="Low temperature needle valve suppliers in the USA" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-cryo.jpg" alt="Low Temperature (Cryogenic) Needle Valve"></div>
  <div>
   <p class="p-num">Series 05</p>
   <h1>Low Temperature (Cryogenic) Needle Valve</h1>

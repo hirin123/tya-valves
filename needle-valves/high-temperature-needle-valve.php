@@ -7,7 +7,7 @@ $extra   = '<script type="application/ld+json">{"@context": "https://schema.org"
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>needle-valves/">Needle valves</a> / Series 06</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/nv-ht.jpg" alt="High Temperature Union-Bonnet Needle Valve"></div>
+ <div class="p-media" alt="High temperature union-bonnet needle valve suppliers in Canada" title="High temperature union-bonnet needle valve suppliers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-ht.jpg" alt="High Temperature Union-Bonnet Needle Valve"></div>
  <div>
   <p class="p-num">Series 06</p>
   <h1>High Temperature Union-Bonnet Needle Valve</h1>

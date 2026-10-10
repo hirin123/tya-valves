@@ -7,7 +7,7 @@ $extra   = '<script type="application/ld+json">{"@context": "https://schema.org"
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>accessories/">Accessories</a> / Condensate pots</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/condensate-pot.jpg" alt="Stainless steel condensate pot"></div>
+ <div class="p-media" alt="Condensate pot manufacturers in Houston" title="Condensate pot manufacturers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/condensate-pot.jpg" alt="Stainless steel condensate pot"></div>
  <div>
   <p class="p-num">Accessories</p>
   <h1>Condensate Pots / Seal Pots</h1>

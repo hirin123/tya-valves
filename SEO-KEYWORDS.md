@@ -35,3 +35,9 @@ vannes d'instrumentation · vannes à pointeau · vannes à bille · raccords à
 - One H1 per page; image alt text describes the product with its key spec.
 - Structured data: Organization (no areaServed) and WebSite on every page,
   BreadcrumbList built automatically from the breadcrumb, Product on product pages.
+
+## Location phrases (not visible on the page)
+Images keep only the product title as alt text. The image's parent element and product cards carry
+"<product> <manufacturers|suppliers|providers|services> in <Houston|the USA|Canada|Mexico>",
+rotated across all 16 combinations: about 1 in 3 as alt + title (hover tooltip), the rest as aria-label.
+Marked with data-seo-loc. New cards: copy the pattern from a neighbouring card and pick the next combination.

@@ -7,7 +7,7 @@ $extra   = '<script type="application/ld+json">{"@context": "https://schema.org"
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>industrial-valves/">Industrial valves</a> / Forged Steel Gate Valves</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged steel gate valve to API 602"></div>
+ <div class="p-media" aria-label="Forged steel gate valve manufacturers in the USA" data-seo-loc><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged steel gate valve to API 602"></div>
  <div>
   <p class="p-num">Gate valves</p>
   <h1>Forged Steel Gate Valves</h1>

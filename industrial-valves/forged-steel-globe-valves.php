@@ -7,7 +7,7 @@ $extra   = '<script type="application/ld+json">{"@context": "https://schema.org"
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>industrial-valves/">Industrial valves</a> / Forged Steel Globe Valves</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/ind-globe.jpg" alt="Forged steel globe valve to API 602"></div>
+ <div class="p-media" aria-label="Forged steel globe valve manufacturers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/ind-globe.jpg" alt="Forged steel globe valve to API 602"></div>
  <div>
   <p class="p-num">Globe valves</p>
   <h1>Forged Steel Globe Valves</h1>

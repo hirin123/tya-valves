@@ -27,38 +27,38 @@ include __DIR__ . '/../includes/header.php';
   <p>Part numbers, dimensions, materials and ratings for all seven series in one PDF.</p>
   <div class="ov-cta"><a class="btn" href="#series">See all series</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Needle-Valve-Catalog.pdf" data-catalog="needle">Download catalog (PDF)</a></div>
  </aside>
-</div></section><section class="section"><div class="wrap"><h2 id="series">Needle valve series</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>needle-valves/hex-body-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-hex-ff.jpg" alt="Hex body stainless steel needle valve" loading="lazy"></div>
+</div></section><section class="section"><div class="wrap"><h2 id="series">Needle valve series</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>needle-valves/hex-body-needle-valve" aria-label="Hex body needle valve suppliers in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Hex body needle valve providers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-hex-ff.jpg" alt="Hex body stainless steel needle valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 01</span><h3>Hex Body</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">1/4&quot; to 1&quot; · Female, male, tube and vented ends</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/square-body-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-sq-ff.jpg" alt="Square body stainless steel needle valve" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/square-body-needle-valve" alt="Square body needle valve providers in the USA" title="Square body needle valve providers in the USA" data-seo-loc>
+ <div class="pic" aria-label="Square body needle valve providers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-sq-ff.jpg" alt="Square body stainless steel needle valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 02</span><h3>Square Body</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">1/4&quot; to 1&quot; · Female, male, tube and vented ends</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/angle-pattern-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-an-ff.jpg" alt="Angle pattern stainless steel needle valve" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/angle-pattern-needle-valve" aria-label="Angle pattern needle valve providers in Mexico" data-seo-loc>
+ <div class="pic" alt="Angle pattern needle valve services in Houston" title="Angle pattern needle valve services in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-an-ff.jpg" alt="Angle pattern stainless steel needle valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 03</span><h3>Angle Pattern</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">1/4&quot; to 1/2&quot; · 90° flow path</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/high-pressure-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-hp.jpg" alt="15,000 psi high pressure needle valve" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/high-pressure-needle-valve" aria-label="High pressure needle valve services in the USA" data-seo-loc>
+ <div class="pic" aria-label="High pressure needle valve services in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-hp.jpg" alt="15,000 psi high pressure needle valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 04</span><h3>High Pressure</h3>
  <span class="rating">Up to 15,000 psi</span>
  <p class="spec">1/4&quot; to 3/4&quot; · Hard seat, severe service</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/low-temperature-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-cryo.jpg" alt="Low temperature cryogenic needle valve to -196 °C" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/low-temperature-needle-valve" alt="Low temperature needle valve services in Mexico" title="Low temperature needle valve services in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Low temperature needle valve manufacturers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-cryo.jpg" alt="Low temperature cryogenic needle valve to -196 °C" loading="lazy"></div>
  <div class="body"><span class="num">Series 05</span><h3>Low Temperature (Cryogenic)</h3>
  <span class="rating">6,000 psig</span>
  <p class="spec">−196 to 80 °C · 1/4&quot; to 1&quot; · Male × female NPT</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/high-temperature-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-ht.jpg" alt="High temperature union-bonnet needle valve" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/high-temperature-needle-valve" aria-label="High temperature union-bonnet manufacturers in the USA" data-seo-loc>
+ <div class="pic" alt="High temperature union-bonnet manufacturers in Canada" title="High temperature union-bonnet manufacturers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-ht.jpg" alt="High temperature union-bonnet needle valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 06</span><h3>High Temperature Union-Bonnet</h3>
  <span class="rating">Up to 10,000 psi</span>
  <p class="spec">−53 to 648 °C · 1/8&quot; to 3/4&quot; · 3 to 25 mm</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/mini-needle-valve">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/nv-mini-hex.jpg" alt="Mini stainless steel needle valves" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>needle-valves/mini-needle-valve" aria-label="Mini needle valve manufacturers in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Mini needle valve suppliers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-mini-hex.jpg" alt="Mini stainless steel needle valves" loading="lazy"></div>
  <div class="body"><span class="num">Series 07</span><h3>Mini</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">1/4&quot; to 3/4&quot; · Hex, square and angle bodies</p>

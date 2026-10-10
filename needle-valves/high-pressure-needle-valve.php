@@ -7,7 +7,7 @@ $extra   = '<script type="application/ld+json">{"@context": "https://schema.org"
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>needle-valves/">Needle valves</a> / Series 04</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/nv-hp.jpg" alt="High Pressure Needle Valve, 15,000 psi"></div>
+ <div class="p-media" aria-label="High pressure needle valve, 15,000 psi suppliers in the USA" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-hp.jpg" alt="High Pressure Needle Valve, 15,000 psi"></div>
  <div>
   <p class="p-num">Series 04</p>
   <h1>High Pressure Needle Valve, 15,000 psi</h1>

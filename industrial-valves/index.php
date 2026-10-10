@@ -21,18 +21,18 @@ include __DIR__ . '/../includes/header.php';
   <p>Industrial gate, globe and check valve part numbers, dimensions and ratings in one PDF.</p>
   <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Industrial-Valve-Catalog.pdf" data-catalog="industrial">Download catalog (PDF)</a></div>
  </aside>
-</div></section><section class="section"><div class="wrap"><h2 id="range">Gate, globe and check valves</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-gate-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged steel gate valve to API 602" loading="lazy"></div>
+</div></section><section class="section"><div class="wrap"><h2 id="range">Gate, globe and check valves</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-gate-valves" alt="Forged steel gate valve manufacturers in Mexico" title="Forged steel gate valve manufacturers in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Forged steel gate valve suppliers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged steel gate valve to API 602" loading="lazy"></div>
  <div class="body"><span class="num">API 602</span><h3>Forged Steel Gate Valves</h3>
  <span class="rating">Class 150# to 2500#</span>
  <p class="spec">1/2&quot; to 2&quot; · flanged, socket weld, screwed and butt weld</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-globe-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-globe.jpg" alt="Forged steel globe valve to API 602" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-globe-valves" aria-label="Forged steel globe valve suppliers in the USA" data-seo-loc>
+ <div class="pic" alt="Forged steel globe valve suppliers in Canada" title="Forged steel globe valve suppliers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/ind-globe.jpg" alt="Forged steel globe valve to API 602" loading="lazy"></div>
  <div class="body"><span class="num">API 602</span><h3>Forged Steel Globe Valves</h3>
  <span class="rating">Class 150# to 2500#</span>
  <p class="spec">1/2&quot; to 2&quot; · flanged, socket weld, screwed and butt weld</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-check-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/ind-swing-check.jpg" alt="Forged steel check valve to API 602" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-check-valves" aria-label="Forged steel check valve suppliers in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Forged steel check valve providers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/ind-swing-check.jpg" alt="Forged steel check valve to API 602" loading="lazy"></div>
  <div class="body"><span class="num">API 602</span><h3>Forged Steel Check Valves</h3>
  <span class="rating">Class 150# to 2500#</span>
  <p class="spec">1/2&quot; to 2&quot; · flanged, socket weld, screwed and butt weld</p>

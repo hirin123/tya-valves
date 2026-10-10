@@ -21,48 +21,48 @@ include __DIR__ . '/../includes/header.php';
   <p class="finder-note">Seats can limit the rating: with PTFE seats, instrument valves are limited to 1,500 psig. <a href="<?= BASE ?>selection-guide#materials" style="color:#fff">See materials and ratings</a>.</p>
  </div>
  <p class="finder-result" data-finder-result aria-live="polite" style="margin-top:20px"></p>
- <div class="series-grid"><a class="s-card" href="<?= BASE ?>ball-valves/one-piece-body-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt tube">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s01.jpg" alt="Cross-section drawing of the one-piece body instrument ball valve" loading="lazy"></div>
+ <div class="series-grid"><a class="s-card" href="<?= BASE ?>ball-valves/one-piece-body-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt tube" aria-label="One-piece body ball valve services in the USA" data-seo-loc>
+ <div class="pic" alt="One-piece body ball valve services in Canada" title="One-piece body ball valve services in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s01.jpg" alt="Cross-section drawing of the one-piece body instrument ball valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 01</span><h3>One-piece body</h3>
  <span class="rating">6,000 psi</span>
  <p class="spec">1/8&quot; to 1&quot;. 2-way. Female NPT or tube ends.</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/three-piece-instrument-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt tube">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s02.jpg" alt="Three-piece stainless steel instrument ball valve with female NPT ends" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/three-piece-instrument-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt tube" aria-label="Three-piece instrument ball valve services in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Three-piece instrument ball valve manufacturers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s02.jpg" alt="Three-piece stainless steel instrument ball valve with female NPT ends" loading="lazy"></div>
  <div class="body"><span class="num">Series 02</span><h3>Three-piece instrument</h3>
  <span class="rating">6,000 psi</span>
  <p class="spec">1/8&quot; to 1&quot;, 4 to 25 mm. 2-way. Female NPT or twin-ferrule tube ends.</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/angle-pattern-ball-valve" data-rating="6000" data-flow="angle" data-ends="fnpt bsp tube">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s03.jpg" alt="Cross-section of the angle pattern instrument ball valve, female ports" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/angle-pattern-ball-valve" data-rating="6000" data-flow="angle" data-ends="fnpt bsp tube" alt="Angle pattern ball valve manufacturers in the USA" title="Angle pattern ball valve manufacturers in the USA" data-seo-loc>
+ <div class="pic" aria-label="Angle pattern ball valve manufacturers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s03.jpg" alt="Cross-section of the angle pattern instrument ball valve, female ports" loading="lazy"></div>
  <div class="body"><span class="num">Series 03</span><h3>Angle pattern</h3>
  <span class="rating">6,000 psi</span>
  <p class="spec">1/4&quot; to 1&quot;. Angle, 90°. Female NPT/BSP or tube ends.</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/3-way-switching-ball-valve" data-rating="6000" data-flow="3way" data-ends="fnpt bsp tube">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s04.jpg" alt="3-way switching ball valve with twin-ferrule tube ends on all three ports" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/3-way-switching-ball-valve" data-rating="6000" data-flow="3way" data-ends="fnpt bsp tube" aria-label="3-way switching ball valve manufacturers in Mexico" data-seo-loc>
+ <div class="pic" alt="3-way switching ball valve suppliers in Houston" title="3-way switching ball valve suppliers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s04.jpg" alt="3-way switching ball valve with twin-ferrule tube ends on all three ports" loading="lazy"></div>
  <div class="body"><span class="num">Series 04</span><h3>3-way switching</h3>
  <span class="rating">6,000 psi</span>
  <p class="spec">1/4&quot; to 1&quot;. 3-way switching. Female NPT/BSP or tube ends.</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/round-body-two-piece-ball-valve" data-rating="3000" data-flow="straight" data-ends="fnpt">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s05.jpg" alt="Round body two-piece stainless steel ball valve with lever handle" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/round-body-two-piece-ball-valve" data-rating="3000" data-flow="straight" data-ends="fnpt" aria-label="Round body, two-piece ball valve suppliers in the USA" data-seo-loc>
+ <div class="pic" aria-label="Round body, two-piece ball valve suppliers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s05.jpg" alt="Round body two-piece stainless steel ball valve with lever handle" loading="lazy"></div>
  <div class="body"><span class="num">Series 05</span><h3>Round body, two-piece</h3>
  <span class="rating">3,000 psi</span>
  <p class="spec">1/4&quot; to 2&quot;. 2-way. Female NPT (BSP, BSPT, ISO, socket weld, tube end on request).</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/hex-body-two-piece-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s06.jpg" alt="Hex body two-piece stainless steel ball valve with yellow lever handle" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/hex-body-two-piece-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt" alt="Hex body, two-piece ball valve suppliers in Mexico" title="Hex body, two-piece ball valve suppliers in Mexico" data-seo-loc>
+ <div class="pic" aria-label="Hex body, two-piece ball valve providers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s06.jpg" alt="Hex body two-piece stainless steel ball valve with yellow lever handle" loading="lazy"></div>
  <div class="body"><span class="num">Series 06</span><h3>Hex body, two-piece</h3>
  <span class="rating">6,000 psi</span>
  <p class="spec">1/4&quot; to 1&quot;. 2-way. Female NPT.</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/square-body-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s07.jpg" alt="Square body ball valve shown with optional tube ends" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/square-body-ball-valve" data-rating="6000" data-flow="straight" data-ends="fnpt" aria-label="Square body ball valve providers in the USA" data-seo-loc>
+ <div class="pic" alt="Square body ball valve providers in Canada" title="Square body ball valve providers in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s07.jpg" alt="Square body ball valve shown with optional tube ends" loading="lazy"></div>
  <div class="body"><span class="num">Series 07</span><h3>Square body</h3>
  <span class="rating">6,000 psi</span>
  <p class="spec">1/4&quot; to 1&quot;. 2-way. Female NPT (tube, socket weld on request).</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/10000-psi-hex-body-ball-valve" data-rating="10000" data-flow="straight" data-ends="fnpt mnpt tube">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s08.jpg" alt="10,000 psi hex body high-pressure ball valve" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/10000-psi-hex-body-ball-valve" data-rating="10000" data-flow="straight" data-ends="fnpt mnpt tube" aria-label="10,000 psi hex body ball valve providers in Mexico" data-seo-loc>
+ <div class="pic" aria-label="10,000 psi hex body ball valve services in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s08.jpg" alt="10,000 psi hex body high-pressure ball valve" loading="lazy"></div>
  <div class="body"><span class="num">Series 08</span><h3>10,000 psi hex body</h3>
  <span class="rating">10,000 psi</span>
  <p class="spec">1/4&quot; to 1/2&quot;, 6 to 12 mm. 2-way. Female NPT, male NPT or tube ends.</p>
- <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/heavy-duty-hydraulic-ball-valve" data-rating="10000" data-flow="straight" data-ends="fnpt sae">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/bv-s09.jpg" alt="Heavy-duty square body hydraulic ball valve with long lever handle" loading="lazy"></div>
+ <span class="more">View sizes and part numbers</span></div></a><a class="s-card" href="<?= BASE ?>ball-valves/heavy-duty-hydraulic-ball-valve" data-rating="10000" data-flow="straight" data-ends="fnpt sae" alt="Heavy-duty hydraulic ball valve services in the USA" title="Heavy-duty hydraulic ball valve services in the USA" data-seo-loc>
+ <div class="pic" aria-label="Heavy-duty hydraulic ball valve services in Canada" data-seo-loc><img src="<?= BASE ?>assets/img/p/bv-s09.jpg" alt="Heavy-duty square body hydraulic ball valve with long lever handle" loading="lazy"></div>
  <div class="body"><span class="num">Series 09</span><h3>Heavy-duty hydraulic</h3>
  <span class="rating">10,000 psi</span>
  <p class="spec">1/8&quot; to 1&quot;. 2-way. NPT or SAE ports.</p>

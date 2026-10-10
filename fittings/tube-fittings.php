@@ -6,7 +6,7 @@ $section = 'fittings';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>fittings/">Fittings</a> / Tube fittings</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/tube-fittings.jpg" alt="Stainless steel twin-ferrule tube fittings: connectors, elbows, tees, crosses, unions and bulkheads"></div>
+ <div class="p-media" aria-label="Twin-ferrule instrumentation tube fitting services in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/tube-fittings.jpg" alt="Stainless steel twin-ferrule tube fittings: connectors, elbows, tees, crosses, unions and bulkheads"></div>
  <div>
   <p class="p-num">Fittings</p>
   <h1>Twin-Ferrule Instrumentation Tube Fittings</h1>

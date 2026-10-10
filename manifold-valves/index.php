@@ -27,27 +27,27 @@ include __DIR__ . '/../includes/header.php';
   <p>Manifold and gauge root valve part numbers, dimensions and ratings in one PDF.</p>
   <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Manifold-Valve-Catalog.pdf" data-catalog="manifold">Download catalog (PDF)</a></div>
  </aside>
-</div></section><section class="section"><div class="wrap"><h2 id="range">2, 3 and 5-valve manifolds</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>manifold-valves/2-valve-manifold">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-2vmr.jpg" alt="2-valve manifold for pressure gauges and static pressure transmitters" loading="lazy"></div>
+</div></section><section class="section"><div class="wrap"><h2 id="range">2, 3 and 5-valve manifolds</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>manifold-valves/2-valve-manifold" alt="2-valve manifold services in Canada" title="2-valve manifold services in Canada" data-seo-loc>
+ <div class="pic" aria-label="2-valve manifold services in Mexico" data-seo-loc><img src="<?= BASE ?>assets/img/p/mf-2vmr.jpg" alt="2-valve manifold for pressure gauges and static pressure transmitters" loading="lazy"></div>
  <div class="body"><span class="num">8 models</span><h3>2-Valve Manifolds</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">Isolation plus calibration / vent for gauges, pressure switches and static pressure transmitters.</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/3-valve-manifold">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-3vmr-pp.jpg" alt="3-valve manifold for differential pressure transmitters" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/3-valve-manifold" aria-label="3-valve manifold manufacturers in Houston" data-seo-loc>
+ <div class="pic" alt="3-valve manifold manufacturers in the USA" title="3-valve manifold manufacturers in the USA" data-seo-loc><img src="<?= BASE ?>assets/img/p/mf-3vmr-pp.jpg" alt="3-valve manifold for differential pressure transmitters" loading="lazy"></div>
  <div class="body"><span class="num">6 models</span><h3>3-Valve Manifolds</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">Two process isolation valves and an equalizing valve — the most common manifold for differential pressure instruments.</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/5-valve-manifold">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-5vmr.jpg" alt="5-valve manifold for differential pressure transmitters" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/5-valve-manifold" aria-label="5-valve manifold manufacturers in Canada" data-seo-loc>
+ <div class="pic" aria-label="5-valve manifold manufacturers in Mexico" data-seo-loc><img src="<?= BASE ?>assets/img/p/mf-5vmr.jpg" alt="5-valve manifold for differential pressure transmitters" loading="lazy"></div>
  <div class="body"><span class="num">7 models</span><h3>5-Valve Manifolds</h3>
  <span class="rating">6,000 / 10,000 psi</span>
  <p class="spec">Isolation, equalizing and two drain / vent valves for DP instruments that need venting, calibration and system flushing.</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/manifold-mounting-accessories">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/mf-bracket-assembly.jpg" alt="Mounting kits, bolts and seals" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>manifold-valves/manifold-mounting-accessories" alt="Mounting kits, bolts and seal suppliers in Houston" title="Mounting kits, bolts and seal suppliers in Houston" data-seo-loc>
+ <div class="pic" aria-label="Mounting kits, bolts and seal suppliers in the USA" data-seo-loc><img src="<?= BASE ?>assets/img/p/mf-bracket-assembly.jpg" alt="Mounting kits, bolts and seals" loading="lazy"></div>
  <div class="body"><span class="num">Accessories</span><h3>Mounting kits, bolts and seals</h3>
  <p class="spec">Brackets for 2&quot; pipe stands, 7/16-20 flange bolts, PTFE / Grafoil / FKM seals</p>
- <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>gauge-root-valves">
- <div class="pic"><img src="<?= BASE ?>assets/img/p/gauge-root-long.jpg" alt="Stainless steel gauge root valves for pressure gauge isolation" loading="lazy"></div>
+ <span class="more">View details</span></div></a><a class="s-card" href="<?= BASE ?>gauge-root-valves" aria-label="Gauge root valve suppliers in Canada" data-seo-loc>
+ <div class="pic" alt="Gauge root valve suppliers in Mexico" title="Gauge root valve suppliers in Mexico" data-seo-loc><img src="<?= BASE ?>assets/img/p/gauge-root-long.jpg" alt="Stainless steel gauge root valves for pressure gauge isolation" loading="lazy"></div>
  <div class="body"><span class="num">Gauge root</span><h3>Gauge root valves</h3>
  <span class="rating">6,000 psig</span>
  <p class="spec">Lagging extension and short multiport gauge valves, 1/2&quot; NPT</p>

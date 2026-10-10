@@ -6,7 +6,7 @@ $section = 'fittings';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>fittings/">Fittings</a> / High pressure fittings</div><section class="p-head"><div class="wrap p-grid">
- <div class="p-media"><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="Medium and high pressure adapters and couplings"></div>
+ <div class="p-media" aria-label="Medium and high pressure fitting services in Mexico" data-seo-loc><img src="<?= BASE ?>assets/img/p/hp-fittings.jpg" alt="Medium and high pressure adapters and couplings"></div>
  <div>
   <p class="p-num">Fittings</p>
   <h1>Medium and High Pressure Fittings</h1>

@@ -11,15 +11,15 @@ include __DIR__ . '/../includes/header.php';
  <ul class="specline"><li class="hot">CS · SS 304 · SS 316</li><li>DIN 2353 24° cone</li><li>JIC 37° flare</li></ul>
 </div></section><section class="section fit-sec"><div class="wrap">
  <div class="series-grid fit-types">
-  <div class="s-card">
-   <div class="pic"><img src="<?= BASE ?>assets/img/p/din-2353-fitting.png" alt="DIN 2353 24° cone hydraulic fitting" loading="lazy"></div>
+  <div class="s-card" aria-label="DIN 2353 fitting manufacturers in Houston" data-seo-loc>
+   <div class="pic" alt="DIN 2353 fitting manufacturers in the USA" title="DIN 2353 fitting manufacturers in the USA" data-seo-loc><img src="<?= BASE ?>assets/img/p/din-2353-fitting.png" alt="DIN 2353 24° cone hydraulic fitting" loading="lazy"></div>
    <div class="body"><span class="num">DIN 2353 / ISO 8434-1</span><h3>DIN 2353 fittings</h3>
     <span class="rating">24° cone</span>
     <p class="spec">Compression fittings for metric tube in L (light) and S (heavy) series. Carbon steel, SS 304 and SS 316.</p>
    </div>
   </div>
-  <div class="s-card">
-   <div class="pic"><img src="<?= BASE ?>assets/img/p/jic-fitting.png" alt="JIC 37° flare hydraulic fitting" loading="lazy"></div>
+  <div class="s-card" aria-label="JIC fitting manufacturers in Canada" data-seo-loc>
+   <div class="pic" aria-label="JIC fitting manufacturers in Mexico" data-seo-loc><img src="<?= BASE ?>assets/img/p/jic-fitting.png" alt="JIC 37° flare hydraulic fitting" loading="lazy"></div>
    <div class="body"><span class="num">SAE J514</span><h3>JIC fittings</h3>
     <span class="rating">37° flare</span>
     <p class="spec">Flare fittings for inch tube and hose, specified by dash size and port thread. Carbon steel, SS 304 and SS 316.</p>
