@@ -16,6 +16,6 @@ include __DIR__ . '/../includes/header.php';
   <p class="bestfor"><b>Best for:</b> supporting instrument and hydraulic tubing runs.</p>
   <div class="cta-row"><a class="btn" href="<?= BASE ?>request-quote">Request a quote</a><a class="btn ghost" href="<?= BASE ?>contact-us">Send your specification</a></div>
  </div>
-</div></section><section class="section alt"><div class="wrap"><div class="note"><b>Choosing a clamp.</b> Selection depends on tube outside diameter, pressure rating, piping material, layout and number of lines. Send these details and we will recommend the series and size.</div></div></section><section class="section"><div class="wrap"><div class="cta-row"><button class="add" data-series="Accessories" data-part="Tube and Pipe Clamps (DIN 3015)" data-desc="Tube and Pipe Clamps (DIN 3015), to specification">Add to quote</button></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
+</div></section><section class="section alt"><div class="wrap"><div class="note"><b>Choosing a clamp.</b> Selection depends on tube outside diameter, pressure rating, piping material, layout and number of lines. Send these details and we will recommend the series and size.</div><div class="quote-row"><button class="add" data-series="Accessories" data-part="Tube and Pipe Clamps (DIN 3015)" data-desc="Tube and Pipe Clamps (DIN 3015), to specification">Add to quote</button></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

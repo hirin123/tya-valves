@@ -16,6 +16,6 @@ include __DIR__ . '/../includes/header.php';
   <p class="bestfor"><b>Best for:</b> flow measurement with DP transmitters.</p>
   <div class="cta-row"><a class="btn" href="<?= BASE ?>request-quote">Request a quote</a><a class="btn ghost" href="<?= BASE ?>contact-us">Send your specification</a></div>
  </div>
-</div></section><section class="section alt"><div class="wrap"><div class="note"><b>Pressure loss.</b> Outlet pressure is typically 60% to 80% of inlet pressure, and plates can erode over time; tell us the fluid and flow range so we can size the bore.</div></div></section><section class="section"><div class="wrap"><div class="cta-row"><button class="add" data-series="Accessories" data-part="Orifice Plate Assemblies" data-desc="Orifice Plate Assemblies, to specification">Add to quote</button></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
+</div></section><section class="section alt"><div class="wrap"><div class="note"><b>Pressure loss.</b> Outlet pressure is typically 60% to 80% of inlet pressure, and plates can erode over time; tell us the fluid and flow range so we can size the bore.</div><div class="quote-row"><button class="add" data-series="Accessories" data-part="Orifice Plate Assemblies" data-desc="Orifice Plate Assemblies, to specification">Add to quote</button></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

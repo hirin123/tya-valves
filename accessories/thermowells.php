@@ -16,6 +16,6 @@ include __DIR__ . '/../includes/header.php';
   <p class="bestfor"><b>Best for:</b> temperature measurement in process lines and vessels.</p>
   <div class="cta-row"><a class="btn" href="<?= BASE ?>request-quote">Request a quote</a><a class="btn ghost" href="<?= BASE ?>contact-us">Send your specification</a></div>
  </div>
-</div></section><section class="section alt"><div class="wrap"><div class="note"><b>Send your datasheet.</b> Give the process connection, insertion length, bore, stem profile, material and instrument connection, and we will quote to your specification.</div></div></section><section class="section"><div class="wrap"><div class="cta-row"><button class="add" data-series="Accessories" data-part="Thermowells" data-desc="Thermowells, to specification">Add to quote</button></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
+</div></section><section class="section alt"><div class="wrap"><div class="note"><b>Send your datasheet.</b> Give the process connection, insertion length, bore, stem profile, material and instrument connection, and we will quote to your specification.</div><div class="quote-row"><button class="add" data-series="Accessories" data-part="Thermowells" data-desc="Thermowells, to specification">Add to quote</button></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
