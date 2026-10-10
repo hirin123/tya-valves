@@ -464,3 +464,8 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .quote-row .add{margin-left:auto;font-size:14px;padding:12px 22px;text-transform:uppercase;letter-spacing:.08em}
 .ov-media{margin:-20px -10px 24px;display:grid;place-items:center}
 .ov-media img{max-height:240px;width:auto;object-fit:contain}
+
+/* Industry photos under each title: thick white frame with a soft shadow */
+.ind-head h2{margin-bottom:18px}
+.ind-img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:8px solid #fff;box-shadow:0 5px 30px rgba(0,0,0,.18)}
+@media (max-width:900px){.ind-img{max-width:420px}}
