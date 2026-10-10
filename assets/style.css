@@ -140,7 +140,7 @@ td.num,th.num{text-align:right}
 .caption{font-size:.88rem;color:var(--muted);margin:0 0 32px}
 
 /* Product page */
-.crumbs{font-size:.9rem;color:var(--muted);padding:18px 0 0}
+.crumbs{font-size:.9rem;color:var(--muted);padding-top:18px}
 .crumbs a{color:var(--muted)}
 .p-head{padding:16px 0 40px;border-bottom:1px solid var(--steel-line)}
 .p-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
@@ -334,3 +334,27 @@ div.s-card{cursor:default}
 .navlist > li > a:hover,.navlist > li:focus-within > a,.navlist > li > a[aria-current="page"]{background:#2C2B30}
 @media (max-width:900px){.drop,.has-drop:hover .drop,.has-drop:focus-within .drop{background:#232227}}
 .site-foot{background-color:#1A191D;background-image:url(https://tyallc.com/wp-content/uploads/2020/04/footer_overlay.png);background-position:center right;background-repeat:no-repeat}
+
+/* Compact banner: title and key specs only */
+.p-head.banner{padding:48px 0 44px;min-height:220px;display:flex;align-items:center}
+.p-head.banner h1{font-size:clamp(2.6rem,6vw,4rem);margin-bottom:18px}
+.p-head.banner .specline{margin:0}
+.fit-sec{padding-bottom:24px}
+/* Overview: text and features on the left, enquiry panel on the right */
+.ov-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:48px;align-items:start}
+.overview{padding-top:40px}
+.overview .lede{margin:0 0 24px;max-width:62ch}
+.feat-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.feat-grid li{border:1px solid var(--steel-line);border-left:4px solid var(--red);border-radius:6px;padding:14px 16px;background:#fff;color:var(--muted);font-size:.95rem}
+.feat-grid b{display:block;font-family:var(--display);font-weight:600;font-size:1.2rem;color:var(--navy);margin-bottom:2px}
+.ov-panel{background:var(--steel);border-top:4px solid var(--red);border-radius:6px;padding:24px 24px 26px;position:sticky;top:24px}
+.ov-panel p{margin:0 0 18px;font-size:.95rem}
+.ov-panel .ov-label{font-family:var(--display);font-weight:600;color:var(--red);font-size:1.05rem;margin:0 0 4px;text-transform:uppercase;letter-spacing:.04em}
+.ov-panel .ov-best{font-weight:600;color:var(--navy);font-size:1.05rem}
+.ov-cta{display:flex;flex-direction:column;gap:10px}
+.ov-cta .btn{text-align:center}
+@media (max-width:900px){.ov-grid{grid-template-columns:1fr;gap:28px}.ov-panel{position:static}}
+@media (max-width:560px){.feat-grid{grid-template-columns:1fr}.p-head.banner{min-height:0;padding:32px 0}}
+.p-head.banner > .wrap{width:100%}
+.ov-cta .btn{justify-content:center}
+.fit-types{max-width:none}
