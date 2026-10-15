@@ -3,6 +3,7 @@ $title   = 'Gauge Syphons: Pigtail & U-Type | TYA';
 $desc    = 'Pigtail and U-type gauge syphons in carbon steel, SS 304 and SS 316 to 260 kg/cm² that protect pressure gauges from steam and hot vapour.';
 $path    = 'accessories/syphons';
 $section = 'acc';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Syphons (Pigtail and U-Type)", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Pigtail and U-type gauge syphons in carbon steel, SS 304 and SS 316 to 260 kg/cm\\u00b2 that protect pressure gauges from steam and hot vapour.", "category": "Instrumentation accessories"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

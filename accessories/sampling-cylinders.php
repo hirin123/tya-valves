@@ -3,6 +3,7 @@ $title   = 'Double-Ended Sampling Cylinders, 5,000 psig | TYA';
 $desc    = 'Double-ended stainless steel sampling cylinders to 5,000 psig for gas and liquid samples, with valves and fittings. Sizes, ratings and quotes.';
 $path    = 'accessories/sampling-cylinders';
 $section = 'acc';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Sampling Cylinders (Double-Ended)", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Double-ended stainless steel sampling cylinders to 5,000 psig for gas and liquid samples, with valves and fittings. Sizes, ratings and quotes.", "category": "Instrumentation accessories"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>accessories/">Accessories</a> / Sampling Cylinders (Double-Ended)</div><section class="p-head"><div class="wrap p-grid single">

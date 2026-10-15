@@ -3,6 +3,7 @@ $title   = 'Thermowells Made to Specification | TYA';
 $desc    = 'Threaded, socket weld and flanged thermowells made to your drawing, straight, tapered or stepped stems, stainless and alloy, with material test reports.';
 $path    = 'accessories/thermowells';
 $section = 'acc';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Thermowells", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Threaded, socket weld and flanged thermowells made to your drawing, straight, tapered or stepped stems, stainless and alloy, with material test reports.", "category": "Instrumentation accessories"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

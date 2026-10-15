@@ -3,6 +3,7 @@ $title   = 'High Pressure Fittings to 65,000 psi | TYA';
 $desc    = 'Medium and high pressure fittings, adapters, couplings and tubing to 65,000 psi, coned-and-threaded connections, 316 stainless. Part numbers and quotes.';
 $path    = 'fittings/high-pressure-fittings';
 $section = 'fittings';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Medium and High Pressure Fittings", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Medium and high pressure fittings, adapters, couplings and tubing to 65,000 psi, coned-and-threaded connections, 316 stainless. Part numbers and quotes.", "category": "Instrumentation fittings", "image": "https://tyallc.com/valves/assets/img/p/hp-fittings.jpg"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>fittings/">Fittings</a> / High pressure fittings</div><section class="p-head"><div class="wrap p-grid">

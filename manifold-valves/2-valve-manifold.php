@@ -3,6 +3,7 @@ $title   = '2-Valve Manifold, 6,000 / 10,000 psi | TYA';
 $desc    = '2-valve instrument manifolds for pressure gauges, switches and static pressure transmitters, 6,000 or 10,000 psi, 8 models. Part numbers and quotes.';
 $path    = 'manifold-valves/2-valve-manifold';
 $section = 'valves';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "2-Valve Manifolds", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "2-valve instrument manifolds for pressure gauges, switches and static pressure transmitters, 6,000 or 10,000 psi, 8 models. Part numbers and quotes.", "category": "Industrial valves", "image": "https://tyallc.com/valves/assets/img/p/mf-2vmr.jpg"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>manifold-valves/">Manifold valves</a> / 2-Valve Manifolds</div><section class="hero"><div class="wrap">

@@ -3,6 +3,7 @@ $title   = '5-Valve Manifold for Gas Metering | TYA';
 $desc    = '5-valve manifolds for differential pressure transmitters and natural gas metering, 6,000 or 10,000 psi. Part numbers, dimensions and distributor quotes.';
 $path    = 'manifold-valves/5-valve-manifold';
 $section = 'valves';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "5-Valve Manifolds", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "5-valve manifolds for differential pressure transmitters and natural gas metering, 6,000 or 10,000 psi. Part numbers, dimensions and distributor quotes.", "category": "Industrial valves", "image": "https://tyallc.com/valves/assets/img/p/mf-5vmr.jpg"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>manifold-valves/">Manifold valves</a> / 5-Valve Manifolds</div><section class="hero"><div class="wrap">
