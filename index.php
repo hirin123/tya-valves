@@ -132,4 +132,18 @@ include __DIR__ . '/includes/header.php';
  <div class="section-head"><h2>Download a catalog</h2><p class="muted">Part numbers, dimensions, materials and ratings for every range.</p></div>
  <ul class="ind-links big"><li><a href="<?= BASE ?>assets/TYA-Ball-Valve-Catalog.pdf" data-catalog="ball">Ball valves</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-Needle-Valve-Catalog.pdf" data-catalog="needle">Needle valves</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-Manifold-Valve-Catalog.pdf" data-catalog="manifold">Manifold &amp; gauge root valves</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-Check-Valve-Catalog.pdf" data-catalog="check">Check valves</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-Bleed-Purge-Valve-Catalog.pdf" data-catalog="bleed">Bleed &amp; purge valves</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-Monoflange-Valve-Catalog.pdf" data-catalog="mono">DBB &amp; monoflange valves</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-Industrial-Valve-Catalog.pdf" data-catalog="industrial">Industrial gate, globe &amp; check valves</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-High-Pressure-Valves-Catalog.pdf" data-catalog="hp">High pressure valves &amp; fittings</a></li><li><a href="<?= BASE ?>assets/catalogs/TYA-Condensate-Pots-Catalog.pdf" data-catalog="cdp">Condensate pots</a></li></ul>
 </div></section>
+<?php $faqAlt = false; $faqs = [
+ ['What valves and fittings does TYA supply?',
+  'Needle, ball, manifold, check, relief, bleed and double block and bleed valves; forged gate, globe and check valves; high pressure valves to 65,000 psi; tube, pipe and hydraulic fittings; and accessories such as condensate pots.'],
+ ['What pressure ratings are available?',
+  'Instrument valves come in 3,000, 6,000, 10,000 and 15,000 psi classes. High pressure valves and fittings are rated up to 65,000 psi (4,500 bar).'],
+ ['What sizes and end connections can I order?',
+  'Sizes run from 1/8" to 2", plus metric tube from 3 to 25 mm OD. End connections include NPT, BSP, SAE, tube ends and flanges, with BSPT, ISO, socket weld and butt weld also available.'],
+ ['Which materials are available?',
+  '316 stainless steel is standard. 304 stainless, carbon steel, Monel, Inconel, Hastelloy, duplex and titanium are available, depending on the product.'],
+ ['What documentation comes with an order?',
+  'Heat-traceable material test reports, NACE MR0175 materials for sour service, and certified drawings on request.'],
+ ['How do I get a quote?',
+  'Open a product, add the part numbers you need to your quote and send it. Our Houston team confirms materials, ratings and pricing. We supply distributors, OEMs and end users.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/includes/footer.php'; ?>

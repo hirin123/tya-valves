@@ -87,4 +87,18 @@ include __DIR__ . '/../includes/header.php';
   <li><b>Flow indication</b>Handle position shows flow direction at a glance.</li>
  </ul>
 </div></section>
+<?php $faqAlt = true; $faqs = [
+ ['What pressure ratings are available for instrument ball valves?',
+  '3,000 psi (round body, two-piece), 6,000 psi (most series) and 10,000 psi (10,000 psi hex body and heavy-duty hydraulic series). Seats can limit the rating: with PTFE seats, instrument ball valves are limited to 1,500 psig.'],
+ ['Do you supply 3-way and angle ball valves?',
+  'Yes. The angle pattern series turns the flow 90° and the 3-way switching series switches between two lines, both 1/4" to 1". 5-way switching versions are available on request.'],
+ ['Which end connections are available?',
+  'Female NPT, male NPT, BSP, twin-ferrule tube ends and SAE ports, depending on the series. BSPT, ISO, socket weld and other ends are available on request.'],
+ ['What sizes do you offer?',
+  'From 1/8" tube to 2" pipe, with metric tube sizes from 4 to 25 mm on the three-piece instrument series.'],
+ ['Which ball valve suits hydraulic service?',
+  'The heavy-duty hydraulic series, rated 10,000 psi, 1/8" to 1", with NPT or SAE ports.'],
+ ['What design features do your instrument ball valves have?',
+  'A floating ball that adjusts to seat wear, a blow-out-proof stem, a micro-finished ball for a bubble-tight seal, adjustable stem packing and quarter-turn operation with a positive stop.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/../includes/footer.php'; ?>

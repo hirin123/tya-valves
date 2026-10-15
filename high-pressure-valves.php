@@ -40,4 +40,18 @@ include __DIR__ . '/includes/header.php';
  <p class="spec">Adapters, couplings, hose and NPT fittings</p>
  <span class="more">View details</span></div></a></div></div></section><section class="section alt"><div class="wrap"><h2>Working safely at high pressure</h2><div class="note warn"><b>Depressurize first.</b> At these pressures, always depressurize and vent the line fully before loosening anything, including a packing nut.</div><div class="note"><b>Check the seat, not just the body.</b> The seat and packing often set the real pressure limit. Tell us your pressure and temperature and we will confirm them.</div><div class="note"><b>Match the connection.</b> Medium and high pressure coned-and-threaded connections are not interchangeable with NPT or each other; check the connection type on every part.</div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
+<?php $faqAlt = true; $faqs = [
+ ['What pressure ranges do you cover?',
+  'Pipe valves and fittings to 15,200 psi (1,050 bar), medium pressure to 22,500 psi (1,550 bar) and high pressure to 65,000 psi (4,500 bar).'],
+ ['What 65,000 psi valves are available?',
+  '2-way straight needle valves for 1/4", 3/8" and 9/16" tube OD, with metal-to-metal seating and a 316 stainless steel body. 2-way angle and 3-way versions are also available.'],
+ ['Are medium and high pressure connections interchangeable with NPT?',
+  'No. Medium and high pressure coned-and-threaded connections are not interchangeable with NPT or with each other. Check the connection type on every part.'],
+ ['Do you have 10,000 psi ball valves?',
+  'Yes: the 10,000 psi hex body series (1/4" to 1/2", 6 to 12 mm) and the heavy-duty hydraulic series (1/8" to 1", NPT or SAE ports).'],
+ ['What sets the real pressure limit of a valve?',
+  'Often the seat and packing, not the body. Tell us your pressure and temperature and we will confirm the rating.'],
+ ['How do I work safely on high pressure lines?',
+  'Always depressurize and vent the line fully before loosening anything, including a packing nut.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/includes/footer.php'; ?>
