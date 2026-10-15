@@ -30,4 +30,16 @@ include __DIR__ . '/../includes/header.php';
  <p class="spec">Adapters, couplings, hose and NPT fittings</p>
  <span class="more">View details</span></div></a></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
+<?php $faqAlt = true; $faqs = [
+ ['What instrumentation fittings do you supply?',
+  'Twin-ferrule tube fittings, threaded pipe fittings, hydraulic fittings, and medium and high pressure fittings.'],
+ ['What sizes and materials are your tube fittings?',
+  'Twin-ferrule fittings for 1/8" to 1" tube OD in 316 and 304 stainless steel, with NPT and tube ends. 171 part numbers include connectors, elbows, unions, tees and bulkheads.'],
+ ['What thread types are available on pipe fittings?',
+  'NPT, BSP and BSPT, rated 3,000, 6,000 or 10,000 psi, in 316/304 stainless, carbon steel and alloy steel.'],
+ ['Which hydraulic fitting standards do you supply?',
+  'DIN 2353 (ISO 8434-1) 24° cone compression fittings for metric tube, and JIC 37° flare fittings to SAE J514, in carbon steel, SS 304 and SS 316.'],
+ ['Do you have fittings above 10,000 psi?',
+  'Yes. High pressure adapters, couplings, hose and NPT fittings are rated up to 65,000 psi.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/../includes/footer.php'; ?>

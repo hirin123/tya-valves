@@ -28,4 +28,18 @@ include __DIR__ . '/includes/header.php';
  </aside>
 </div></section><section class="section"><div class="wrap"><div class="section-head"><h2 id="sizes">Series comparison</h2></div><div class="table-wrap"><table><thead><tr><th>Series</th><th>Set pressure range (at 70 °F / 20 °C)</th><th>Springs</th><th>Max. outlet pressure</th><th>Orifice</th><th>Back pressure</th><th><span class='small'>Quote</span></th></tr></thead><tbody><tr><th scope='row'>RV</th><td>50 to 6,000 psig (3.4 to 414 bar)</td><td>7 colour-coded</td><td>1,500 psig (103 bar)</td><td>0.14&quot; (3.6 mm)</td><td>Balanced stem — unaffected</td><td><button class="add" data-series="Pressure relief valves" data-part="RV" data-desc="Proportional relief valve, RV series, set range 50 to 6,000 psig (3.4 to 414 bar)">Add to quote</button></td></tr><tr><th scope='row'>RL</th><td>10 to 225 psig (0.68 to 15.5 bar)</td><td>—</td><td>225 psig (15.5 bar)</td><td>0.19&quot; (4.8 mm) / 0.25&quot; (6.4 mm)</td><td>Preset = desired − 0.8 × back pressure</td><td><button class="add" data-series="Pressure relief valves" data-part="RL" data-desc="Proportional relief valve, RL series, set range 10 to 225 psig (0.68 to 15.5 bar)">Add to quote</button></td></tr><tr><th scope='row'>RM</th><td>50 to 1,500 psig (3.4 to 103 bar)</td><td>3 colour-coded</td><td>1,500 psig (103 bar)</td><td>0.25&quot; (6.4 mm)</td><td>Balanced stem — unaffected</td><td><button class="add" data-series="Pressure relief valves" data-part="RM" data-desc="Proportional relief valve, RM series, set range 50 to 1,500 psig (3.4 to 103 bar)">Add to quote</button></td></tr></tbody></table></div><p class="caption">Working temperature −10 to 300 °F (−23 to 148 °C). Tell us the set pressure, end connections and seal material and we will confirm the spring and part number.</p></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
+<?php $faqAlt = true; $faqs = [
+ ['How does a proportional relief valve work?',
+  'It opens gradually as system pressure rises above the set pressure, and reseats as pressure falls.'],
+ ['Which series do I need for my set pressure?',
+  'RL covers 10 to 225 psig, RM covers 50 to 1,500 psig and RV covers 50 to 6,000 psig (set pressures at 70 °F / 20 °C).'],
+ ['Does back pressure affect the set pressure?',
+  'RV and RM valves have a balanced stem, so back pressure does not affect them. For RL valves, preset the valve to the desired set pressure minus 0.8 × back pressure.'],
+ ['What is the working temperature?',
+  '−23 to 148 °C (−10 to 300 °F).'],
+ ['How is the set pressure held?',
+  'Each valve has colour-coded springs, an adjustable bonnet cap, a set-range label and a lock-wired cap that holds the setting.'],
+ ['What do you need to quote a relief valve?',
+  'The set pressure, end connections and seal material. We confirm the spring and part number.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/includes/footer.php'; ?>

@@ -38,4 +38,16 @@ include __DIR__ . '/../includes/header.php';
  <p class="spec">1/2&quot; to 2&quot; · flanged, socket weld, screwed and butt weld</p>
  <span class="more">View details</span></div></a></div><div class="section-head" style="margin-top:48px"><h2>Design features</h2></div><ul class="features"><li><b>Leakproof body-bonnet joint</b>A fully encased spiral wound gasket gives controlled compression and cannot unwind.</li><li><b>Body-guided disc</b>Top-and-bottom guiding keeps seat and disc aligned and stops stem scoring.</li><li><b>Safer stem seal</b>Hardened, ground stem; self-aligning two-piece gland; positive backseat.</li><li><b>Hardfaced seats</b>Integral hardfaced seats resist erosion and wear.</li><li><b>Tested every time</b>Shell at 1.5 × and seat at 110% of the 100 °F rating, to ANSI B16.34.</li><li><b>NDE</b>Personnel qualified to ASNT-TC-1A; castings examined per MSS SP-55.</li></ul></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
+<?php $faqAlt = true; $faqs = [
+ ['What standards are your forged steel valves built to?',
+  'Gate, globe and check valves are built to API 602 / ISO 15761 and tested to API 598.'],
+ ['What sizes and pressure classes are available?',
+  '1/2" to 2". Flanged ends in class 150# to 600#; socket weld, screwed and butt-weld ends in class 800# to 2500#.'],
+ ['How are the valves tested?',
+  'Every valve is shell tested at 1.5 × and seat tested at 110% of the 100 °F rating, to ANSI B16.34.'],
+ ['What design features reduce leakage and wear?',
+  'A fully encased spiral wound body-bonnet gasket, a body-guided disc, a hardened and ground stem with a positive backseat, and integral hardfaced seats.'],
+ ['Where are forged gate, globe and check valves used?',
+  'Process, refinery and utility lines.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/../includes/footer.php'; ?>
