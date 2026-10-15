@@ -3,6 +3,7 @@ $title   = 'Tube & Pipe Clamps to DIN 3015 | TYA';
 $desc    = 'DIN 3015 tube and pipe clamps with ribbed, vibration-damping bodies for instrument and hydraulic tubing, single and multiple line. Request a quote.';
 $path    = 'accessories/tube-clamps';
 $section = 'acc';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Tube and Pipe Clamps (DIN 3015)", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "DIN 3015 tube and pipe clamps with ribbed, vibration-damping bodies for instrument and hydraulic tubing, single and multiple line. Request a quote.", "category": "Instrumentation accessories"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

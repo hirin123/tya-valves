@@ -3,6 +3,7 @@ $title   = 'Manifold Mounting Brackets, Bolts & Seals | TYA';
 $desc    = 'Mounting kits for 2, 3 and 5-valve manifolds on a 2" pipe stand, plus flange bolts and seals in stainless or carbon steel. Part numbers and quotes.';
 $path    = 'manifold-valves/manifold-mounting-accessories';
 $section = 'valves';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Manifold Mounting Kits, Flange Bolts and Seals", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Mounting kits for 2, 3 and 5-valve manifolds on a 2\\" pipe stand, plus flange bolts and seals in stainless or carbon steel. Part numbers and quotes.", "category": "Instrumentation accessories", "image": "https://tyallc.com/valves/assets/img/p/mf-bracket-assembly.jpg"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

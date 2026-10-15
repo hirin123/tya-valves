@@ -3,6 +3,7 @@ $title   = 'Hydraulic Fittings: DIN 2353 & JIC 37° | TYA';
 $desc    = 'DIN 2353 24° cone and JIC 37° flare hydraulic fittings in carbon steel, SS 304 and SS 316 for power units, mobile hydraulics and test benches.';
 $path    = 'fittings/hydraulic-fittings';
 $section = 'fittings';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Hydraulic Fittings", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "DIN 2353 24\\u00b0 cone and JIC 37\\u00b0 flare hydraulic fittings in carbon steel, SS 304 and SS 316 for power units, mobile hydraulics and test benches.", "category": "Hydraulic fittings", "image": "https://tyallc.com/valves/assets/img/p/din-2353-fitting.png"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

@@ -3,6 +3,7 @@ $title   = 'Orifice Plate Assemblies for Flow Measurement | TYA';
 $desc    = 'Concentric, segmental and eccentric orifice plates and flange assemblies for DP flow measurement, made to your specification. Request a quote.';
 $path    = 'accessories/orifice-plate-assemblies';
 $section = 'acc';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Orifice Plate Assemblies", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Concentric, segmental and eccentric orifice plates and flange assemblies for DP flow measurement, made to your specification. Request a quote.", "category": "Instrumentation accessories"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

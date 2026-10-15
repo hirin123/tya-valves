@@ -1,6 +1,6 @@
 <?php
 $title   = '3-Way Switching Ball Valve, 6,000 psi | TYA';
-$desc    = '3-way switching instrument ball valve, 1/4" to 1", female NPT or twin-ferrule tube ends, 6,000 psi, for sample stream and line switching. Part numbers and quotes.';
+$desc    = '3-way switching instrument ball valve, 1/4" to 1", female NPT or twin-ferrule tube ends, 6,000 psi, for sample stream and line switching. Part numbers.';
 $path    = 'ball-valves/3-way-switching-ball-valve';
 $section = 'instr';
 $extra   = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "3-Way Switching Instrument Ball Valve", "sku": "TYA-Series-04", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "One valve that switches flow between two lines, for example directing a sample to an analyzer or to a vent, or selecting between two supply sources. 180\\u00b0 of handle travel, and the handle points the way the fluid is going. 5-way switching versions are available on request.", "image": "https://tyallc.com/valves/assets/img/s04-photo.jpg", "category": "Industrial ball valves", "manufacturer": {"@type": "Organization", "name": "Thank You America LLC"}}</script>';

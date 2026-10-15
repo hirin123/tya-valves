@@ -3,6 +3,7 @@ $title   = 'Instrument Air Headers, Made to Order | TYA';
 $desc    = 'Instrument air headers built to your specification: 4 to 12 ways with needle or ball valves, SS 304, 316, 316Ti, carbon and alloy steel, tested.';
 $path    = 'accessories/air-headers';
 $section = 'acc';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Air Headers", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Instrument air headers built to your specification: 4 to 12 ways with needle or ball valves, SS 304, 316, 316Ti, carbon and alloy steel, tested.", "category": "Instrumentation accessories"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

@@ -3,6 +3,7 @@ $title   = 'Instrumentation Pipe Fittings, NPT / BSP | TYA';
 $desc    = 'Threaded instrumentation pipe fittings to 10,000 psi: hex nipples, bushes, elbows, tees, unions and plugs in 316 SS, NPT, BSP and BSPT. 46 part numbers.';
 $path    = 'fittings/pipe-fittings';
 $section = 'fittings';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Instrumentation Pipe Fittings", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Threaded instrumentation pipe fittings to 10,000 psi: hex nipples, bushes, elbows, tees, unions and plugs in 316 SS, NPT, BSP and BSPT. 46 part numbers.", "category": "Instrumentation fittings"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="p-head banner world-bg"><div class="wrap">

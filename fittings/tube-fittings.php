@@ -3,6 +3,7 @@ $title   = 'Twin-Ferrule Tube Fittings, SS 316 | TYA';
 $desc    = 'Twin-ferrule compression tube fittings in 316 stainless: connectors, elbows, unions, tees and bulkheads, fractional and metric. 171 part numbers.';
 $path    = 'fittings/tube-fittings';
 $section = 'fittings';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Twin-Ferrule Instrumentation Tube Fittings", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "Twin-ferrule compression tube fittings in 316 stainless: connectors, elbows, unions, tees and bulkheads, fractional and metric. 171 part numbers.", "category": "Instrumentation fittings", "image": "https://tyallc.com/valves/assets/img/p/tube-fittings.jpg"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>fittings/">Fittings</a> / Tube fittings</div><section class="p-head"><div class="wrap p-grid">

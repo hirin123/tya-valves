@@ -3,6 +3,7 @@ $title   = '3-Valve Manifold for DP Transmitters | TYA';
 $desc    = '3-valve manifolds for differential pressure transmitters, 6,000 or 10,000 psi, direct and remote mount, 6 models. Part numbers, dimensions and quotes.';
 $path    = 'manifold-valves/3-valve-manifold';
 $section = 'valves';
+$extra = '<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "3-Valve Manifolds", "brand": {"@type": "Brand", "name": "Thank You America"}, "description": "3-valve manifolds for differential pressure transmitters, 6,000 or 10,000 psi, direct and remote mount, 6 models. Part numbers, dimensions and quotes.", "category": "Industrial valves", "image": "https://tyallc.com/valves/assets/img/p/mf-3vmr-pp.jpg"}</script>';
 include __DIR__ . '/../includes/header.php';
 ?>
 <div class="wrap crumbs"><a href="<?= BASE ?>">Home</a> / <a href="<?= BASE ?>manifold-valves/">Manifold valves</a> / 3-Valve Manifolds</div><section class="hero"><div class="wrap">
