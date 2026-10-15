@@ -506,3 +506,13 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 /* Mobile: grid columns may shrink below their content, so wide tables scroll inside .table-wrap instead of widening the page */
 .two > *,.p-grid > *,.ov-grid > *,.why-grid > *,.ind > *,.series-grid > *,.foot-grid > *{min-width:0}
 .drawing img,.drawing figcaption{max-width:100%}
+
+/* FAQ (includes/faq.php) */
+.faq-list{max-width:880px}
+.faq details{border:1px solid var(--steel-line);border-left:5px solid var(--navy);border-radius:0 6px 6px 0;background:#fff;margin:0 0 12px}
+.faq summary{cursor:pointer;list-style:none;padding:14px 44px 14px 18px;font-weight:600;color:var(--navy);position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:1.4rem;line-height:1;color:var(--red)}
+.faq details[open] summary::after{content:"\2212"}
+.faq summary:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.faq details p{margin:0;padding:0 18px 16px;color:var(--ink)}

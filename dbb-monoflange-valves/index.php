@@ -38,4 +38,16 @@ include __DIR__ . '/../includes/header.php';
  <p class="spec">3 configurations · 1/2&quot; to 2&quot; · 150# to 2500# · RF / RTJ</p>
  <span class="more">View details</span></div></a></div><div class="section-head" style="margin-top:48px"><h2>Applications</h2></div><ul class="ind-links big"><li><a href="#range">Double block and bleed isolation</a></li><li><a href="#range">Gauge isolation</a></li><li><a href="#range">Instrument drain</a></li><li><a href="#range">Chemical injection</a></li><li><a href="#range">Sample connections</a></li><li><a href="#range">Chemical seal isolation</a></li><li><a href="#range">Direct and remote instrument mounting</a></li></ul></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
+<?php $faqAlt = true; $faqs = [
+ ['What is a monoflange valve?',
+  'A one-piece integral forging that replaces a conventional flange, primary isolating valve and instrument valve, with fewer leak paths, lower installed cost and less weight.'],
+ ['What is the difference between single block, block and bleed, and double block and bleed?',
+  'Single block has one isolation valve. Block and bleed adds a bleed valve to vent the trapped section. Double block and bleed has two isolation valves with a bleed between them.'],
+ ['What ratings and sizes are available?',
+  'Ball and needle models are rated 10,000 psig (690 bar); OS&Y models 6,000 psig (413 bar). Sizes 1/2" to 2", flange classes 150# to 2500#, RF or RTJ faces.'],
+ ['Ball, needle or OS&Y: which type do you offer?',
+  'All three: block and bleed ball valve assemblies in 5 configurations, and needle and OS&Y monoflanges in 3 configurations each.'],
+ ['Where are DBB and monoflange valves used?',
+  'Double block and bleed isolation, gauge isolation, instrument drains, chemical injection, sample connections, chemical seal isolation, and direct or remote instrument mounting.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/../includes/footer.php'; ?>
