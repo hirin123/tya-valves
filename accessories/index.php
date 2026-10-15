@@ -46,4 +46,16 @@ include __DIR__ . '/../includes/header.php';
  <p class="spec">Brackets, flange bolts and seals</p>
  <span class="more">View details</span></div></a></div></div></section><?php $whyAlt = false; include INC . 'why-buy.php'; ?>
 
+<?php $faqAlt = true; $faqs = [
+ ['What instrumentation accessories do you supply?',
+  'Condensate pots, sampling cylinders, air headers, thermowells, syphons, orifice plate assemblies, tube clamps and manifold mounting kits.'],
+ ['What is a condensate pot used for?',
+  'It catches condensate and foreign material to keep manifold orifices clean, or provides a liquid seal between the instrument and flowing gases such as steam. Our condensate pots are rated 6,000 psig, 2" to 6" pipe.'],
+ ['What sampling cylinders are available?',
+  'Double-ended sampling cylinders rated 5,000 psig (345 bar), 40 to 3,785 cm³, with 1/8", 1/4" or 1/2" female NPT ends, in 304L, 316L and Alloy 400.'],
+ ['Can you make thermowells to my drawing?',
+  'Yes. Thermowells are made to your drawing or datasheet: threaded, socket weld, weld-in or flanged, with straight, tapered or stepped stems, and material test reports on request.'],
+ ['Are air headers made to order?',
+  'Yes. Air headers are made to order in 4 to 12 ways, with needle or ball valves.'],
+]; include INC . 'faq.php'; ?>
 <?php include __DIR__ . '/../includes/footer.php'; ?>
