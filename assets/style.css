@@ -516,3 +516,12 @@ h1,h2,h3,.drop-head,.hero-facts b,.s-card .rating,.features b,.why-list b,.feat-
 .faq details[open] summary::after{content:"\2212"}
 .faq summary:focus-visible{outline:2px solid var(--red);outline-offset:2px}
 .faq details p{margin:0;padding:0 18px 16px;color:var(--ink)}
+
+/* Footer: links to Thank You America services on tyallc.com */
+.foot-services{border-top:1px solid rgba(255,255,255,.15);margin-top:32px;padding-top:24px;text-align:center}
+.foot-services h3{font-size:1.1rem;margin:0 0 10px}
+.foot-services ul{display:flex;flex-wrap:wrap;justify-content:center}
+.foot-services li{padding:3px 0}
+.foot-services li:not(:last-child)::after{content:"|";margin:0 12px;color:rgba(255,255,255,.35)}
+.foot-services + .foot-base{margin-top:24px}
+@media (max-width:600px){.foot-services ul{gap:4px 18px}.foot-services li:not(:last-child)::after{content:none}}
