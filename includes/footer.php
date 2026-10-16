@@ -25,6 +25,20 @@
     <li><a href="<?= BASE ?>about-us">About us</a></li>
     <li><a href="<?= BASE ?>contact-us">Contact us</a></li></ul></div>
   </div>
+  <nav class="foot-services" aria-label="Thank You America services">
+   <h3>More from Thank You America</h3>
+   <ul>
+    <li><a href="https://tyallc.com/forging/">Custom forging</a></li>
+    <li><a href="https://tyallc.com/metal-casting/">Metal casting</a></li>
+    <li><a href="https://tyallc.com/precision-machining/">Precision CNC machining</a></li>
+    <li><a href="https://tyallc.com/fabrication/">Metal fabrication</a></li>
+    <li><a href="https://tyallc.com/pipe-bending/">Pipe &amp; tube bending</a></li>
+    <li><a href="https://tyallc.com/induction-pipe-bending-machine/">Induction pipe bending machines</a></li>
+    <li><a href="https://tyallc.com/injection-moulding/">Injection moulding</a></li>
+    <li><a href="https://tyallc.com/reverse-engineering/">Reverse engineering</a></li>
+    <li><a href="https://tyallc.com/fasteners/">Industrial fasteners</a></li>
+   </ul>
+  </nav>
   <div class="foot-base">© 2026 Thank You America LLC. Dimensions are for reference only; request a certified drawing before finalizing a design.</div>
  </div>
 </footer>
