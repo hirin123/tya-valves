@@ -143,10 +143,10 @@ if (!is_file($pdf)) {   // also accept the PDF directly in assets/ or assets/cat
 }
 $attach = (is_file($pdf) && filesize($pdf) < 18 * 1024 * 1024 && $hasPHPMailer && is_array($SMTP)) ? $pdf : null;
 if (!$attach) mail_log("Catalog not attached (missing, too large or no SMTP): $pdf");
-$catText = $attach ? "Please find the $catName catalog attached to this email (PDF)." : "Download the catalog here:\n$link";
+$catText = $attach ? "Please find the $catName catalog attached to this email (PDF)." : "Our team will email you the $catName catalog (PDF) shortly.";
 $catHtml = $attach
     ? '<p><strong>Your ' . $e($catName) . ' catalog is attached to this email (PDF).</strong></p>'
-    : '<p><a href="' . $e($link) . '" style="display:inline-block;background:#AE2230;color:#fff;text-decoration:none;font-weight:bold;padding:12px 22px;border-radius:4px">Download the ' . $e($catName) . ' catalog (PDF)</a></p>';
+    : '<p><strong>Our team will email you the ' . $e($catName) . ' catalog (PDF) shortly.</strong></p>';
 
 // ---- 1. Email to the requester ----
 $text = "Hello $name,\n\nThank you for your interest in Thank You America $catName.\n\n$catText\n\n"
@@ -164,7 +164,8 @@ $sentUser = send_mail($email, 'Your Thank You America catalog: ' . $catName, $te
 
 // ---- 2. Lead notification to TYA ----
 $lead = "New catalog request from the website\n\nName: $name\nCompany: $company\nEmail: $email\nCountry: $country\nCatalog: $catName\nNotes: $interest\nPhone: $phone\n"
-      . "Time (server): " . date('Y-m-d H:i:s T') . "\nIP: $ip\n\nCatalog email sent to requester: " . ($sentUser ? 'yes' : 'NO, please send manually') . "\n";
+      . "Time (server): " . date('Y-m-d H:i:s T') . "\nIP: $ip\n\nCatalog email sent to requester: " . ($sentUser ? 'yes' : 'NO, please send manually') . "\n"
+      . "PDF attached: " . ($attach ? 'yes' : 'NO - the PDF is not on the server, please email the catalog manually') . "\n";
 send_mail($LEADS_TO, "Catalog request: $company ($country)", $lead, null, $email);
 
 // ---- 3. Save to CSV ----

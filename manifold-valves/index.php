@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
   <p class="ov-best">Pressure gauges, pressure switches, static and differential pressure transmitters.</p>
   <p class="ov-label">Catalog</p>
   <p>Manifold and gauge root valve part numbers, dimensions and ratings in one PDF.</p>
-  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Manifold-Valve-Catalog.pdf" data-catalog="manifold">Download catalog (PDF)</a></div>
+  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>catalogs" data-catalog="manifold">Download catalog (PDF)</a></div>
  </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">2, 3 and 5-valve manifolds</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>manifold-valves/2-valve-manifold" alt="2-valve manifold services in Canada" title="2-valve manifold services in Canada" data-seo-loc>
  <div class="pic" aria-label="2-valve manifold services in Mexico" data-seo-loc><img src="<?= BASE ?>assets/img/p/mf-2vmr.jpg" alt="2-valve manifold for pressure gauges and static pressure transmitters" loading="lazy"></div>

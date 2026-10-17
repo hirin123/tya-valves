@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
   <p class="ov-best">Instrument, sampling, hydraulic and process lines.</p>
   <p class="ov-label">Catalog</p>
   <p>Part numbers, dimensions, materials and ratings for all seven series in one PDF.</p>
-  <div class="ov-cta"><a class="btn" href="#series">See all series</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Needle-Valve-Catalog.pdf" data-catalog="needle">Download catalog (PDF)</a></div>
+  <div class="ov-cta"><a class="btn" href="#series">See all series</a><a class="btn ghost" href="<?= BASE ?>catalogs" data-catalog="needle">Download catalog (PDF)</a></div>
  </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="series">Needle valve series</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>needle-valves/hex-body-needle-valve" aria-label="Hex body needle valve suppliers in Mexico" data-seo-loc>
  <div class="pic" aria-label="Hex body needle valve providers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/nv-hex-ff.jpg" alt="Hex body stainless steel needle valve" loading="lazy"></div>

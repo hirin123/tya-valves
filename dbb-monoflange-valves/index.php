@@ -19,7 +19,7 @@ include __DIR__ . '/../includes/header.php';
   <p class="ov-best">Process-to-instrument isolation where weight, space and leak paths matter.</p>
   <p class="ov-label">Catalog</p>
   <p>DBB and monoflange part numbers, dimensions and ratings in one PDF.</p>
-  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Monoflange-Valve-Catalog.pdf" data-catalog="mono">Download catalog (PDF)</a></div>
+  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>catalogs" data-catalog="mono">Download catalog (PDF)</a></div>
  </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">Valve models</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>dbb-monoflange-valves/block-and-bleed-ball-valves" alt="Block &amp; bleed ball valve assembly services in Mexico" title="Block &amp; bleed ball valve assembly services in Mexico" data-seo-loc>
  <div class="pic" aria-label="Block &amp; bleed ball valve assembly manufacturers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/mono-ball-bb.jpg" alt="Block &amp; Bleed Ball Valve Assemblies" loading="lazy"></div>
