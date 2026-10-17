@@ -77,7 +77,7 @@ include __DIR__ . '/../includes/header.php';
 </div></section>
 
 <section class="section"><div class="wrap">
- <div class="section-head"><h2>Built into every series</h2><a class="btn ghost" href="<?= BASE ?>assets/TYA-Ball-Valve-Catalog.pdf" data-catalog>Download the catalog (PDF)</a></div>
+ <div class="section-head"><h2>Built into every series</h2><a class="btn ghost" href="<?= BASE ?>catalogs" data-catalog>Download the catalog (PDF)</a></div>
  <ul class="features">
   <li><b>Floating ball</b>Self-adjusts against the seat to make up for wear.</li>
   <li><b>Blow-out-proof stem</b>Loaded from inside, so line pressure cannot eject it.</li>

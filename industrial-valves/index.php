@@ -19,7 +19,7 @@ include __DIR__ . '/../includes/header.php';
   <p class="ov-best">Process, refinery and utility lines needing forged gate, globe and check valves.</p>
   <p class="ov-label">Catalog</p>
   <p>Industrial gate, globe and check valve part numbers, dimensions and ratings in one PDF.</p>
-  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>assets/catalogs/TYA-Industrial-Valve-Catalog.pdf" data-catalog="industrial">Download catalog (PDF)</a></div>
+  <div class="ov-cta"><a class="btn" href="#range">See the range</a><a class="btn ghost" href="<?= BASE ?>catalogs" data-catalog="industrial">Download catalog (PDF)</a></div>
  </aside>
 </div></section><section class="section"><div class="wrap"><h2 id="range">Gate, globe and check valves</h2><div class="series-grid"><a class="s-card" href="<?= BASE ?>industrial-valves/forged-steel-gate-valves" alt="Forged steel gate valve manufacturers in Mexico" title="Forged steel gate valve manufacturers in Mexico" data-seo-loc>
  <div class="pic" aria-label="Forged steel gate valve suppliers in Houston" data-seo-loc><img src="<?= BASE ?>assets/img/p/ind-gate.jpg" alt="Forged steel gate valve to API 602" loading="lazy"></div>

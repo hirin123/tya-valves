@@ -138,7 +138,6 @@
       modal.showModal(); setTimeout(function () { cform.elements.name.focus(); }, 30);
     });
     modal.addEventListener("click", function (e) { if (e.target === modal || e.target.closest("[data-close]")) modal.close(); });
-    function catUrl() { var m = window.TYA_CATS || {}; return BASE + "assets/" + (m[cform.elements.catalog.value] || "TYA-Ball-Valve-Catalog.pdf"); }
     cform.addEventListener("submit", function (e) {
       e.preventDefault();
       var f = cform.elements, msg = cform.querySelector(".form-msg"), btn = cform.querySelector(".cat-submit");
@@ -149,10 +148,10 @@
       fetch(BASE + "send-catalog.php", { method: "POST", body: new FormData(cform) })
         .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
         .then(function (res) {
-          if (res.ok) { modal.querySelector("[data-sent-to]").textContent = f.email.value.trim(); var d = modal.querySelector("[data-cat-direct]"); if (d) d.href = catUrl(); cform.hidden = true; done.hidden = false; cform.reset(); }
-          else { msg.className = "form-msg err"; msg.innerHTML = (res.error || "The request didn't go through.") + ' You can also <a href="' + catUrl() + '" target="_blank" rel="noopener">open the catalog directly</a>.'; }
+          if (res.ok) { modal.querySelector("[data-sent-to]").textContent = f.email.value.trim(); cform.hidden = true; done.hidden = false; cform.reset(); }
+          else { msg.className = "form-msg err"; msg.innerHTML = (res.error || "The request didn't go through.") + ' You can also email <a href="mailto:contact@tyallc.com">contact@tyallc.com</a>.'; }
         })
-        .catch(function () { msg.className = "form-msg err"; msg.innerHTML = 'The request didn\'t go through. Please <a href="' + catUrl() + '" target="_blank" rel="noopener">open the catalog directly</a> or email contact@tyallc.com.'; })
+        .catch(function () { msg.className = "form-msg err"; msg.innerHTML = 'The request didn\'t go through. Please email <a href="mailto:contact@tyallc.com">contact@tyallc.com</a> and we\'ll send the catalog.'; })
         .then(function () { btn.disabled = false; btn.textContent = "Email me the catalog"; });
     });
   }
