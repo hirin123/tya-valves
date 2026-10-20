@@ -14,7 +14,7 @@ include __DIR__ . '/includes/header.php';
   <tr><th scope="row">Phone</th><td><a href="tel:+12819496123">+1-281-949-6123</a></td></tr>
   <tr><th scope="row">Website</th><td><a href="https://tyallc.com" target="_blank" rel="noopener">tyallc.com</a></td></tr>
   <tr><th scope="row">Email</th><td><a href="mailto:contact@tyallc.com">contact@tyallc.com</a></td></tr>
-  <tr><th scope="row">Address</th><td style="white-space:normal">Thank You America LLC<br>4606 FM 1960 W #440-1050<br>Houston, TX 77070<br><a href="https://www.google.com/maps/search/?api=1&query=4606+FM+1960+W+440-1050+Houston+TX+77070">Open in Google Maps</a></td></tr>
+  <tr><th scope="row">Address</th><td style="white-space:normal">Thank You America LLC<br>4606 FM 1960 W #440-1050<br>Houston, TX 77069<br><a href="https://www.google.com/maps/search/?api=1&query=4606+FM+1960+W+440-1050+Houston+TX+77069">Open in Google Maps</a></td></tr>
  </tbody></table></div>
  <div><h2>Need a price?</h2><p>The quote form lets you list part numbers and quantities along with your fluid, pressure, temperature and delivery details, so we can respond with a firm quote.</p>
   <a class="btn" href="<?= BASE ?>request-quote">Request a quote</a></div>

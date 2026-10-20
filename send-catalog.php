@@ -152,14 +152,14 @@ $catHtml = $attach
 $text = "Hello $name,\n\nThank you for your interest in Thank You America $catName.\n\n$catText\n\n"
       . "It includes part numbers, dimensions, materials and ratings.\n\n"
       . "Need help choosing? Reply to this email with your fluid, pressure, temperature and connection details and we'll recommend a valve and quote.\n\n"
-      . "Thank You America LLC\n4606 FM 1960 W #440-1050, Houston, TX 77070\n$PHONE | $LEADS_TO\n$SITE_URL\n";
+      . "Thank You America LLC\n4606 FM 1960 W #440-1050, Houston, TX 77069\n$PHONE | $LEADS_TO\n$SITE_URL\n";
 $html = '<div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#1D2433;max-width:560px">'
       . '<p>Hello ' . $e($name) . ',</p>'
       . '<p>Thank you for your interest in Thank You America ' . $e($catName) . '.</p>'
       . $catHtml
       . '<p>It includes part numbers, dimensions, materials and ratings.</p>'
       . '<p>Need help choosing? Reply to this email with your fluid, pressure, temperature and connection details and we\'ll recommend a valve and quote.</p>'
-      . '<p style="color:#5A6476;font-size:13px">Thank You America LLC<br>4606 FM 1960 W #440-1050, Houston, TX 77070<br>' . $e($PHONE) . ' | <a href="mailto:' . $e($LEADS_TO) . '">' . $e($LEADS_TO) . '</a><br><a href="' . $e($SITE_URL) . '">' . $e($SITE_URL) . '</a></p></div>';
+      . '<p style="color:#5A6476;font-size:13px">Thank You America LLC<br>4606 FM 1960 W #440-1050, Houston, TX 77069<br>' . $e($PHONE) . ' | <a href="mailto:' . $e($LEADS_TO) . '">' . $e($LEADS_TO) . '</a><br><a href="' . $e($SITE_URL) . '">' . $e($SITE_URL) . '</a></p></div>';
 $sentUser = send_mail($email, 'Your Thank You America catalog: ' . $catName, $text, $html, $LEADS_TO, $attach);
 
 // ---- 2. Lead notification to TYA ----
