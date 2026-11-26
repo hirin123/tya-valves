@@ -1,5 +1,5 @@
 <?php
-$title   = 'Double Block & Bleed and Monoflange Valves | TYA';
+$title   = 'Monoflange & Double Block and Bleed Valves | TYA Houston';
 $desc    = 'DBB, block and bleed and monoflange valves in one-piece forgings, needle, ball or OS&amp;Y, class 150# to 2500#. Supplier to distributors and OEMs.';
 $path    = 'dbb-monoflange-valves/';
 $section = 'valves';
